@@ -1,0 +1,241 @@
+{
+  "query": {
+    "query_image": "test\\2022_97226846.jpg",
+    "query_ocr_text": "C Slow rebound",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97226945.jpg",
+      "img_id": "97226945",
+      "ocr_text": "7",
+      "type": "mixed",
+      "image_similarity": 0.7512809038162231,
+      "text_similarity": 0.8663544058799744,
+      "final_score": 0.8088176548480988,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LINKOFFERS, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) teal is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.7107807993888855,
+      "text_similarity": 0.8731117248535156,
+      "final_score": 0.7919462621212006,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97218802.jpg",
+      "img_id": "97218802",
+      "ocr_text": ")(.)",
+      "type": "mixed",
+      "image_similarity": 0.7088037729263306,
+      "text_similarity": 0.8630967736244202,
+      "final_score": 0.7859502732753754,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417",
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241714",
+        "241714"
+      ],
+      "applicant": "CMAN GROUP, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of two adjacent sets of parentheses, each set comprising an open and closed parentheses as well as a period positioned between the open and closed parentheses.",
+      "application_date": 20220113,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97217514.jpg",
+      "img_id": "97217514",
+      "ocr_text": "Off",
+      "type": "mixed",
+      "image_similarity": 0.7192387580871582,
+      "text_similarity": 0.8487123847007751,
+      "final_score": 0.7839755713939667,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211",
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021114",
+        "021114"
+      ],
+      "applicant": "Li, Junlin",
+      "classOfGoodServiceBusinessName": "The mark consists of middle finger hand and letter Off.",
+      "application_date": 20220113,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6866497993469238,
+      "text_similarity": 0.8727076649665833,
+      "final_score": 0.7796787321567535,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244171.jpg",
+      "img_id": "97244171",
+      "ocr_text": "FIRST ONE DOESN'T CDYNT-",
+      "type": "mixed",
+      "image_similarity": 0.7185060977935791,
+      "text_similarity": 0.8403869271278381,
+      "final_score": 0.7794465124607086,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103",
+        "260103"
+      ],
+      "applicant": "Laura Shinall",
+      "classOfGoodServiceBusinessName": "The mark consists of a thick arrow formed into a substantially complete circle with the arrow head at 4 o'clock, having the phrase \"FIRST ONE\" arcing along the top of the arrow, the phrase \"DOESN'T COUNT\" arcing along the bottom of the arrow, and a thin circle surrounding the thick arrow that is partially hidden by the two phrases.",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97219581.jpg",
+      "img_id": "97219581",
+      "ocr_text": "NR",
+      "type": "mixed",
+      "image_similarity": 0.6670041084289551,
+      "text_similarity": 0.8711004257202148,
+      "final_score": 0.769052267074585,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260901"
+      ],
+      "applicant": "New Revolution Media Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97245877.jpg",
+      "img_id": "97245877",
+      "ocr_text": "Fresh",
+      "type": "mixed",
+      "image_similarity": 0.6894235014915466,
+      "text_similarity": 0.8481894731521606,
+      "final_score": 0.7688064873218536,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709",
+        "261709"
+      ],
+      "applicant": "Forever Fresh LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording of \"Fresh\" with an underline connected to the letter h. This underline starts from the letter h and goes under all of the letters. Uppercase F, Lowercase r,e,s,h.",
+      "application_date": 20220131,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6639198064804077,
+      "text_similarity": 0.8727076649665833,
+      "final_score": 0.7683137357234955,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6477985382080078,
+      "text_similarity": 0.8814476728439331,
+      "final_score": 0.7646231055259705,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 10
+    }
+  ]
+}

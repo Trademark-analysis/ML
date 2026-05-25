@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97248147.jpg",
+    "query_ocr_text": "AKEHOVI",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97226410.jpg",
+      "img_id": "97226410",
+      "ocr_text": "ЕЯКО",
+      "type": "mixed",
+      "image_similarity": 0.7581555843353271,
+      "text_similarity": 0.8890527486801147,
+      "final_score": 0.823604166507721,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261101",
+        "261101"
+      ],
+      "applicant": "E L Holdings (Pvt) Ltd",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.6550357937812805,
+      "text_similarity": 0.9049397706985474,
+      "final_score": 0.7799877822399139,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6596840023994446,
+      "text_similarity": 0.8715517520904541,
+      "final_score": 0.7656178772449493,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97230451.jpg",
+      "img_id": "97230451",
+      "ocr_text": "Anproity",
+      "type": "mixed",
+      "image_similarity": 0.6413952708244324,
+      "text_similarity": 0.8853420615196228,
+      "final_score": 0.7633686661720276,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260101"
+      ],
+      "applicant": "Jamino (Chengdu) Shoes Co., Ltd.",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording \"Anproity\"with a design of a bold wave inside a bold circle.",
+      "application_date": 20220120,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97230831.jpg",
+      "img_id": "97230831",
+      "ocr_text": "VAHNA",
+      "type": "mixed",
+      "image_similarity": 0.633362889289856,
+      "text_similarity": 0.8895934224128723,
+      "final_score": 0.7614781558513641,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260113",
+        "260113"
+      ],
+      "applicant": "META Syndicate, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the word VAHNA below two interlocking circles.",
+      "application_date": 20220120,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97210067.jpg",
+      "img_id": "97210067",
+      "ocr_text": "Awe-Coth",
+      "type": "mixed",
+      "image_similarity": 0.6367552876472473,
+      "text_similarity": 0.8781912922859192,
+      "final_score": 0.7574732899665833,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Jianing, Chen",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97247661.jpg",
+      "img_id": "97247661",
+      "ocr_text": "THE REPIVOT PROJECTA",
+      "type": "mixed",
+      "image_similarity": 0.6515730619430542,
+      "text_similarity": 0.8627157211303711,
+      "final_score": 0.7571443915367126,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2605",
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260513",
+        "260513"
+      ],
+      "applicant": "Sartorelli, Deirdre",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing webcasts in the field of business and education",
+      "application_date": 20220201,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97248140.jpg",
+      "img_id": "97248140",
+      "ocr_text": "AI",
+      "type": "mixed",
+      "image_similarity": 0.6186755895614624,
+      "text_similarity": 0.8954674601554871,
+      "final_score": 0.7570715248584747,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261713"
+      ],
+      "applicant": "AlphaSense, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the letters \"Al\" with a line underneath.",
+      "application_date": 20220201,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97220181.jpg",
+      "img_id": "97220181",
+      "ocr_text": "GROUNDHAWK",
+      "type": "mixed",
+      "image_similarity": 0.6699472069740295,
+      "text_similarity": 0.8434973359107971,
+      "final_score": 0.7567222714424133,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "031524"
+      ],
+      "applicant": "Ground Hawk, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6161288619041443,
+      "text_similarity": 0.89720219373703,
+      "final_score": 0.7566655278205872,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 10
+    }
+  ]
+}

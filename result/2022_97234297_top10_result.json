@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97234297.jpg",
+    "query_ocr_text": "EVOGREEN",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6931251883506775,
+      "text_similarity": 0.9053729176521301,
+      "final_score": 0.7992490530014038,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97248747.jpg",
+      "img_id": "97248747",
+      "ocr_text": "YOGOFO",
+      "type": "mixed",
+      "image_similarity": 0.701898992061615,
+      "text_similarity": 0.8819942474365234,
+      "final_score": 0.7919466197490692,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260102"
+      ],
+      "applicant": "Rodmax L.L.C.",
+      "classOfGoodServiceBusinessName": "The mark consists of sphere with a circle around it and a half circle with a line going downward resembling a Y. Below this is the wording \"YOGOFO\".",
+      "application_date": 20220201,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97217925.jpg",
+      "img_id": "97217925",
+      "ocr_text": "ECURE",
+      "type": "mixed",
+      "image_similarity": 0.6665909886360168,
+      "text_similarity": 0.8931034803390503,
+      "final_score": 0.7798472344875336,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260129"
+      ],
+      "applicant": "Iecure, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the word IECURE, wherein the letter i is lower case and forms the horizontal middle line of the letter E, wherein the dot in i is oriented on the left side of the E. The letter C is capitalized. The letter U is formed by a depiction of a double helix DNA molecule, with the lower portion of the helix gradually faded. The letters R and E are capitalized.",
+      "application_date": 20220113,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_79334868.jpg",
+      "img_id": "79334868",
+      "ocr_text": "COREVA DESIGN",
+      "type": "mixed",
+      "image_similarity": 0.6526644229888916,
+      "text_similarity": 0.9011404514312744,
+      "final_score": 0.776902437210083,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241712"
+      ],
+      "applicant": "CANDIANI S.P.A.",
+      "classOfGoodServiceBusinessName": "The trademark consists of the wording on two lines \"coreva design\" in fancy capital letters with the first two letters of the word \"coreva\" formed by a single line. Above there is a stylized figure that represents the first two letters of the word \"coreva?.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97246343.jpg",
+      "img_id": "97246343",
+      "ocr_text": "EQUEST",
+      "type": "mixed",
+      "image_similarity": 0.6407628655433655,
+      "text_similarity": 0.8979146480560303,
+      "final_score": 0.7693387567996979,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0305"
+      ],
+      "tot_vienna_code": [
+        "030501"
+      ],
+      "applicant": "Equest Riding Services LLC",
+      "classOfGoodServiceBusinessName": "Training services, namely, providing horse riding lessons and training of people aspiring to ride horses and show jump",
+      "application_date": 20220131,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97226410.jpg",
+      "img_id": "97226410",
+      "ocr_text": "ЕЯКО",
+      "type": "mixed",
+      "image_similarity": 0.662452757358551,
+      "text_similarity": 0.8756866455078125,
+      "final_score": 0.7690697014331818,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261101",
+        "261101"
+      ],
+      "applicant": "E L Holdings (Pvt) Ltd",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97223170.jpg",
+      "img_id": "97223170",
+      "ocr_text": "EGAN",
+      "type": "mixed",
+      "image_similarity": 0.6256611347198486,
+      "text_similarity": 0.9106712341308594,
+      "final_score": 0.768166184425354,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0301",
+        "2703",
+        "2703",
+        "0301"
+      ],
+      "tot_vienna_code": [
+        "030104",
+        "270303",
+        "270303",
+        "030104"
+      ],
+      "applicant": "marvita vegan llc",
+      "classOfGoodServiceBusinessName": "The color(s) black, white, and yellow is/are claimed as a feature of the mark.",
+      "application_date": 20220117,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97221472.jpg",
+      "img_id": "97221472",
+      "ocr_text": "REFINE VISION",
+      "type": "mixed",
+      "image_similarity": 0.6500716209411621,
+      "text_similarity": 0.883111834526062,
+      "final_score": 0.7665917277336121,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2603"
+      ],
+      "tot_vienna_code": [
+        "260316"
+      ],
+      "applicant": "Gant, Angela R",
+      "classOfGoodServiceBusinessName": "The mark consists of layered oval shapes, capital letters r and v.",
+      "application_date": 20220115,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97218059.jpg",
+      "img_id": "97218059",
+      "ocr_text": "GODOFLOVE",
+      "type": "mixed",
+      "image_similarity": 0.6328142881393433,
+      "text_similarity": 0.8855053186416626,
+      "final_score": 0.7591598033905029,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0401",
+        "0401"
+      ],
+      "tot_vienna_code": [
+        "040103",
+        "040103"
+      ],
+      "applicant": "One Love Records LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the words God of Love including a V with a halo over the V and a backwards E.",
+      "application_date": 20220113,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97248865.jpg",
+      "img_id": "97248865",
+      "ocr_text": "EASYFEET",
+      "type": "mixed",
+      "image_similarity": 0.6441521644592285,
+      "text_similarity": 0.8726867437362671,
+      "final_score": 0.7584194540977478,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2501",
+        "2501"
+      ],
+      "tot_vienna_code": [
+        "250125",
+        "250125"
+      ],
+      "applicant": "Klishyn, Andrii",
+      "classOfGoodServiceBusinessName": "The mark consists of the stylized wording \"EASYFEET\" with a punctuated frame at the corners imposed on an image of a triangle divided into two parts.",
+      "application_date": 20220201,
+      "rank": 10
+    }
+  ]
+}

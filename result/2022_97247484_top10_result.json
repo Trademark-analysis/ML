@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97247484.jpg",
+    "query_ocr_text": "GET SORTED.",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97210876.jpg",
+      "img_id": "97210876",
+      "ocr_text": "GET IT ELEVATED",
+      "type": "mixed",
+      "image_similarity": 0.791644275188446,
+      "text_similarity": 0.892694890499115,
+      "final_score": 0.8421695828437805,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260913",
+        "260921"
+      ],
+      "applicant": "New Purpose LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97218802.jpg",
+      "img_id": "97218802",
+      "ocr_text": ")(.)",
+      "type": "mixed",
+      "image_similarity": 0.7188750505447388,
+      "text_similarity": 0.8904878497123718,
+      "final_score": 0.8046814501285553,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417",
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241714",
+        "241714"
+      ],
+      "applicant": "CMAN GROUP, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of two adjacent sets of parentheses, each set comprising an open and closed parentheses as well as a period positioned between the open and closed parentheses.",
+      "application_date": 20220113,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97217514.jpg",
+      "img_id": "97217514",
+      "ocr_text": "Off",
+      "type": "mixed",
+      "image_similarity": 0.7168061137199402,
+      "text_similarity": 0.8843069076538086,
+      "final_score": 0.8005565106868744,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211",
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021114",
+        "021114"
+      ],
+      "applicant": "Li, Junlin",
+      "classOfGoodServiceBusinessName": "The mark consists of middle finger hand and letter Off.",
+      "application_date": 20220113,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.7152453660964966,
+      "text_similarity": 0.8814679980278015,
+      "final_score": 0.798356682062149,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97218106.jpg",
+      "img_id": "97218106",
+      "ocr_text": "gli",
+      "type": "mixed",
+      "image_similarity": 0.7069448828697205,
+      "text_similarity": 0.8860767483711243,
+      "final_score": 0.7965108156204224,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Givvy",
+      "classOfGoodServiceBusinessName": "The mark consists of two heads above a gift box, which includes three parallel lines to the left of a heart.",
+      "application_date": 20220113,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97220734.jpg",
+      "img_id": "97220734",
+      "ocr_text": "SOLE COLLECTIVE",
+      "type": "mixed",
+      "image_similarity": 0.7106828689575195,
+      "text_similarity": 0.8778863549232483,
+      "final_score": 0.7942846119403839,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261713"
+      ],
+      "applicant": "jeffrey Davies",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.7066105604171753,
+      "text_similarity": 0.8819131255149841,
+      "final_score": 0.7942618429660797,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.7053036689758301,
+      "text_similarity": 0.8821707963943481,
+      "final_score": 0.7937372326850891,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.7050292491912842,
+      "text_similarity": 0.8811624646186829,
+      "final_score": 0.7930958569049835,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.7038982510566711,
+      "text_similarity": 0.8819131255149841,
+      "final_score": 0.7929056882858276,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 10
+    }
+  ]
+}

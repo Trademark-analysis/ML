@@ -1,0 +1,253 @@
+{
+  "query": {
+    "query_image": "test\\2022_97235018.jpg",
+    "query_ocr_text": "just!natural",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97245584.jpg",
+      "img_id": "97245584",
+      "ocr_text": "NORTH TRAIL",
+      "type": "mixed",
+      "image_similarity": 0.6940912008285522,
+      "text_similarity": 0.891617476940155,
+      "final_score": 0.7928543388843536,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2607",
+        "2607",
+        "2607"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260721",
+        "260713",
+        "260713"
+      ],
+      "applicant": "North Trail Consulting LLC",
+      "classOfGoodServiceBusinessName": "Business education and training services, namely, developing customized leadership and executive development programs, providing executive coaching services, and providing business education programs to employees and executives",
+      "application_date": 20220130,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97219581.jpg",
+      "img_id": "97219581",
+      "ocr_text": "NR",
+      "type": "mixed",
+      "image_similarity": 0.6572840213775635,
+      "text_similarity": 0.9158343076705933,
+      "final_score": 0.7865591645240784,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260901"
+      ],
+      "applicant": "New Revolution Media Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97248318.jpg",
+      "img_id": "97248318",
+      "ocr_text": "NOTABLE",
+      "type": "mixed",
+      "image_similarity": 0.6803483963012695,
+      "text_similarity": 0.8923255205154419,
+      "final_score": 0.7863369584083557,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261701"
+      ],
+      "applicant": "Bond & Trade, LLC",
+      "classOfGoodServiceBusinessName": "Providing a website featuring non-downloadable publications in the nature of magazines in the field of careers, lifestyle, style, health and wellness, and beauty; Publication of magazines",
+      "application_date": 20220201,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97245877.jpg",
+      "img_id": "97245877",
+      "ocr_text": "Fresh",
+      "type": "mixed",
+      "image_similarity": 0.6586034893989563,
+      "text_similarity": 0.911464512348175,
+      "final_score": 0.7850340008735657,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709",
+        "261709"
+      ],
+      "applicant": "Forever Fresh LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording of \"Fresh\" with an underline connected to the letter h. This underline starts from the letter h and goes under all of the letters. Uppercase F, Lowercase r,e,s,h.",
+      "application_date": 20220131,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97215019.jpg",
+      "img_id": "97215019",
+      "ocr_text": "Stay",
+      "type": "mixed",
+      "image_similarity": 0.6669393181800842,
+      "text_similarity": 0.8971185088157654,
+      "final_score": 0.7820289134979248,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021102"
+      ],
+      "applicant": "Ella Warren",
+      "classOfGoodServiceBusinessName": "Educational services, namely, conducting courses and seminars in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling and distribution of course material in connection therewith; Educational services, namely, conducting webinars, in person seminars, and courses in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; Entertainment services, namely, providing podcasts in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; On-line journals, namely, blogs featuring information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; On-line video journals, namely, vlogs featuring nondownloadable videos in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; Production of podcasts; Providing a website featuring blogs and non-downloadable publications in the nature of articles in the field(s) of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling",
+      "application_date": 20220112,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97216104.jpg",
+      "img_id": "97216104",
+      "ocr_text": "hint",
+      "type": "mixed",
+      "image_similarity": 0.6553540825843811,
+      "text_similarity": 0.9021621942520142,
+      "final_score": 0.7787581384181976,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Hint Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220112,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97208124.jpg",
+      "img_id": "97208124",
+      "ocr_text": "ABSTRACT",
+      "type": "mixed",
+      "image_similarity": 0.6565783023834229,
+      "text_similarity": 0.9003120064735413,
+      "final_score": 0.7784451544284821,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261705",
+        "260902"
+      ],
+      "applicant": "Abstract Software, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97217536.jpg",
+      "img_id": "97217536",
+      "ocr_text": "₩ NK-",
+      "type": "mixed",
+      "image_similarity": 0.6542883515357971,
+      "text_similarity": 0.9025707840919495,
+      "final_score": 0.7784295678138733,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115",
+        "0501",
+        "0501"
+      ],
+      "tot_vienna_code": [
+        "011525",
+        "011525",
+        "050101",
+        "050101"
+      ],
+      "applicant": "Elzie Dickens III",
+      "classOfGoodServiceBusinessName": "The mark consists of Black Think+ with water dripping, green evergreen tree in place of the i.",
+      "application_date": 20220113,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97245401.jpg",
+      "img_id": "97245401",
+      "ocr_text": "busy being",
+      "type": "mixed",
+      "image_similarity": 0.6886886954307556,
+      "text_similarity": 0.8665129542350769,
+      "final_score": 0.7776008248329163,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0401",
+        "0401",
+        "0323",
+        "0323"
+      ],
+      "tot_vienna_code": [
+        "040102",
+        "040102",
+        "032306",
+        "032306"
+      ],
+      "applicant": "Harper, Trudi R.",
+      "classOfGoodServiceBusinessName": "The mark consists of my mark consists of a bumble bee, with a yellow body, with black stripes on the body, wings outlined in black, with a yellow halo around the bumble bees body, with black and yellow legs, sitting in a yoga lotus position.",
+      "application_date": 20220130,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97245467.jpg",
+      "img_id": "97245467",
+      "ocr_text": "Yogat magazine",
+      "type": "mixed",
+      "image_similarity": 0.6801335215568542,
+      "text_similarity": 0.872350811958313,
+      "final_score": 0.7762421667575836,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241706"
+      ],
+      "applicant": "Northstar Creative LLC",
+      "classOfGoodServiceBusinessName": "Magazine publishing",
+      "application_date": 20220130,
+      "rank": 10
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "query": {
+    "query_image": "test\\2022_97212523.jpg",
+    "query_ocr_text": "EXTREMELY DURABLE",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97248318.jpg",
+      "img_id": "97248318",
+      "ocr_text": "NOTABLE",
+      "type": "mixed",
+      "image_similarity": 0.6404035687446594,
+      "text_similarity": 0.917166531085968,
+      "final_score": 0.7787850499153137,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261701"
+      ],
+      "applicant": "Bond & Trade, LLC",
+      "classOfGoodServiceBusinessName": "Providing a website featuring non-downloadable publications in the nature of magazines in the field of careers, lifestyle, style, health and wellness, and beauty; Publication of magazines",
+      "application_date": 20220201,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97201441.jpg",
+      "img_id": "97201441",
+      "ocr_text": "SIMPLE",
+      "type": "mixed",
+      "image_similarity": 0.6410393714904785,
+      "text_similarity": 0.9134556651115417,
+      "final_score": 0.7772475183010101,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Simple Style Apparel, Inc",
+      "classOfGoodServiceBusinessName": "The mark consists of the word \"simple\" in a stylized font in a heart-shaped form, superimposed on a heart-shaped design.",
+      "application_date": 20220104,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97207906.jpg",
+      "img_id": "97207906",
+      "ocr_text": "ARCTIC",
+      "type": "mixed",
+      "image_similarity": 0.6582029461860657,
+      "text_similarity": 0.8951846957206726,
+      "final_score": 0.7766938209533691,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261125",
+        "261125"
+      ],
+      "applicant": "Biel, Edward Andrew William",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.639079749584198,
+      "text_similarity": 0.9052525758743286,
+      "final_score": 0.7721661627292633,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.6147432923316956,
+      "text_similarity": 0.9107145667076111,
+      "final_score": 0.7627289295196533,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97219718.jpg",
+      "img_id": "97219718",
+      "ocr_text": "CCLASH ENDURANCE",
+      "type": "mixed",
+      "image_similarity": 0.6543869972229004,
+      "text_similarity": 0.8700793981552124,
+      "final_score": 0.7622331976890564,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2615",
+        "2401",
+        "2401"
+      ],
+      "tot_vienna_code": [
+        "261520",
+        "240101",
+        "240101"
+      ],
+      "applicant": "CLASH USA, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97234862.jpg",
+      "img_id": "97234862",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6172556281089783,
+      "text_similarity": 0.9052525758743286,
+      "final_score": 0.7612541019916534,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2103"
+      ],
+      "tot_vienna_code": [
+        "210307"
+      ],
+      "applicant": "Crossley, Michael",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220124,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97247995.jpg",
+      "img_id": "97247995",
+      "ocr_text": "PARANORMAL",
+      "type": "mixed",
+      "image_similarity": 0.6413612961769104,
+      "text_similarity": 0.877036988735199,
+      "final_score": 0.7591991424560547,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Frank Copsidas",
+      "classOfGoodServiceBusinessName": "Entertainment services in the nature of distribution of television programs; providing information in the field of television and video entertainment, music, news, games via the Internet and wireless communication devices",
+      "application_date": 20220201,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97226015.jpg",
+      "img_id": "97226015",
+      "ocr_text": "&3",
+      "type": "mixed",
+      "image_similarity": 0.619461715221405,
+      "text_similarity": 0.8987317681312561,
+      "final_score": 0.7590967416763306,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2607",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261725",
+        "260701",
+        "261521"
+      ],
+      "applicant": "Nufam, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) gold is/are claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97218292.jpg",
+      "img_id": "97218292",
+      "ocr_text": "SUPER HALF",
+      "type": "mixed",
+      "image_similarity": 0.6487547755241394,
+      "text_similarity": 0.8685340881347656,
+      "final_score": 0.7586444318294525,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0209"
+      ],
+      "tot_vienna_code": [
+        "020905"
+      ],
+      "applicant": "Ramirez, Brandy",
+      "classOfGoodServiceBusinessName": "The mark consists of the word \"SUPERHALF\" with a design of a swimmer at the bottom of the \"S\", a bicyclist after the \"R\" and a runner after the \"L\".",
+      "application_date": 20220113,
+      "rank": 10
+    }
+  ]
+}

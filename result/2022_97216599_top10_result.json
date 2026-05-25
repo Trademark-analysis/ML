@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97216599.jpg",
+    "query_ocr_text": "PHOTO BUYING",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.683490514755249,
+      "text_similarity": 0.9175053238868713,
+      "final_score": 0.8004979193210602,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97244506.jpg",
+      "img_id": "97244506",
+      "ocr_text": "S",
+      "type": "mixed",
+      "image_similarity": 0.6634230613708496,
+      "text_similarity": 0.9215173125267029,
+      "final_score": 0.7924701869487762,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "Ringmaster Technologies, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of an interlocking ring design.",
+      "application_date": 20220128,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97234897.jpg",
+      "img_id": "97234897",
+      "ocr_text": "B",
+      "type": "mixed",
+      "image_similarity": 0.64432293176651,
+      "text_similarity": 0.9244610667228699,
+      "final_score": 0.7843919992446899,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "U.S. Data Mining Group, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220124,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97228082.jpg",
+      "img_id": "97228082",
+      "ocr_text": "headphone",
+      "type": "mixed",
+      "image_similarity": 0.6709481477737427,
+      "text_similarity": 0.8951970338821411,
+      "final_score": 0.7830725908279419,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "1601",
+        "1601"
+      ],
+      "tot_vienna_code": [
+        "160107",
+        "160107"
+      ],
+      "applicant": "Guangzhou kaimeng Trading Co., Ltd",
+      "classOfGoodServiceBusinessName": "The mark consists of a headphone design formed by more than 26 vertical bars; between the earphones are five vertical bars; below the headphone design is the stylized word \"headphone\".",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97220975.jpg",
+      "img_id": "97220975",
+      "ocr_text": "PRICE ACTION ENTERTAINMENT",
+      "type": "mixed",
+      "image_similarity": 0.6764723062515259,
+      "text_similarity": 0.8803957104682922,
+      "final_score": 0.7784340083599091,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "1411"
+      ],
+      "tot_vienna_code": [
+        "141107"
+      ],
+      "applicant": "Price Action Entertainment, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97218106.jpg",
+      "img_id": "97218106",
+      "ocr_text": "gli",
+      "type": "mixed",
+      "image_similarity": 0.6452720761299133,
+      "text_similarity": 0.9110794067382812,
+      "final_score": 0.7781757414340973,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Givvy",
+      "classOfGoodServiceBusinessName": "The mark consists of two heads above a gift box, which includes three parallel lines to the left of a heart.",
+      "application_date": 20220113,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97208124.jpg",
+      "img_id": "97208124",
+      "ocr_text": "ABSTRACT",
+      "type": "mixed",
+      "image_similarity": 0.6464084982872009,
+      "text_similarity": 0.9098787307739258,
+      "final_score": 0.7781436145305634,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261705",
+        "260902"
+      ],
+      "applicant": "Abstract Software, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.6328113675117493,
+      "text_similarity": 0.9223796725273132,
+      "final_score": 0.7775955200195312,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97225926.jpg",
+      "img_id": "97225926",
+      "ocr_text": "ART",
+      "type": "mixed",
+      "image_similarity": 0.6278010606765747,
+      "text_similarity": 0.9264565110206604,
+      "final_score": 0.7771287858486176,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2619",
+        "2619"
+      ],
+      "tot_vienna_code": [
+        "261925",
+        "261925"
+      ],
+      "applicant": "Mercury Art Enterprise LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of Black color background of the entire image, white color negative space of the letters/word M, E, ART, gold color of designed abstract shape.",
+      "application_date": 20220118,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6335157752037048,
+      "text_similarity": 0.9199854135513306,
+      "final_score": 0.7767505943775177,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 10
+    }
+  ]
+}

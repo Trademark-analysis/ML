@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97245382.jpg",
+    "query_ocr_text": "CO ZAYH",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97228250.jpg",
+      "img_id": "97228250",
+      "ocr_text": "GLOBYZ",
+      "type": "mixed",
+      "image_similarity": 0.7030402421951294,
+      "text_similarity": 0.9078270792961121,
+      "final_score": 0.8054336607456207,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "0107"
+      ],
+      "tot_vienna_code": [
+        "260121",
+        "010708"
+      ],
+      "applicant": "Globyz Pharma LLC",
+      "classOfGoodServiceBusinessName": "The color(s) Blue lettering of word \"globyz\"; gold line underlining word \"globyz\"; blue and white globe with different shades of blue ranging from light to dark blue is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97245526.jpg",
+      "img_id": "97245526",
+      "ocr_text": "aryn",
+      "type": "mixed",
+      "image_similarity": 0.6773037910461426,
+      "text_similarity": 0.9155144095420837,
+      "final_score": 0.7964091002941132,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0315",
+        "0405",
+        "0405",
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "031519",
+        "040501",
+        "040501",
+        "031519"
+      ],
+      "applicant": "Varyn Inc",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing on-line computer games; Entertainment services, namely, providing online browser-based video games; Entertainment services, namely, providing online video games; Providing on-line computer games; Providing online computer games",
+      "application_date": 20220130,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97248851.jpg",
+      "img_id": "97248851",
+      "ocr_text": "CHGO",
+      "type": "mixed",
+      "image_similarity": 0.6604338884353638,
+      "text_similarity": 0.9230321645736694,
+      "final_score": 0.7917330265045166,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0101",
+        "0101"
+      ],
+      "tot_vienna_code": [
+        "010110",
+        "010110"
+      ],
+      "applicant": "BSN Live, Inc.",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing podcasts in the field of sports, entertainment, popular culture and current events; Hosting social entertainment events, namely, event watch parties, birthday parties, fund-raisers, holiday parties and other social events, for others; Media production services, namely, video and film production; Production of podcasts; Providing a website featuring resources, namely, non-downloadable publications in the nature of multimedia content, videos, articles, podcasts, and images in the field of sports, entertainment, popular culture and current events; Providing an Internet website portal featuring entertainment news and information specifically in the field of sports, entertainment, popular culture and current events",
+      "application_date": 20220201,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6478620171546936,
+      "text_similarity": 0.930079996585846,
+      "final_score": 0.7889710068702698,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97234570.jpg",
+      "img_id": "97234570",
+      "ocr_text": "0",
+      "type": "mixed",
+      "image_similarity": 0.6515258550643921,
+      "text_similarity": 0.9262436032295227,
+      "final_score": 0.7888847291469574,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2503"
+      ],
+      "tot_vienna_code": [
+        "250325"
+      ],
+      "applicant": "Andrew Hanshaw",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized font are the letters \"B\" with two abstract figures with a set of eyes to the right of it. Those are followed by another letter \"B\" and to the right of it is another abstract figure with eyes with a letter \"Z\" to the right of the abstract figure. Surrounding each letter and abstract figure is white leopard print.",
+      "application_date": 20220124,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244506.jpg",
+      "img_id": "97244506",
+      "ocr_text": "S",
+      "type": "mixed",
+      "image_similarity": 0.6397205591201782,
+      "text_similarity": 0.9267754554748535,
+      "final_score": 0.7832480072975159,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "Ringmaster Technologies, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of an interlocking ring design.",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97248861.jpg",
+      "img_id": "97248861",
+      "ocr_text": "CHGO",
+      "type": "mixed",
+      "image_similarity": 0.642158031463623,
+      "text_similarity": 0.9230321645736694,
+      "final_score": 0.7825950980186462,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0101"
+      ],
+      "tot_vienna_code": [
+        "010110"
+      ],
+      "applicant": "BSN Live, Inc.",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing podcasts in the field of sports, entertainment, popular culture and current events; Hosting social entertainment events, namely, event watch parties, birthday parties, fund-raisers, holiday parties and other social events, for others; Media production services, namely, video and film production; Production of podcasts; Providing a website featuring resources, namely, non-downloadable publications in the nature of multimedia content, videos, articles, podcasts, and images in the field of sports, entertainment, popular culture and current events; Providing an Internet website portal featuring entertainment news and information specifically in the field of sports, entertainment, popular culture and current events",
+      "application_date": 20220201,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97221170.jpg",
+      "img_id": "97221170",
+      "ocr_text": "MTTYYD",
+      "type": "mixed",
+      "image_similarity": 0.6205586791038513,
+      "text_similarity": 0.9351745247840881,
+      "final_score": 0.7778666019439697,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201",
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133",
+        "020133"
+      ],
+      "applicant": "Nanchang Mount outdoor Sports Goods Co., LTD",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6202656626701355,
+      "text_similarity": 0.9343805313110352,
+      "final_score": 0.7773230969905853,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6150269508361816,
+      "text_similarity": 0.9343805313110352,
+      "final_score": 0.7747037410736084,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 10
+    }
+  ]
+}

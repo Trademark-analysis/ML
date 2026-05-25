@@ -1,0 +1,251 @@
+{
+  "query": {
+    "query_image": "test\\2022_97248430.jpg",
+    "query_ocr_text": "Schooner Products LLC",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97245103.jpg",
+      "img_id": "97245103",
+      "ocr_text": "Scholar System A Professional Learning Organization",
+      "type": "mixed",
+      "image_similarity": 0.6216891407966614,
+      "text_similarity": 0.8684818148612976,
+      "final_score": 0.7450854778289795,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0905",
+        "0109",
+        "0109",
+        "0905"
+      ],
+      "tot_vienna_code": [
+        "090511",
+        "010903",
+        "010903",
+        "090511"
+      ],
+      "applicant": "Scholar System LLC",
+      "classOfGoodServiceBusinessName": "Consulting services about education; Providing information in the field of education",
+      "application_date": 20220129,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97248479.jpg",
+      "img_id": "97248479",
+      "ocr_text": "TK LLC",
+      "type": "mixed",
+      "image_similarity": 0.626783013343811,
+      "text_similarity": 0.8543584942817688,
+      "final_score": 0.7405707538127899,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021113"
+      ],
+      "applicant": "Thakur Capital LLC",
+      "classOfGoodServiceBusinessName": "Providing online non-downloadable videos in the field of global economic events",
+      "application_date": 20220201,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97208982.jpg",
+      "img_id": "97208982",
+      "ocr_text": "The CHOSEN",
+      "type": "mixed",
+      "image_similarity": 0.6278900504112244,
+      "text_similarity": 0.8335436582565308,
+      "final_score": 0.7307168543338776,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0319",
+        "0319"
+      ],
+      "tot_vienna_code": [
+        "031924",
+        "031924"
+      ],
+      "applicant": "The Chosen, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97225456.jpg",
+      "img_id": "97225456",
+      "ocr_text": "CROSS ROADS QUALITY NATIVE PRODUCTS",
+      "type": "mixed",
+      "image_similarity": 0.6216180920600891,
+      "text_similarity": 0.8316286206245422,
+      "final_score": 0.7266233563423157,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2615",
+        "0111",
+        "0111"
+      ],
+      "tot_vienna_code": [
+        "261502",
+        "011101",
+        "011101"
+      ],
+      "applicant": "Hannigan Family Irrevocable Trust 12/18",
+      "classOfGoodServiceBusinessName": "The mark consists of a hexagon within which is a depiction of a mountain range and a moon, with the word CROSSROADS in stylized font above the words QUALITY NATIVE PRODUCTS. In the lower section of the hexagon there are three stars arranged horizontally.",
+      "application_date": 20220118,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97201631.jpg",
+      "img_id": "97201631",
+      "ocr_text": "EPICSHIRTS",
+      "type": "mixed",
+      "image_similarity": 0.620717465877533,
+      "text_similarity": 0.8155380487442017,
+      "final_score": 0.7181277573108673,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260101"
+      ],
+      "applicant": "EPIC SHIRTS LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97248861.jpg",
+      "img_id": "97248861",
+      "ocr_text": "CHGO",
+      "type": "mixed",
+      "image_similarity": 0.5874524712562561,
+      "text_similarity": 0.8363728523254395,
+      "final_score": 0.7119126617908478,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0101"
+      ],
+      "tot_vienna_code": [
+        "010110"
+      ],
+      "applicant": "BSN Live, Inc.",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing podcasts in the field of sports, entertainment, popular culture and current events; Hosting social entertainment events, namely, event watch parties, birthday parties, fund-raisers, holiday parties and other social events, for others; Media production services, namely, video and film production; Production of podcasts; Providing a website featuring resources, namely, non-downloadable publications in the nature of multimedia content, videos, articles, podcasts, and images in the field of sports, entertainment, popular culture and current events; Providing an Internet website portal featuring entertainment news and information specifically in the field of sports, entertainment, popular culture and current events",
+      "application_date": 20220201,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97223138.jpg",
+      "img_id": "97223138",
+      "ocr_text": "IME I.N.C",
+      "type": "mixed",
+      "image_similarity": 0.5978557467460632,
+      "text_similarity": 0.8237314820289612,
+      "final_score": 0.7107936143875122,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "270305"
+      ],
+      "applicant": "Davis, Richard",
+      "classOfGoodServiceBusinessName": "The mark consists of A (G/O) Go time.",
+      "application_date": 20220117,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97207872.jpg",
+      "img_id": "97207872",
+      "ocr_text": "THE SCHOOL OF Saint-Léger",
+      "type": "mixed",
+      "image_similarity": 0.5961595773696899,
+      "text_similarity": 0.8239936232566833,
+      "final_score": 0.7100766003131866,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "011525",
+        "011525",
+        "260901"
+      ],
+      "applicant": "The School of Saint-Leger LLC",
+      "classOfGoodServiceBusinessName": "The color(s) yellow and black is/are claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97248851.jpg",
+      "img_id": "97248851",
+      "ocr_text": "CHGO",
+      "type": "mixed",
+      "image_similarity": 0.5820493698120117,
+      "text_similarity": 0.8363728523254395,
+      "final_score": 0.7092111110687256,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0101",
+        "0101"
+      ],
+      "tot_vienna_code": [
+        "010110",
+        "010110"
+      ],
+      "applicant": "BSN Live, Inc.",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing podcasts in the field of sports, entertainment, popular culture and current events; Hosting social entertainment events, namely, event watch parties, birthday parties, fund-raisers, holiday parties and other social events, for others; Media production services, namely, video and film production; Production of podcasts; Providing a website featuring resources, namely, non-downloadable publications in the nature of multimedia content, videos, articles, podcasts, and images in the field of sports, entertainment, popular culture and current events; Providing an Internet website portal featuring entertainment news and information specifically in the field of sports, entertainment, popular culture and current events",
+      "application_date": 20220201,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97201291.jpg",
+      "img_id": "97201291",
+      "ocr_text": "WAVEDANCER",
+      "type": "mixed",
+      "image_similarity": 0.5946564078330994,
+      "text_similarity": 0.8234960436820984,
+      "final_score": 0.7090762257575989,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011513"
+      ],
+      "applicant": "WaveDancer, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 10
+    }
+  ]
+}

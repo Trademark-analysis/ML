@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97226429.jpg",
+    "query_ocr_text": "shirlehcreations",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97244506.jpg",
+      "img_id": "97244506",
+      "ocr_text": "S",
+      "type": "mixed",
+      "image_similarity": 0.6557144522666931,
+      "text_similarity": 0.8927525281906128,
+      "final_score": 0.774233490228653,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "Ringmaster Technologies, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of an interlocking ring design.",
+      "application_date": 20220128,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97234897.jpg",
+      "img_id": "97234897",
+      "ocr_text": "B",
+      "type": "mixed",
+      "image_similarity": 0.6281120777130127,
+      "text_similarity": 0.8814324140548706,
+      "final_score": 0.7547722458839417,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "U.S. Data Mining Group, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220124,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97248648.jpg",
+      "img_id": "97248648",
+      "ocr_text": "Shit",
+      "type": "mixed",
+      "image_similarity": 0.5872655510902405,
+      "text_similarity": 0.8921000957489014,
+      "final_score": 0.7396828234195709,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2103"
+      ],
+      "tot_vienna_code": [
+        "210313"
+      ],
+      "applicant": "Dane Burneson",
+      "classOfGoodServiceBusinessName": "The mark consists of the word SHIT in a script font. The I is represented by a golf pin with a flag in a hole.",
+      "application_date": 20220201,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97216948.jpg",
+      "img_id": "97216948",
+      "ocr_text": "KING",
+      "type": "mixed",
+      "image_similarity": 0.5966849327087402,
+      "text_similarity": 0.871137261390686,
+      "final_score": 0.7339110970497131,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0117",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "011705",
+        "241102"
+      ],
+      "applicant": "Chinosengwa, Ronald Blessing",
+      "classOfGoodServiceBusinessName": "The mark consists of the words \"AFRIKAN KING\" written in capital letters in stylized font on the maps of Africa as a background. Above the text and design of Africa, there is a crown.",
+      "application_date": 20220113,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97201441.jpg",
+      "img_id": "97201441",
+      "ocr_text": "SIMPLE",
+      "type": "mixed",
+      "image_similarity": 0.5778744220733643,
+      "text_similarity": 0.8864153027534485,
+      "final_score": 0.7321448624134064,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Simple Style Apparel, Inc",
+      "classOfGoodServiceBusinessName": "The mark consists of the word \"simple\" in a stylized font in a heart-shaped form, superimposed on a heart-shaped design.",
+      "application_date": 20220104,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "mixed",
+      "image_similarity": 0.5654458403587341,
+      "text_similarity": 0.8955060839653015,
+      "final_score": 0.7304759621620178,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97218555.jpg",
+      "img_id": "97218555",
+      "ocr_text": "مَدَائِن صَالِح",
+      "type": "mixed",
+      "image_similarity": 0.5854063630104065,
+      "text_similarity": 0.8754672408103943,
+      "final_score": 0.7304368019104004,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2801"
+      ],
+      "tot_vienna_code": [
+        "280101"
+      ],
+      "applicant": "Shritech Consulting, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the Arabic characters in the mark transliterate to MADA'IN SALIH and this means CITIES OF PIOUS in english.",
+      "application_date": 20220113,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97208113.jpg",
+      "img_id": "97208113",
+      "ocr_text": "PINK ELEPHANT",
+      "type": "mixed",
+      "image_similarity": 0.6476283073425293,
+      "text_similarity": 0.8090607523918152,
+      "final_score": 0.7283445298671722,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0303",
+        "0303"
+      ],
+      "tot_vienna_code": [
+        "030301",
+        "030301"
+      ],
+      "applicant": "Baconboy Hospitality LLC",
+      "classOfGoodServiceBusinessName": "The color(s) PINK is/are claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97226863.jpg",
+      "img_id": "97226863",
+      "ocr_text": "serves",
+      "type": "mixed",
+      "image_similarity": 0.5915483832359314,
+      "text_similarity": 0.8642939329147339,
+      "final_score": 0.7279211580753326,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011525",
+        "011525"
+      ],
+      "applicant": "Bam Digital Pty. Ltd.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97248655.jpg",
+      "img_id": "97248655",
+      "ocr_text": "MILLION",
+      "type": "mixed",
+      "image_similarity": 0.5832169651985168,
+      "text_similarity": 0.8708271384239197,
+      "final_score": 0.7270220518112183,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "III, Delmore, Edward, John",
+      "classOfGoodServiceBusinessName": "The mark consists of The wording MILL1ON in all capital letters with an ellipses smile line underneath. Black letters. Red number 1 as fifth character. Black line underneath.",
+      "application_date": 20220201,
+      "rank": 10
+    }
+  ]
+}

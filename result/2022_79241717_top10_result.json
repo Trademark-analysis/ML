@@ -1,0 +1,243 @@
+{
+  "query": {
+    "query_image": "test\\2022_79241717.jpg",
+    "query_ocr_text": "",
+    "query_type": "image_only"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "image_only",
+      "image_similarity": 0.8393975496292114,
+      "text_similarity": null,
+      "final_score": 0.8393975496292114,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97212816.jpg",
+      "img_id": "97212816",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.8234195709228516,
+      "text_similarity": null,
+      "final_score": 0.8234195709228516,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0505"
+      ],
+      "tot_vienna_code": [
+        "050525"
+      ],
+      "applicant": "Maurices Incorporated",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized flower.",
+      "application_date": 20220111,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97212836.jpg",
+      "img_id": "97212836",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.8210540413856506,
+      "text_similarity": null,
+      "final_score": 0.8210540413856506,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0505"
+      ],
+      "tot_vienna_code": [
+        "050525"
+      ],
+      "applicant": "Maurices Incorporated",
+      "classOfGoodServiceBusinessName": "The mark consists of a \"M\" stylized to look like a flower.",
+      "application_date": 20220111,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97211549.jpg",
+      "img_id": "97211549",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.8155226111412048,
+      "text_similarity": null,
+      "final_score": 0.8155226111412048,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0505",
+        "0505"
+      ],
+      "tot_vienna_code": [
+        "050506",
+        "050506"
+      ],
+      "applicant": "RAEK LLC",
+      "classOfGoodServiceBusinessName": "Yoga instruction; Educational services, namely, providing classes in the field of health and nutrition; Physical education; Physical education services; Provision of educational courses relating to diet",
+      "application_date": 20220110,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97213814.jpg",
+      "img_id": "97213814",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7999126315116882,
+      "text_similarity": null,
+      "final_score": 0.7999126315116882,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0505"
+      ],
+      "tot_vienna_code": [
+        "050525"
+      ],
+      "applicant": "MILLARDS GUIDE LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of A silhouetted flower having 12 symmetrical petals.",
+      "application_date": 20220111,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97218246.jpg",
+      "img_id": "97218246",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.799177348613739,
+      "text_similarity": null,
+      "final_score": 0.799177348613739,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609",
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260908",
+        "260902",
+        "260902"
+      ],
+      "applicant": "FLASH FINANCIAL HOLDINGS LIMITED",
+      "classOfGoodServiceBusinessName": "The mark consists of a device with a square in the middle and two designed hollow letter of \"L\" each in the top and bottom of the square.",
+      "application_date": 20220113,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97221939.jpg",
+      "img_id": "97221939",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7932751178741455,
+      "text_similarity": null,
+      "final_score": 0.7932751178741455,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0323",
+        "0323"
+      ],
+      "tot_vienna_code": [
+        "032301",
+        "032301"
+      ],
+      "applicant": "Kevin Huntsberry",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220116,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97217872.jpg",
+      "img_id": "97217872",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7916735410690308,
+      "text_similarity": null,
+      "final_score": 0.7916735410690308,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260117"
+      ],
+      "applicant": "Charleston Shoe Company, LLC.",
+      "classOfGoodServiceBusinessName": "The color(s) aqua green, white, black is/are claimed as a feature of the mark.",
+      "application_date": 20220113,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97247085.jpg",
+      "img_id": "97247085",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7905140519142151,
+      "text_similarity": null,
+      "final_score": 0.7905140519142151,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260902"
+      ],
+      "applicant": "ImagiStar LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of of a square-based outline shape, but with symmetric, multi-level right-angle cutouts on all four corners, with an interior circle.",
+      "application_date": 20220131,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97248283.jpg",
+      "img_id": "97248283",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7889818549156189,
+      "text_similarity": null,
+      "final_score": 0.7889818549156189,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260502"
+      ],
+      "applicant": "Pahdo, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of a hollow circle surrounded by four triangles, one each located at the top, bottom, left and right side of the circle. The tops of the triangles pointing away from the circle.",
+      "application_date": 20220201,
+      "rank": 10
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97199729.jpg",
+    "query_ocr_text": "PEEN NOS I'M",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97246257.jpg",
+      "img_id": "97246257",
+      "ocr_text": "bon.",
+      "type": "mixed",
+      "image_similarity": 0.6436697244644165,
+      "text_similarity": 0.877471923828125,
+      "final_score": 0.7605708241462708,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2607",
+        "2801"
+      ],
+      "tot_vienna_code": [
+        "260703",
+        "280103"
+      ],
+      "applicant": "IWASE SHOTEN & CO.",
+      "classOfGoodServiceBusinessName": "The mark consists of a Japanese character in stylized font as an open image in a diamond shape in the color black, and to the bottom of the Japanese character, the term \"bon\" and a period in a stylized font.",
+      "application_date": 20220131,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97223697.jpg",
+      "img_id": "97223697",
+      "ocr_text": "0 0",
+      "type": "mixed",
+      "image_similarity": 0.6448803544044495,
+      "text_similarity": 0.8661944270133972,
+      "final_score": 0.7555373907089233,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0301",
+        "0903"
+      ],
+      "tot_vienna_code": [
+        "030126",
+        "090315"
+      ],
+      "applicant": "Ebuysourcing (Shenzhen) Co.,Ltd",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220117,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97245877.jpg",
+      "img_id": "97245877",
+      "ocr_text": "Fresh",
+      "type": "mixed",
+      "image_similarity": 0.6535836458206177,
+      "text_similarity": 0.8467339873313904,
+      "final_score": 0.750158816576004,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709",
+        "261709"
+      ],
+      "applicant": "Forever Fresh LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording of \"Fresh\" with an underline connected to the letter h. This underline starts from the letter h and goes under all of the letters. Uppercase F, Lowercase r,e,s,h.",
+      "application_date": 20220131,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97244237.jpg",
+      "img_id": "97244237",
+      "ocr_text": "¥ FAN",
+      "type": "mixed",
+      "image_similarity": 0.6227241158485413,
+      "text_similarity": 0.8720652461051941,
+      "final_score": 0.7473946809768677,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261705",
+        "261705",
+        "260901"
+      ],
+      "applicant": "NO FAN CLOTHING LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a square border with the words \"NO FAN\" in the center in stylized font. The word \"NO\" has a line across the letters. Stacked underneath the word \"NO\" is the word \"FAN\".",
+      "application_date": 20220128,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6276008486747742,
+      "text_similarity": 0.8607462644577026,
+      "final_score": 0.7441735565662384,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97217210.jpg",
+      "img_id": "97217210",
+      "ocr_text": "B",
+      "type": "mixed",
+      "image_similarity": 0.6223551630973816,
+      "text_similarity": 0.8610486388206482,
+      "final_score": 0.7417019009590149,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0313",
+        "0313"
+      ],
+      "tot_vienna_code": [
+        "031301",
+        "031301"
+      ],
+      "applicant": "Powerteam Apparel LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letters PB a stylized representation of a rabbit's foot.",
+      "application_date": 20220113,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6444492936134338,
+      "text_similarity": 0.8363410830497742,
+      "final_score": 0.740395188331604,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6147928833961487,
+      "text_similarity": 0.8638753294944763,
+      "final_score": 0.7393341064453125,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6144925951957703,
+      "text_similarity": 0.8638753294944763,
+      "final_score": 0.7391839623451233,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6198275089263916,
+      "text_similarity": 0.8585256338119507,
+      "final_score": 0.7391765713691711,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 10
+    }
+  ]
+}

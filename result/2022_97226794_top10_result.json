@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97226794.jpg",
+    "query_ocr_text": "NIGHT",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97248655.jpg",
+      "img_id": "97248655",
+      "ocr_text": "MILLION",
+      "type": "mixed",
+      "image_similarity": 0.7607841491699219,
+      "text_similarity": 0.9187031388282776,
+      "final_score": 0.8397436439990997,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "III, Delmore, Edward, John",
+      "classOfGoodServiceBusinessName": "The mark consists of The wording MILL1ON in all capital letters with an ellipses smile line underneath. Black letters. Red number 1 as fifth character. Black line underneath.",
+      "application_date": 20220201,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97219581.jpg",
+      "img_id": "97219581",
+      "ocr_text": "NR",
+      "type": "mixed",
+      "image_similarity": 0.686493456363678,
+      "text_similarity": 0.9376025795936584,
+      "final_score": 0.8120480179786682,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260901"
+      ],
+      "applicant": "New Revolution Media Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6784504652023315,
+      "text_similarity": 0.937575101852417,
+      "final_score": 0.8080127835273743,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97218802.jpg",
+      "img_id": "97218802",
+      "ocr_text": ")(.)",
+      "type": "mixed",
+      "image_similarity": 0.6767866015434265,
+      "text_similarity": 0.9350120425224304,
+      "final_score": 0.8058993220329285,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417",
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241714",
+        "241714"
+      ],
+      "applicant": "CMAN GROUP, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of two adjacent sets of parentheses, each set comprising an open and closed parentheses as well as a period positioned between the open and closed parentheses.",
+      "application_date": 20220113,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97246250.jpg",
+      "img_id": "97246250",
+      "ocr_text": "40 IONNI",
+      "type": "mixed",
+      "image_similarity": 0.7102780342102051,
+      "text_similarity": 0.8988235592842102,
+      "final_score": 0.8045507967472076,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261113"
+      ],
+      "applicant": "Fernandes, Jesse James",
+      "classOfGoodServiceBusinessName": "Entertainment, namely, live performances by a musical band; Music production services; Music publishing services",
+      "application_date": 20220131,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244422.jpg",
+      "img_id": "97244422",
+      "ocr_text": "The GOOD DISH",
+      "type": "mixed",
+      "image_similarity": 0.7160295248031616,
+      "text_similarity": 0.8903200626373291,
+      "final_score": 0.8031747937202454,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260105"
+      ],
+      "applicant": "Oz Property Holdings LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the terms \"THE GOOD DISH\" in stylized lettering with the term \"THE\" centered above the term \"GOOD\", which is centered above \"DISH\", and with the terms inside of a broken circle comprised of a curved line above \"THE GOOD\" and a curved line below \"DISH\".",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6592059135437012,
+      "text_similarity": 0.9373770952224731,
+      "final_score": 0.7982915043830872,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97201441.jpg",
+      "img_id": "97201441",
+      "ocr_text": "SIMPLE",
+      "type": "mixed",
+      "image_similarity": 0.664546012878418,
+      "text_similarity": 0.9313384294509888,
+      "final_score": 0.7979422211647034,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Simple Style Apparel, Inc",
+      "classOfGoodServiceBusinessName": "The mark consists of the word \"simple\" in a stylized font in a heart-shaped form, superimposed on a heart-shaped design.",
+      "application_date": 20220104,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.6560115218162537,
+      "text_similarity": 0.9381436705589294,
+      "final_score": 0.7970775961875916,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97228684.jpg",
+      "img_id": "97228684",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6590237617492676,
+      "text_similarity": 0.9334872364997864,
+      "final_score": 0.796255499124527,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0711",
+        "0711"
+      ],
+      "tot_vienna_code": [
+        "071101",
+        "071101"
+      ],
+      "applicant": "Atwater Flight Club",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized bridge illustration with sunbeams rising above it.",
+      "application_date": 20220120,
+      "rank": 10
+    }
+  ]
+}

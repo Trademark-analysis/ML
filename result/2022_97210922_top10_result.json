@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97210922.jpg",
+    "query_ocr_text": "؟",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.8123856782913208,
+      "text_similarity": 0.9741569757461548,
+      "final_score": 0.8932713270187378,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.8048871755599976,
+      "text_similarity": 0.9758191704750061,
+      "final_score": 0.8903531730175018,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "mixed",
+      "image_similarity": 0.8113329410552979,
+      "text_similarity": 0.9690401554107666,
+      "final_score": 0.8901865482330322,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97218802.jpg",
+      "img_id": "97218802",
+      "ocr_text": ")(.)",
+      "type": "mixed",
+      "image_similarity": 0.8045985102653503,
+      "text_similarity": 0.9747888445854187,
+      "final_score": 0.8896936774253845,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417",
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241714",
+        "241714"
+      ],
+      "applicant": "CMAN GROUP, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of two adjacent sets of parentheses, each set comprising an open and closed parentheses as well as a period positioned between the open and closed parentheses.",
+      "application_date": 20220113,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_79337982.jpg",
+      "img_id": "79337982",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.7793092727661133,
+      "text_similarity": 0.9761414527893066,
+      "final_score": 0.87772536277771,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305"
+      ],
+      "applicant": "SEBIA",
+      "classOfGoodServiceBusinessName": "Development of new technology on behalf of third parties in the field of biotechnology; medical and scientific research in the field of cancer treatment and diagnosis; providing information in medical and scientific research in the field of clinical trials; providing medical and scientific research information in the pharmaceutical field; research and development in the field of pharmaceuticals and biotechnology; providing diagnostic tests and diagnostic or prognostic tests for residual diseases and analysis, evaluation and reporting of the results of such tests to help healthcare professionals determine the clinical diagnosis of a patient, evaluate the effectiveness of treatments prescribed to patients and change future treatments accordingly; scientific and technological services as well as research and design services relating thereto; industrial analysis and research services; design and development of software",
+      "application_date": 20220214,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.7763060927391052,
+      "text_similarity": 0.9775540828704834,
+      "final_score": 0.8769300878047943,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97205803.jpg",
+      "img_id": "97205803",
+      "ocr_text": "8 8",
+      "type": "mixed",
+      "image_similarity": 0.7758316397666931,
+      "text_similarity": 0.9736583828926086,
+      "final_score": 0.8747450113296509,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261126"
+      ],
+      "applicant": "Weather or Not Riding Gear, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of lines arranged vertically in intertwined double strands enclosed within an oval.",
+      "application_date": 20220106,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.7702608704566956,
+      "text_similarity": 0.9761414527893066,
+      "final_score": 0.8732011616230011,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97228684.jpg",
+      "img_id": "97228684",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.7694569230079651,
+      "text_similarity": 0.9761414527893066,
+      "final_score": 0.8727991878986359,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0711",
+        "0711"
+      ],
+      "tot_vienna_code": [
+        "071101",
+        "071101"
+      ],
+      "applicant": "Atwater Flight Club",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized bridge illustration with sunbeams rising above it.",
+      "application_date": 20220120,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.7651360034942627,
+      "text_similarity": 0.9758191704750061,
+      "final_score": 0.8704775869846344,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 10
+    }
+  ]
+}

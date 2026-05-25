@@ -1,0 +1,235 @@
+{
+  "query": {
+    "query_image": "test\\2022_97247982.jpg",
+    "query_ocr_text": "TrueBest",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97223137.jpg",
+      "img_id": "97223137",
+      "ocr_text": "RUSHBET",
+      "type": "mixed",
+      "image_similarity": 0.7402398586273193,
+      "text_similarity": 0.8886505365371704,
+      "final_score": 0.8144451975822449,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261707"
+      ],
+      "applicant": "RSI IP Holding, LLC",
+      "classOfGoodServiceBusinessName": "providing in-person and online wagering and games of chance via the internet and mobile wireless networks; developing, supplying, and operating online gaming websites",
+      "application_date": 20220117,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97227559.jpg",
+      "img_id": "97227559",
+      "ocr_text": "TRESANE",
+      "type": "mixed",
+      "image_similarity": 0.7091813683509827,
+      "text_similarity": 0.8937622904777527,
+      "final_score": 0.8014718294143677,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050308"
+      ],
+      "applicant": "David Baumgartner",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6858071684837341,
+      "text_similarity": 0.8957498669624329,
+      "final_score": 0.7907785177230835,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97230038.jpg",
+      "img_id": "97230038",
+      "ocr_text": "T P T B",
+      "type": "mixed",
+      "image_similarity": 0.6638768315315247,
+      "text_similarity": 0.903780460357666,
+      "final_score": 0.7838286459445953,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2103",
+        "2103"
+      ],
+      "tot_vienna_code": [
+        "210307",
+        "210307"
+      ],
+      "applicant": "Temple Builders Personal Training, LLC",
+      "classOfGoodServiceBusinessName": "Personal fitness training services; Physical fitness consultation; Physical fitness instruction; Physical fitness training of individuals and groups",
+      "application_date": 20220120,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97216104.jpg",
+      "img_id": "97216104",
+      "ocr_text": "hint",
+      "type": "mixed",
+      "image_similarity": 0.6664801836013794,
+      "text_similarity": 0.9010794758796692,
+      "final_score": 0.7837798297405243,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Hint Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220112,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244422.jpg",
+      "img_id": "97244422",
+      "ocr_text": "The GOOD DISH",
+      "type": "mixed",
+      "image_similarity": 0.6799272894859314,
+      "text_similarity": 0.8789380192756653,
+      "final_score": 0.7794326543807983,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260105"
+      ],
+      "applicant": "Oz Property Holdings LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the terms \"THE GOOD DISH\" in stylized lettering with the term \"THE\" centered above the term \"GOOD\", which is centered above \"DISH\", and with the terms inside of a broken circle comprised of a curved line above \"THE GOOD\" and a curved line below \"DISH\".",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97248865.jpg",
+      "img_id": "97248865",
+      "ocr_text": "EASYFEET",
+      "type": "mixed",
+      "image_similarity": 0.6784031987190247,
+      "text_similarity": 0.8777276277542114,
+      "final_score": 0.778065413236618,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2501",
+        "2501"
+      ],
+      "tot_vienna_code": [
+        "250125",
+        "250125"
+      ],
+      "applicant": "Klishyn, Andrii",
+      "classOfGoodServiceBusinessName": "The mark consists of the stylized wording \"EASYFEET\" with a punctuated frame at the corners imposed on an image of a triangle divided into two parts.",
+      "application_date": 20220201,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97217925.jpg",
+      "img_id": "97217925",
+      "ocr_text": "ECURE",
+      "type": "mixed",
+      "image_similarity": 0.6577229499816895,
+      "text_similarity": 0.8910738825798035,
+      "final_score": 0.7743984162807465,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260129"
+      ],
+      "applicant": "Iecure, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the word IECURE, wherein the letter i is lower case and forms the horizontal middle line of the letter E, wherein the dot in i is oriented on the left side of the E. The letter C is capitalized. The letter U is formed by a depiction of a double helix DNA molecule, with the lower portion of the helix gradually faded. The letters R and E are capitalized.",
+      "application_date": 20220113,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97246343.jpg",
+      "img_id": "97246343",
+      "ocr_text": "EQUEST",
+      "type": "mixed",
+      "image_similarity": 0.645291805267334,
+      "text_similarity": 0.9027285575866699,
+      "final_score": 0.774010181427002,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0305"
+      ],
+      "tot_vienna_code": [
+        "030501"
+      ],
+      "applicant": "Equest Riding Services LLC",
+      "classOfGoodServiceBusinessName": "Training services, namely, providing horse riding lessons and training of people aspiring to ride horses and show jump",
+      "application_date": 20220131,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97220528.jpg",
+      "img_id": "97220528",
+      "ocr_text": "FITTEST ARE YOU THE FITTEST?",
+      "type": "mixed",
+      "image_similarity": 0.6577876210212708,
+      "text_similarity": 0.885147750377655,
+      "final_score": 0.7714676856994629,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020102"
+      ],
+      "applicant": "Wilson, Justin",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 10
+    }
+  ]
+}

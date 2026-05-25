@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97211090.jpg",
+    "query_ocr_text": "",
+    "query_type": "image_only"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97248604.jpg",
+      "img_id": "97248604",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7860366106033325,
+      "text_similarity": null,
+      "final_score": 0.7860366106033325,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305"
+      ],
+      "applicant": "Ryan Carniato",
+      "classOfGoodServiceBusinessName": "The mark consists of The mark consists of a stylized \"S\" made out of two shaded tear drop shaped forms pointing in opposite directions.",
+      "application_date": 20220201,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97210419.jpg",
+      "img_id": "97210419",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7546936869621277,
+      "text_similarity": null,
+      "final_score": 0.7546936869621277,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260106"
+      ],
+      "applicant": "MUSEUM OF AFRICAN AMERICAN HISTORY, INC. dba CHARLES H. WRIGHT MUSEUM OF AFRICAN AMERICAN HISTORY",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97219322.jpg",
+      "img_id": "97219322",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7416841983795166,
+      "text_similarity": null,
+      "final_score": 0.7416841983795166,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0903",
+        "0903"
+      ],
+      "tot_vienna_code": [
+        "090306",
+        "090306"
+      ],
+      "applicant": "With Jean USA, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97226496.jpg",
+      "img_id": "97226496",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7381505966186523,
+      "text_similarity": null,
+      "final_score": 0.7381505966186523,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2613",
+        "2613"
+      ],
+      "tot_vienna_code": [
+        "261314",
+        "261314"
+      ],
+      "applicant": "CyberArk Software, Ltd.",
+      "classOfGoodServiceBusinessName": "Education services, namely, conducting on-site and online seminars, classes, workshops, courses, congresses, exhibitions, competitions, and conferences in the fields of technology, computers, computer software, computer networks, cybersecurity, web services, cloud computing, software as a service (SAAS), artificial intelligence, software development, databases, internet of things, and mobile computing; online journals, namely, blogs featuring information in the fields of technology, computers, computer software, computer networks, cybersecurity, web services, cloud computing, software as a service (SAAS), artificial intelligence, software development, databases, internet of things and mobile computing; training services in the fields of technology, computers, computer software, computer networks, cybersecurity, web services, cloud computing, software as a service (SAAS), artificial intelligence, software development, databases, internet of things, and mobile computing",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97235290.jpg",
+      "img_id": "97235290",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7350024580955505,
+      "text_similarity": null,
+      "final_score": 0.7350024580955505,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261113"
+      ],
+      "applicant": "Warstic Sports, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220124,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "image_only",
+      "image_similarity": 0.7332544922828674,
+      "text_similarity": null,
+      "final_score": 0.7332544922828674,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97244912.jpg",
+      "img_id": "97244912",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7327398061752319,
+      "text_similarity": null,
+      "final_score": 0.7327398061752319,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260928"
+      ],
+      "applicant": "ImagiStar LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a square-based outline shape, but with symmetric, multi-level right-angle cutouts on all four corners.",
+      "application_date": 20220128,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97212816.jpg",
+      "img_id": "97212816",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.726276159286499,
+      "text_similarity": null,
+      "final_score": 0.726276159286499,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0505"
+      ],
+      "tot_vienna_code": [
+        "050525"
+      ],
+      "applicant": "Maurices Incorporated",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized flower.",
+      "application_date": 20220111,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97224078.jpg",
+      "img_id": "97224078",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7253949642181396,
+      "text_similarity": null,
+      "final_score": 0.7253949642181396,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260106",
+        "260106"
+      ],
+      "applicant": "TECDO TECHNOLOGY CO., LIMITED",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97247085.jpg",
+      "img_id": "97247085",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7227427959442139,
+      "text_similarity": null,
+      "final_score": 0.7227427959442139,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260902"
+      ],
+      "applicant": "ImagiStar LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of of a square-based outline shape, but with symmetric, multi-level right-angle cutouts on all four corners, with an interior circle.",
+      "application_date": 20220131,
+      "rank": 10
+    }
+  ]
+}

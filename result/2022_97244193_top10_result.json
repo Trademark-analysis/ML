@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97244193.jpg",
+    "query_ocr_text": "GARAGE SOLUTIONS 4 LESS",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97248655.jpg",
+      "img_id": "97248655",
+      "ocr_text": "MILLION",
+      "type": "mixed",
+      "image_similarity": 0.6651971936225891,
+      "text_similarity": 0.8657692074775696,
+      "final_score": 0.7654832005500793,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "III, Delmore, Edward, John",
+      "classOfGoodServiceBusinessName": "The mark consists of The wording MILL1ON in all capital letters with an ellipses smile line underneath. Black letters. Red number 1 as fifth character. Black line underneath.",
+      "application_date": 20220201,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97210876.jpg",
+      "img_id": "97210876",
+      "ocr_text": "GET IT ELEVATED",
+      "type": "mixed",
+      "image_similarity": 0.6788315773010254,
+      "text_similarity": 0.846676230430603,
+      "final_score": 0.7627539038658142,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260913",
+        "260921"
+      ],
+      "applicant": "New Purpose LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97199932.jpg",
+      "img_id": "97199932",
+      "ocr_text": "4:8 FIT",
+      "type": "mixed",
+      "image_similarity": 0.6720333695411682,
+      "text_similarity": 0.8473382592201233,
+      "final_score": 0.7596858143806458,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "4:8 Fit LLC",
+      "classOfGoodServiceBusinessName": "Personal fitness training services",
+      "application_date": 20220102,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97210646.jpg",
+      "img_id": "97210646",
+      "ocr_text": "CLOSET BY ORGANIZERS DIRECT INDUSTRIES",
+      "type": "mixed",
+      "image_similarity": 0.651360273361206,
+      "text_similarity": 0.8674379587173462,
+      "final_score": 0.7593991160392761,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261103"
+      ],
+      "applicant": "Organizer's Direct Industries Inc.",
+      "classOfGoodServiceBusinessName": "The color(s) grey, teal, light blue is/are claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97246250.jpg",
+      "img_id": "97246250",
+      "ocr_text": "40 IONNI",
+      "type": "mixed",
+      "image_similarity": 0.659095823764801,
+      "text_similarity": 0.8569006323814392,
+      "final_score": 0.7579982280731201,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261113"
+      ],
+      "applicant": "Fernandes, Jesse James",
+      "classOfGoodServiceBusinessName": "Entertainment, namely, live performances by a musical band; Music production services; Music publishing services",
+      "application_date": 20220131,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6456571817398071,
+      "text_similarity": 0.8697913885116577,
+      "final_score": 0.7577242851257324,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97201527.jpg",
+      "img_id": "97201527",
+      "ocr_text": "TG4PS",
+      "type": "mixed",
+      "image_similarity": 0.6504154205322266,
+      "text_similarity": 0.8632543683052063,
+      "final_score": 0.7568348944187164,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261114",
+        "261114"
+      ],
+      "applicant": "Rohrich, Rodney J.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97201536.jpg",
+      "img_id": "97201536",
+      "ocr_text": "TG4PS",
+      "type": "mixed",
+      "image_similarity": 0.6503636240959167,
+      "text_similarity": 0.8632543683052063,
+      "final_score": 0.7568089962005615,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261114"
+      ],
+      "applicant": "Rohrich, Rodney J.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97223138.jpg",
+      "img_id": "97223138",
+      "ocr_text": "IME I.N.C",
+      "type": "mixed",
+      "image_similarity": 0.6805264353752136,
+      "text_similarity": 0.832690417766571,
+      "final_score": 0.7566084265708923,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "270305"
+      ],
+      "applicant": "Davis, Richard",
+      "classOfGoodServiceBusinessName": "The mark consists of A (G/O) Go time.",
+      "application_date": 20220117,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97248785.jpg",
+      "img_id": "97248785",
+      "ocr_text": "LIFE PETITIONS",
+      "type": "mixed",
+      "image_similarity": 0.6470757722854614,
+      "text_similarity": 0.8593226671218872,
+      "final_score": 0.7531992197036743,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LifeSiteNews.com, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of The words LIFE PETITIONS combined written in all capital letters with the word LIFE appearing in the middle of a solid circle.",
+      "application_date": 20220201,
+      "rank": 10
+    }
+  ]
+}

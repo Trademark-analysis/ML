@@ -1,0 +1,243 @@
+{
+  "query": {
+    "query_image": "test\\2022_97207478.jpg",
+    "query_ocr_text": "GrainBuds",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97220181.jpg",
+      "img_id": "97220181",
+      "ocr_text": "GROUNDHAWK",
+      "type": "mixed",
+      "image_similarity": 0.6678527593612671,
+      "text_similarity": 0.8292705416679382,
+      "final_score": 0.7485616505146027,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "031524"
+      ],
+      "applicant": "Ground Hawk, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97208224.jpg",
+      "img_id": "97208224",
+      "ocr_text": "FOUNDRY BEAN",
+      "type": "mixed",
+      "image_similarity": 0.6433314681053162,
+      "text_similarity": 0.8525369167327881,
+      "final_score": 0.7479341924190521,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0111",
+        "2607"
+      ],
+      "tot_vienna_code": [
+        "011102",
+        "260715"
+      ],
+      "applicant": "FOUNDRY BEAN INC",
+      "classOfGoodServiceBusinessName": "The mark consists of Diamond made of four other diamonds centered around a circle horizontally positioned next to the word foundry bean where the word foundry includes stylized lettering for the \"foun\" in foundry and where the \"d\" in foundry is replaced by a crescent moon.",
+      "application_date": 20220107,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97219386.jpg",
+      "img_id": "97219386",
+      "ocr_text": "Cruefilms.",
+      "type": "mixed",
+      "image_similarity": 0.6256230473518372,
+      "text_similarity": 0.8585163950920105,
+      "final_score": 0.7420697212219238,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260921"
+      ],
+      "applicant": "Katrina Binutu",
+      "classOfGoodServiceBusinessName": "Film and video film production",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97245318.jpg",
+      "img_id": "97245318",
+      "ocr_text": "KIDS GR WEAR",
+      "type": "mixed",
+      "image_similarity": 0.643845796585083,
+      "text_similarity": 0.8354130983352661,
+      "final_score": 0.7396294474601746,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0205"
+      ],
+      "tot_vienna_code": [
+        "020502"
+      ],
+      "applicant": "Kids Growwear, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of The mark consists of a child's silhouette with the left half of the silhouette in the color pink and the right half of the silhouette in the color blue. There are arrows located on the top and bottom of each arm pointing away from the body and located on the left and right of each leg of the child's silhouette pointing downward. The word Kids is above the child's silhouette in the color blue and the word Growwear is below the child's silhouette in the color blue.",
+      "application_date": 20220129,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97245401.jpg",
+      "img_id": "97245401",
+      "ocr_text": "busy being",
+      "type": "mixed",
+      "image_similarity": 0.6326512694358826,
+      "text_similarity": 0.8395331501960754,
+      "final_score": 0.736092209815979,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0401",
+        "0401",
+        "0323",
+        "0323"
+      ],
+      "tot_vienna_code": [
+        "040102",
+        "040102",
+        "032306",
+        "032306"
+      ],
+      "applicant": "Harper, Trudi R.",
+      "classOfGoodServiceBusinessName": "The mark consists of my mark consists of a bumble bee, with a yellow body, with black stripes on the body, wings outlined in black, with a yellow halo around the bumble bees body, with black and yellow legs, sitting in a yoga lotus position.",
+      "application_date": 20220130,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6173087954521179,
+      "text_similarity": 0.8534114956855774,
+      "final_score": 0.7353601455688477,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97235040.jpg",
+      "img_id": "97235040",
+      "ocr_text": "TRUCKINDIGITAL",
+      "type": "mixed",
+      "image_similarity": 0.6194850206375122,
+      "text_similarity": 0.8415936827659607,
+      "final_score": 0.7305393517017365,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2401"
+      ],
+      "tot_vienna_code": [
+        "240103"
+      ],
+      "applicant": "Truckin Systems LLC.",
+      "classOfGoodServiceBusinessName": "The color(s) purple is/are claimed as a feature of the mark.",
+      "application_date": 20220124,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97244422.jpg",
+      "img_id": "97244422",
+      "ocr_text": "The GOOD DISH",
+      "type": "mixed",
+      "image_similarity": 0.6097316741943359,
+      "text_similarity": 0.8431514501571655,
+      "final_score": 0.7264415621757507,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260105"
+      ],
+      "applicant": "Oz Property Holdings LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the terms \"THE GOOD DISH\" in stylized lettering with the term \"THE\" centered above the term \"GOOD\", which is centered above \"DISH\", and with the terms inside of a broken circle comprised of a curved line above \"THE GOOD\" and a curved line below \"DISH\".",
+      "application_date": 20220128,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_79335985.jpg",
+      "img_id": "79335985",
+      "ocr_text": "FRAND LEAGUE",
+      "type": "mixed",
+      "image_similarity": 0.5966606140136719,
+      "text_similarity": 0.8530828356742859,
+      "final_score": 0.7248717248439789,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2401",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "240103",
+        "261502"
+      ],
+      "applicant": "IPCom GmbH & Co. KG",
+      "classOfGoodServiceBusinessName": "Publication of instructional literature; publication of material which can be accessed from databases or from the internet; publication of printed matter in electronic form on the internet; services for the publication of newsletters; writing services for blogs",
+      "application_date": 20220203,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97220090.jpg",
+      "img_id": "97220090",
+      "ocr_text": "Satellos bioscience",
+      "type": "mixed",
+      "image_similarity": 0.5986887812614441,
+      "text_similarity": 0.8505430221557617,
+      "final_score": 0.7246159017086029,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260116"
+      ],
+      "applicant": "Satellos Bioscience Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 10
+    }
+  ]
+}

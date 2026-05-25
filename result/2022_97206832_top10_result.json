@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97206832.jpg",
+    "query_ocr_text": "MUYUG",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97221170.jpg",
+      "img_id": "97221170",
+      "ocr_text": "MTTYYD",
+      "type": "mixed",
+      "image_similarity": 0.7395911812782288,
+      "text_similarity": 0.9432379603385925,
+      "final_score": 0.8414145708084106,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201",
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133",
+        "020133"
+      ],
+      "applicant": "Nanchang Mount outdoor Sports Goods Co., LTD",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97245933.jpg",
+      "img_id": "97245933",
+      "ocr_text": "UNIFYY",
+      "type": "mixed",
+      "image_similarity": 0.6887381672859192,
+      "text_similarity": 0.9313837885856628,
+      "final_score": 0.810060977935791,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "Unifyy LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of UNIFYY appearing to the right of a curve.",
+      "application_date": 20220131,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.681476354598999,
+      "text_similarity": 0.9224432706832886,
+      "final_score": 0.8019598126411438,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97248747.jpg",
+      "img_id": "97248747",
+      "ocr_text": "YOGOFO",
+      "type": "mixed",
+      "image_similarity": 0.6900693774223328,
+      "text_similarity": 0.8983579277992249,
+      "final_score": 0.7942136526107788,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260102"
+      ],
+      "applicant": "Rodmax L.L.C.",
+      "classOfGoodServiceBusinessName": "The mark consists of sphere with a circle around it and a half circle with a line going downward resembling a Y. Below this is the wording \"YOGOFO\".",
+      "application_date": 20220201,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_79337982.jpg",
+      "img_id": "79337982",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6649115085601807,
+      "text_similarity": 0.9129546880722046,
+      "final_score": 0.7889330983161926,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305"
+      ],
+      "applicant": "SEBIA",
+      "classOfGoodServiceBusinessName": "Development of new technology on behalf of third parties in the field of biotechnology; medical and scientific research in the field of cancer treatment and diagnosis; providing information in medical and scientific research in the field of clinical trials; providing medical and scientific research information in the pharmaceutical field; research and development in the field of pharmaceuticals and biotechnology; providing diagnostic tests and diagnostic or prognostic tests for residual diseases and analysis, evaluation and reporting of the results of such tests to help healthcare professionals determine the clinical diagnosis of a patient, evaluate the effectiveness of treatments prescribed to patients and change future treatments accordingly; scientific and technological services as well as research and design services relating thereto; industrial analysis and research services; design and development of software",
+      "application_date": 20220214,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "mixed",
+      "image_similarity": 0.6593306660652161,
+      "text_similarity": 0.9101144075393677,
+      "final_score": 0.7847225368022919,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97248861.jpg",
+      "img_id": "97248861",
+      "ocr_text": "CHGO",
+      "type": "mixed",
+      "image_similarity": 0.6478403806686401,
+      "text_similarity": 0.909102201461792,
+      "final_score": 0.7784712910652161,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0101"
+      ],
+      "tot_vienna_code": [
+        "010110"
+      ],
+      "applicant": "BSN Live, Inc.",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing podcasts in the field of sports, entertainment, popular culture and current events; Hosting social entertainment events, namely, event watch parties, birthday parties, fund-raisers, holiday parties and other social events, for others; Media production services, namely, video and film production; Production of podcasts; Providing a website featuring resources, namely, non-downloadable publications in the nature of multimedia content, videos, articles, podcasts, and images in the field of sports, entertainment, popular culture and current events; Providing an Internet website portal featuring entertainment news and information specifically in the field of sports, entertainment, popular culture and current events",
+      "application_date": 20220201,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97245526.jpg",
+      "img_id": "97245526",
+      "ocr_text": "aryn",
+      "type": "mixed",
+      "image_similarity": 0.6503579020500183,
+      "text_similarity": 0.9053460955619812,
+      "final_score": 0.7778519988059998,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0315",
+        "0405",
+        "0405",
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "031519",
+        "040501",
+        "040501",
+        "031519"
+      ],
+      "applicant": "Varyn Inc",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing on-line computer games; Entertainment services, namely, providing online browser-based video games; Entertainment services, namely, providing online video games; Providing on-line computer games; Providing online computer games",
+      "application_date": 20220130,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97219645.jpg",
+      "img_id": "97219645",
+      "ocr_text": "G",
+      "type": "mixed",
+      "image_similarity": 0.630877673625946,
+      "text_similarity": 0.9205775856971741,
+      "final_score": 0.7757276296615601,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260501"
+      ],
+      "applicant": "God Apparel, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97244506.jpg",
+      "img_id": "97244506",
+      "ocr_text": "S",
+      "type": "mixed",
+      "image_similarity": 0.6273036599159241,
+      "text_similarity": 0.9206007719039917,
+      "final_score": 0.7739522159099579,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "Ringmaster Technologies, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of an interlocking ring design.",
+      "application_date": 20220128,
+      "rank": 10
+    }
+  ]
+}

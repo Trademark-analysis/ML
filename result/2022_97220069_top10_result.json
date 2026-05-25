@@ -1,0 +1,253 @@
+{
+  "query": {
+    "query_image": "test\\2022_97220069.jpg",
+    "query_ocr_text": "B&B OUTDOOR FURNITURE Built for life",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97248767.jpg",
+      "img_id": "97248767",
+      "ocr_text": "Belleville · BAKERY & CATERING ·",
+      "type": "mixed",
+      "image_similarity": 0.6557746529579163,
+      "text_similarity": 0.8509625792503357,
+      "final_score": 0.753368616104126,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0315",
+        "0905",
+        "1101",
+        "0315",
+        "0905"
+      ],
+      "tot_vienna_code": [
+        "031525",
+        "090506",
+        "110105",
+        "031525",
+        "090506"
+      ],
+      "applicant": "Belleville Bakery and Catering LLC",
+      "classOfGoodServiceBusinessName": "Educational services, namely, providing online courses of instruction on baking and cooking, with particular focus on French cuisine",
+      "application_date": 20220201,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97245401.jpg",
+      "img_id": "97245401",
+      "ocr_text": "busy being",
+      "type": "mixed",
+      "image_similarity": 0.6643549203872681,
+      "text_similarity": 0.8227967023849487,
+      "final_score": 0.7435758113861084,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0401",
+        "0401",
+        "0323",
+        "0323"
+      ],
+      "tot_vienna_code": [
+        "040102",
+        "040102",
+        "032306",
+        "032306"
+      ],
+      "applicant": "Harper, Trudi R.",
+      "classOfGoodServiceBusinessName": "The mark consists of my mark consists of a bumble bee, with a yellow body, with black stripes on the body, wings outlined in black, with a yellow halo around the bumble bees body, with black and yellow legs, sitting in a yoga lotus position.",
+      "application_date": 20220130,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97244143.jpg",
+      "img_id": "97244143",
+      "ocr_text": "BASE CAMP",
+      "type": "mixed",
+      "image_similarity": 0.6302080154418945,
+      "text_similarity": 0.8536860942840576,
+      "final_score": 0.7419470548629761,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2409"
+      ],
+      "tot_vienna_code": [
+        "240905"
+      ],
+      "applicant": "Fairway Ignite LLC",
+      "classOfGoodServiceBusinessName": "Educational services, namely, conducting coaching and training programs in the field of mortgage brokerage, and distribution of training materials in connection therewith; Educational services, namely, providing online instruction in the field of mortgage brokerage",
+      "application_date": 20220128,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97219852.jpg",
+      "img_id": "97219852",
+      "ocr_text": "ENJOY YOUR LIFE",
+      "type": "mixed",
+      "image_similarity": 0.6378010511398315,
+      "text_similarity": 0.8380934000015259,
+      "final_score": 0.7379472255706787,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Bernier, Michael",
+      "classOfGoodServiceBusinessName": "The mark consists of the fanciful stacked wording \"ENJOY YOUR LIFE\", with the individual letters of \"ENJOY\" and \"LIFE\" in yellow with teal outline, and the individual letters of \"YOUR\" in teal with a yellow outline. A thin teal line sits atop \"ENJOY\", and a thick teal and yellow line is below \"LIFE\". To the left of life is a circle composed of yellow and blue lines. All instances of white in the mark represent background, outlining, shading, and/or transparent areas and white is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97217210.jpg",
+      "img_id": "97217210",
+      "ocr_text": "B",
+      "type": "mixed",
+      "image_similarity": 0.61054927110672,
+      "text_similarity": 0.8614524602890015,
+      "final_score": 0.7360008656978607,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0313",
+        "0313"
+      ],
+      "tot_vienna_code": [
+        "031301",
+        "031301"
+      ],
+      "applicant": "Powerteam Apparel LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letters PB a stylized representation of a rabbit's foot.",
+      "application_date": 20220113,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97207152.jpg",
+      "img_id": "97207152",
+      "ocr_text": "BRICK LAYER FITAOSS LLC",
+      "type": "mixed",
+      "image_similarity": 0.6651801466941833,
+      "text_similarity": 0.7972216010093689,
+      "final_score": 0.7312008738517761,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2415"
+      ],
+      "tot_vienna_code": [
+        "241503"
+      ],
+      "applicant": "Rodney Johnson",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97245584.jpg",
+      "img_id": "97245584",
+      "ocr_text": "NORTH TRAIL",
+      "type": "mixed",
+      "image_similarity": 0.6153806447982788,
+      "text_similarity": 0.8329043388366699,
+      "final_score": 0.7241424918174744,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2607",
+        "2607",
+        "2607"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260721",
+        "260713",
+        "260713"
+      ],
+      "applicant": "North Trail Consulting LLC",
+      "classOfGoodServiceBusinessName": "Business education and training services, namely, developing customized leadership and executive development programs, providing executive coaching services, and providing business education programs to employees and executives",
+      "application_date": 20220130,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97200516.jpg",
+      "img_id": "97200516",
+      "ocr_text": "TRIATHLON CLOTHING",
+      "type": "mixed",
+      "image_similarity": 0.6172289252281189,
+      "text_similarity": 0.8296992182731628,
+      "final_score": 0.7234640717506409,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020102"
+      ],
+      "applicant": "Triathlon Clothing",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220103,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6041050553321838,
+      "text_similarity": 0.8421661853790283,
+      "final_score": 0.7231356203556061,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97227934.jpg",
+      "img_id": "97227934",
+      "ocr_text": "BREAKWATER TREATMENT & WELLNESS",
+      "type": "mixed",
+      "image_similarity": 0.6094506978988647,
+      "text_similarity": 0.8362762928009033,
+      "final_score": 0.722863495349884,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Breakwater Treatment & Wellness Corp.",
+      "classOfGoodServiceBusinessName": "The color(s) blue, white, and green is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 10
+    }
+  ]
+}

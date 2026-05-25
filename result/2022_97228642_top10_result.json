@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97228642.jpg",
+    "query_ocr_text": "ZUWUL",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97224666.jpg",
+      "img_id": "97224666",
+      "ocr_text": "EZVIZ",
+      "type": "mixed",
+      "image_similarity": 0.7524290084838867,
+      "text_similarity": 0.8448120355606079,
+      "final_score": 0.7986205220222473,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260921"
+      ],
+      "applicant": "The Clearing, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97245933.jpg",
+      "img_id": "97245933",
+      "ocr_text": "UNIFYY",
+      "type": "mixed",
+      "image_similarity": 0.674026608467102,
+      "text_similarity": 0.8992700576782227,
+      "final_score": 0.7866483330726624,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "Unifyy LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of UNIFYY appearing to the right of a curve.",
+      "application_date": 20220131,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6570631265640259,
+      "text_similarity": 0.9053115248680115,
+      "final_score": 0.7811873257160187,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97217789.jpg",
+      "img_id": "97217789",
+      "ocr_text": "ZesiMor",
+      "type": "mixed",
+      "image_similarity": 0.6500144004821777,
+      "text_similarity": 0.9103341102600098,
+      "final_score": 0.7801742553710938,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211",
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101",
+        "021101"
+      ],
+      "applicant": "CRM GROUP LIMITED",
+      "classOfGoodServiceBusinessName": "The mark consists of the wording \"ZesiMor\" in stylized font.",
+      "application_date": 20220113,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97247494.jpg",
+      "img_id": "97247494",
+      "ocr_text": "ZIRE AI",
+      "type": "mixed",
+      "image_similarity": 0.6613948345184326,
+      "text_similarity": 0.885728657245636,
+      "final_score": 0.7735617458820343,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261501"
+      ],
+      "applicant": "ZIR AI, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the term \"ZIR\" followed by the letter Z within a hexagon followed by the term \"AI\".",
+      "application_date": 20220131,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244687.jpg",
+      "img_id": "97244687",
+      "ocr_text": "flyjili",
+      "type": "mixed",
+      "image_similarity": 0.6506587266921997,
+      "text_similarity": 0.8944309949874878,
+      "final_score": 0.7725448608398438,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "1809"
+      ],
+      "tot_vienna_code": [
+        "180901"
+      ],
+      "applicant": "McLendon, Jilian E",
+      "classOfGoodServiceBusinessName": "Photography; Photography services; Portrait photography services",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6295011043548584,
+      "text_similarity": 0.9033028483390808,
+      "final_score": 0.7664019763469696,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6239005327224731,
+      "text_similarity": 0.9053115248680115,
+      "final_score": 0.7646060287952423,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97226015.jpg",
+      "img_id": "97226015",
+      "ocr_text": "&3",
+      "type": "mixed",
+      "image_similarity": 0.6265988945960999,
+      "text_similarity": 0.8969632387161255,
+      "final_score": 0.7617810666561127,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2607",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261725",
+        "260701",
+        "261521"
+      ],
+      "applicant": "Nufam, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) gold is/are claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97226945.jpg",
+      "img_id": "97226945",
+      "ocr_text": "7",
+      "type": "mixed",
+      "image_similarity": 0.6247758269309998,
+      "text_similarity": 0.8944637775421143,
+      "final_score": 0.759619802236557,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LINKOFFERS, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) teal is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 10
+    }
+  ]
+}

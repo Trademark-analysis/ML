@@ -1,0 +1,235 @@
+{
+  "query": {
+    "query_image": "test\\2022_97220818.jpg",
+    "query_ocr_text": "GOOGLES FURNITURE DIRECT",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97210646.jpg",
+      "img_id": "97210646",
+      "ocr_text": "CLOSET BY ORGANIZERS DIRECT INDUSTRIES",
+      "type": "mixed",
+      "image_similarity": 0.6522318124771118,
+      "text_similarity": 0.8393970131874084,
+      "final_score": 0.7458144128322601,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261103"
+      ],
+      "applicant": "Organizer's Direct Industries Inc.",
+      "classOfGoodServiceBusinessName": "The color(s) grey, teal, light blue is/are claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97248747.jpg",
+      "img_id": "97248747",
+      "ocr_text": "YOGOFO",
+      "type": "mixed",
+      "image_similarity": 0.6541853547096252,
+      "text_similarity": 0.8159528374671936,
+      "final_score": 0.7350690960884094,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260102"
+      ],
+      "applicant": "Rodmax L.L.C.",
+      "classOfGoodServiceBusinessName": "The mark consists of sphere with a circle around it and a half circle with a line going downward resembling a Y. Below this is the wording \"YOGOFO\".",
+      "application_date": 20220201,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97228703.jpg",
+      "img_id": "97228703",
+      "ocr_text": "SYNERGY DESIGN FIRM",
+      "type": "mixed",
+      "image_similarity": 0.5989965796470642,
+      "text_similarity": 0.8488183617591858,
+      "final_score": 0.723907470703125,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260109"
+      ],
+      "applicant": "Curtis, Amee L.",
+      "classOfGoodServiceBusinessName": "The color(s) gold is/are claimed as a feature of the mark.",
+      "application_date": 20220120,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_79334868.jpg",
+      "img_id": "79334868",
+      "ocr_text": "COREVA DESIGN",
+      "type": "mixed",
+      "image_similarity": 0.6102730631828308,
+      "text_similarity": 0.8249027729034424,
+      "final_score": 0.7175879180431366,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241712"
+      ],
+      "applicant": "CANDIANI S.P.A.",
+      "classOfGoodServiceBusinessName": "The trademark consists of the wording on two lines \"coreva design\" in fancy capital letters with the first two letters of the word \"coreva\" formed by a single line. Above there is a stylized figure that represents the first two letters of the word \"coreva?.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97234862.jpg",
+      "img_id": "97234862",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.5805190205574036,
+      "text_similarity": 0.8478162288665771,
+      "final_score": 0.7141676247119904,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2103"
+      ],
+      "tot_vienna_code": [
+        "210307"
+      ],
+      "applicant": "Crossley, Michael",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220124,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97245467.jpg",
+      "img_id": "97245467",
+      "ocr_text": "Yogat magazine",
+      "type": "mixed",
+      "image_similarity": 0.6150175929069519,
+      "text_similarity": 0.8091415762901306,
+      "final_score": 0.7120795845985413,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241706"
+      ],
+      "applicant": "Northstar Creative LLC",
+      "classOfGoodServiceBusinessName": "Magazine publishing",
+      "application_date": 20220130,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97224584.jpg",
+      "img_id": "97224584",
+      "ocr_text": "Collective Days",
+      "type": "mixed",
+      "image_similarity": 0.5902297496795654,
+      "text_similarity": 0.8282620906829834,
+      "final_score": 0.7092459201812744,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Church, Phillip Anthony",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97217925.jpg",
+      "img_id": "97217925",
+      "ocr_text": "ECURE",
+      "type": "mixed",
+      "image_similarity": 0.5889026522636414,
+      "text_similarity": 0.8242310881614685,
+      "final_score": 0.7065668702125549,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260129"
+      ],
+      "applicant": "Iecure, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the word IECURE, wherein the letter i is lower case and forms the horizontal middle line of the letter E, wherein the dot in i is oriented on the left side of the E. The letter C is capitalized. The letter U is formed by a depiction of a double helix DNA molecule, with the lower portion of the helix gradually faded. The letters R and E are capitalized.",
+      "application_date": 20220113,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97220630.jpg",
+      "img_id": "97220630",
+      "ocr_text": "PEARTREE DESIGN + MARKETING",
+      "type": "mixed",
+      "image_similarity": 0.5606772303581238,
+      "text_similarity": 0.8513768315315247,
+      "final_score": 0.7060270309448242,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0509",
+        "0509"
+      ],
+      "tot_vienna_code": [
+        "050907",
+        "050907"
+      ],
+      "applicant": "Poirier, Kevin R",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97244422.jpg",
+      "img_id": "97244422",
+      "ocr_text": "The GOOD DISH",
+      "type": "mixed",
+      "image_similarity": 0.5751449465751648,
+      "text_similarity": 0.8352355360984802,
+      "final_score": 0.7051902413368225,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260105"
+      ],
+      "applicant": "Oz Property Holdings LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the terms \"THE GOOD DISH\" in stylized lettering with the term \"THE\" centered above the term \"GOOD\", which is centered above \"DISH\", and with the terms inside of a broken circle comprised of a curved line above \"THE GOOD\" and a curved line below \"DISH\".",
+      "application_date": 20220128,
+      "rank": 10
+    }
+  ]
+}

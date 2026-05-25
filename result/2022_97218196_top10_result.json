@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97218196.jpg",
+    "query_ocr_text": "room essentials",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97220558.jpg",
+      "img_id": "97220558",
+      "ocr_text": "I MYSTERY ESCAPE ROOM",
+      "type": "mixed",
+      "image_similarity": 0.6836074590682983,
+      "text_similarity": 0.8387117981910706,
+      "final_score": 0.7611596286296844,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "1411"
+      ],
+      "tot_vienna_code": [
+        "141101"
+      ],
+      "applicant": "Mystery Escape Room, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97208692.jpg",
+      "img_id": "97208692",
+      "ocr_text": "Dock",
+      "type": "mixed",
+      "image_similarity": 0.6306614875793457,
+      "text_similarity": 0.8635034561157227,
+      "final_score": 0.7470824718475342,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260909"
+      ],
+      "applicant": "Conductor Tecnologia S.A.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97219581.jpg",
+      "img_id": "97219581",
+      "ocr_text": "NR",
+      "type": "mixed",
+      "image_similarity": 0.6082733869552612,
+      "text_similarity": 0.8854268789291382,
+      "final_score": 0.7468501329421997,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260901"
+      ],
+      "applicant": "New Revolution Media Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97228082.jpg",
+      "img_id": "97228082",
+      "ocr_text": "headphone",
+      "type": "mixed",
+      "image_similarity": 0.594549298286438,
+      "text_similarity": 0.8987943530082703,
+      "final_score": 0.7466718256473541,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "1601",
+        "1601"
+      ],
+      "tot_vienna_code": [
+        "160107",
+        "160107"
+      ],
+      "applicant": "Guangzhou kaimeng Trading Co., Ltd",
+      "classOfGoodServiceBusinessName": "The mark consists of a headphone design formed by more than 26 vertical bars; between the earphones are five vertical bars; below the headphone design is the stylized word \"headphone\".",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97219265.jpg",
+      "img_id": "97219265",
+      "ocr_text": "ROC",
+      "type": "mixed",
+      "image_similarity": 0.6149628162384033,
+      "text_similarity": 0.8701080679893494,
+      "final_score": 0.7425354421138763,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270302"
+      ],
+      "applicant": "HQ Life LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244143.jpg",
+      "img_id": "97244143",
+      "ocr_text": "BASE CAMP",
+      "type": "mixed",
+      "image_similarity": 0.5952842235565186,
+      "text_similarity": 0.8834103941917419,
+      "final_score": 0.7393473088741302,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2409"
+      ],
+      "tot_vienna_code": [
+        "240905"
+      ],
+      "applicant": "Fairway Ignite LLC",
+      "classOfGoodServiceBusinessName": "Educational services, namely, conducting coaching and training programs in the field of mortgage brokerage, and distribution of training materials in connection therewith; Educational services, namely, providing online instruction in the field of mortgage brokerage",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97226945.jpg",
+      "img_id": "97226945",
+      "ocr_text": "7",
+      "type": "mixed",
+      "image_similarity": 0.5874704122543335,
+      "text_similarity": 0.8905622959136963,
+      "final_score": 0.7390163540840149,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LINKOFFERS, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) teal is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97246257.jpg",
+      "img_id": "97246257",
+      "ocr_text": "bon.",
+      "type": "mixed",
+      "image_similarity": 0.5822877883911133,
+      "text_similarity": 0.8903433680534363,
+      "final_score": 0.7363155782222748,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2607",
+        "2801"
+      ],
+      "tot_vienna_code": [
+        "260703",
+        "280103"
+      ],
+      "applicant": "IWASE SHOTEN & CO.",
+      "classOfGoodServiceBusinessName": "The mark consists of a Japanese character in stylized font as an open image in a diamond shape in the color black, and to the bottom of the Japanese character, the term \"bon\" and a period in a stylized font.",
+      "application_date": 20220131,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97208124.jpg",
+      "img_id": "97208124",
+      "ocr_text": "ABSTRACT",
+      "type": "mixed",
+      "image_similarity": 0.5749818086624146,
+      "text_similarity": 0.8969261050224304,
+      "final_score": 0.7359539568424225,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261705",
+        "260902"
+      ],
+      "applicant": "Abstract Software, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97220111.jpg",
+      "img_id": "97220111",
+      "ocr_text": "RS Industria",
+      "type": "mixed",
+      "image_similarity": 0.6051560640335083,
+      "text_similarity": 0.8623834252357483,
+      "final_score": 0.7337697446346283,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260902"
+      ],
+      "applicant": "RS Components Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 10
+    }
+  ]
+}

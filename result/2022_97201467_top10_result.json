@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97201467.jpg",
+    "query_ocr_text": "CUTN' FUNNEL",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97244237.jpg",
+      "img_id": "97244237",
+      "ocr_text": "¥ FAN",
+      "type": "mixed",
+      "image_similarity": 0.6936025619506836,
+      "text_similarity": 0.864639163017273,
+      "final_score": 0.7791208624839783,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261705",
+        "261705",
+        "260901"
+      ],
+      "applicant": "NO FAN CLOTHING LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a square border with the words \"NO FAN\" in the center in stylized font. The word \"NO\" has a line across the letters. Stacked underneath the word \"NO\" is the word \"FAN\".",
+      "application_date": 20220128,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97248648.jpg",
+      "img_id": "97248648",
+      "ocr_text": "Shit",
+      "type": "mixed",
+      "image_similarity": 0.6728932857513428,
+      "text_similarity": 0.8671128153800964,
+      "final_score": 0.7700030505657196,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2103"
+      ],
+      "tot_vienna_code": [
+        "210313"
+      ],
+      "applicant": "Dane Burneson",
+      "classOfGoodServiceBusinessName": "The mark consists of the word SHIT in a script font. The I is represented by a golf pin with a flag in a hole.",
+      "application_date": 20220201,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97217514.jpg",
+      "img_id": "97217514",
+      "ocr_text": "Off",
+      "type": "mixed",
+      "image_similarity": 0.686001181602478,
+      "text_similarity": 0.8538015484809875,
+      "final_score": 0.7699013650417328,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211",
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021114",
+        "021114"
+      ],
+      "applicant": "Li, Junlin",
+      "classOfGoodServiceBusinessName": "The mark consists of middle finger hand and letter Off.",
+      "application_date": 20220113,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.646446943283081,
+      "text_similarity": 0.8724892139434814,
+      "final_score": 0.7594680786132812,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97216104.jpg",
+      "img_id": "97216104",
+      "ocr_text": "hint",
+      "type": "mixed",
+      "image_similarity": 0.6477749943733215,
+      "text_similarity": 0.8694449067115784,
+      "final_score": 0.75860995054245,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Hint Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220112,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.6482126712799072,
+      "text_similarity": 0.8679704666137695,
+      "final_score": 0.7580915689468384,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97244171.jpg",
+      "img_id": "97244171",
+      "ocr_text": "FIRST ONE DOESN'T CDYNT-",
+      "type": "mixed",
+      "image_similarity": 0.6695916056632996,
+      "text_similarity": 0.8452033996582031,
+      "final_score": 0.7573975026607513,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103",
+        "260103"
+      ],
+      "applicant": "Laura Shinall",
+      "classOfGoodServiceBusinessName": "The mark consists of a thick arrow formed into a substantially complete circle with the arrow head at 4 o'clock, having the phrase \"FIRST ONE\" arcing along the top of the arrow, the phrase \"DOESN'T COUNT\" arcing along the bottom of the arrow, and a thin circle surrounding the thick arrow that is partially hidden by the two phrases.",
+      "application_date": 20220128,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97228684.jpg",
+      "img_id": "97228684",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6465846300125122,
+      "text_similarity": 0.8645052313804626,
+      "final_score": 0.7555449306964874,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0711",
+        "0711"
+      ],
+      "tot_vienna_code": [
+        "071101",
+        "071101"
+      ],
+      "applicant": "Atwater Flight Club",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized bridge illustration with sunbeams rising above it.",
+      "application_date": 20220120,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_79335985.jpg",
+      "img_id": "79335985",
+      "ocr_text": "FRAND LEAGUE",
+      "type": "mixed",
+      "image_similarity": 0.6527513265609741,
+      "text_similarity": 0.8577992916107178,
+      "final_score": 0.755275309085846,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2401",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "240103",
+        "261502"
+      ],
+      "applicant": "IPCom GmbH & Co. KG",
+      "classOfGoodServiceBusinessName": "Publication of instructional literature; publication of material which can be accessed from databases or from the internet; publication of printed matter in electronic form on the internet; services for the publication of newsletters; writing services for blogs",
+      "application_date": 20220203,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97201441.jpg",
+      "img_id": "97201441",
+      "ocr_text": "SIMPLE",
+      "type": "mixed",
+      "image_similarity": 0.6381710767745972,
+      "text_similarity": 0.8703298568725586,
+      "final_score": 0.7542504668235779,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Simple Style Apparel, Inc",
+      "classOfGoodServiceBusinessName": "The mark consists of the word \"simple\" in a stylized font in a heart-shaped form, superimposed on a heart-shaped design.",
+      "application_date": 20220104,
+      "rank": 10
+    }
+  ]
+}

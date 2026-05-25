@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97245035.jpg",
+    "query_ocr_text": "B",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.8351555466651917,
+      "text_similarity": 0.9876310229301453,
+      "final_score": 0.9113932847976685,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97217210.jpg",
+      "img_id": "97217210",
+      "ocr_text": "B",
+      "type": "mixed",
+      "image_similarity": 0.7551891207695007,
+      "text_similarity": 1.0,
+      "final_score": 0.8775945603847504,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0313",
+        "0313"
+      ],
+      "tot_vienna_code": [
+        "031301",
+        "031301"
+      ],
+      "applicant": "Powerteam Apparel LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letters PB a stylized representation of a rabbit's foot.",
+      "application_date": 20220113,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97205803.jpg",
+      "img_id": "97205803",
+      "ocr_text": "8 8",
+      "type": "mixed",
+      "image_similarity": 0.7612040042877197,
+      "text_similarity": 0.9847318530082703,
+      "final_score": 0.872967928647995,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261126"
+      ],
+      "applicant": "Weather or Not Riding Gear, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of lines arranged vertically in intertwined double strands enclosed within an oval.",
+      "application_date": 20220106,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.7251956462860107,
+      "text_similarity": 0.9919556379318237,
+      "final_score": 0.8585756421089172,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97219645.jpg",
+      "img_id": "97219645",
+      "ocr_text": "G",
+      "type": "mixed",
+      "image_similarity": 0.7256065607070923,
+      "text_similarity": 0.9878100752830505,
+      "final_score": 0.8567083179950714,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260501"
+      ],
+      "applicant": "God Apparel, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97228684.jpg",
+      "img_id": "97228684",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.7228403091430664,
+      "text_similarity": 0.9876310229301453,
+      "final_score": 0.8552356660366058,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0711",
+        "0711"
+      ],
+      "tot_vienna_code": [
+        "071101",
+        "071101"
+      ],
+      "applicant": "Atwater Flight Club",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized bridge illustration with sunbeams rising above it.",
+      "application_date": 20220120,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97232690.jpg",
+      "img_id": "97232690",
+      "ocr_text": "5",
+      "type": "mixed",
+      "image_similarity": 0.7251200675964355,
+      "text_similarity": 0.9853088855743408,
+      "final_score": 0.8552144765853882,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0307"
+      ],
+      "tot_vienna_code": [
+        "030701"
+      ],
+      "applicant": "Ackerman, David",
+      "classOfGoodServiceBusinessName": "The mark consists of highland cow head.",
+      "application_date": 20220121,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.7189863920211792,
+      "text_similarity": 0.9909494519233704,
+      "final_score": 0.8549679219722748,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.7248188853263855,
+      "text_similarity": 0.9841132164001465,
+      "final_score": 0.854466050863266,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "mixed",
+      "image_similarity": 0.7483256459236145,
+      "text_similarity": 0.9584882855415344,
+      "final_score": 0.8534069657325745,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 10
+    }
+  ]
+}

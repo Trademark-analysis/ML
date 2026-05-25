@@ -1,0 +1,241 @@
+{
+  "query": {
+    "query_image": "test\\2022_97228227.jpg",
+    "query_ocr_text": "LoyalCat",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97214299.jpg",
+      "img_id": "97214299",
+      "ocr_text": "CARACAL",
+      "type": "mixed",
+      "image_similarity": 0.7341399192810059,
+      "text_similarity": 0.8251830339431763,
+      "final_score": 0.7796614766120911,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0301"
+      ],
+      "tot_vienna_code": [
+        "030104"
+      ],
+      "applicant": "SHEN'S GARMENT (INTERNATIONAL)COMPANY LIMITED",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97246343.jpg",
+      "img_id": "97246343",
+      "ocr_text": "EQUEST",
+      "type": "mixed",
+      "image_similarity": 0.6931372880935669,
+      "text_similarity": 0.864918053150177,
+      "final_score": 0.779027670621872,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0305"
+      ],
+      "tot_vienna_code": [
+        "030501"
+      ],
+      "applicant": "Equest Riding Services LLC",
+      "classOfGoodServiceBusinessName": "Training services, namely, providing horse riding lessons and training of people aspiring to ride horses and show jump",
+      "application_date": 20220131,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97244181.jpg",
+      "img_id": "97244181",
+      "ocr_text": "lorelai",
+      "type": "mixed",
+      "image_similarity": 0.738904595375061,
+      "text_similarity": 0.8063355088233948,
+      "final_score": 0.7726200520992279,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0505",
+        "0505",
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "050525",
+        "050525",
+        "031519"
+      ],
+      "applicant": "Live Lorelai LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a bird floral icon floating above a stylized word \"lorelai\".",
+      "application_date": 20220128,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97202704.jpg",
+      "img_id": "97202704",
+      "ocr_text": "CAT KISS FISH",
+      "type": "mixed",
+      "image_similarity": 0.7336549162864685,
+      "text_similarity": 0.8112667798995972,
+      "final_score": 0.7724608480930328,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0301",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "030104",
+        "260921"
+      ],
+      "applicant": "Jiangxi Maowenyu Technology Co., Ltd.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97205289.jpg",
+      "img_id": "97205289",
+      "ocr_text": "catalyst/",
+      "type": "mixed",
+      "image_similarity": 0.6616543531417847,
+      "text_similarity": 0.8665221333503723,
+      "final_score": 0.7640882432460785,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260902"
+      ],
+      "applicant": "Catalyst IT Canada Ltd.",
+      "classOfGoodServiceBusinessName": "The mark consists of the word CATALYST in black to the left of a square in red, with a white geometric thunder depiction in the red square.",
+      "application_date": 20220106,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6522316932678223,
+      "text_similarity": 0.8739603757858276,
+      "final_score": 0.763096034526825,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97212972.jpg",
+      "img_id": "97212972",
+      "ocr_text": "LOYAL SAVAGE MONEY Apparel",
+      "type": "mixed",
+      "image_similarity": 0.6612324714660645,
+      "text_similarity": 0.8644523620605469,
+      "final_score": 0.7628424167633057,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0203"
+      ],
+      "tot_vienna_code": [
+        "020301"
+      ],
+      "applicant": "Mckune, Darrell",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6543022990226746,
+      "text_similarity": 0.8705418705940247,
+      "final_score": 0.7624220848083496,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97218106.jpg",
+      "img_id": "97218106",
+      "ocr_text": "gli",
+      "type": "mixed",
+      "image_similarity": 0.6563835144042969,
+      "text_similarity": 0.868038535118103,
+      "final_score": 0.7622110247612,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Givvy",
+      "classOfGoodServiceBusinessName": "The mark consists of two heads above a gift box, which includes three parallel lines to the left of a heart.",
+      "application_date": 20220113,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97246257.jpg",
+      "img_id": "97246257",
+      "ocr_text": "bon.",
+      "type": "mixed",
+      "image_similarity": 0.6588861346244812,
+      "text_similarity": 0.8645334243774414,
+      "final_score": 0.7617097795009613,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2607",
+        "2801"
+      ],
+      "tot_vienna_code": [
+        "260703",
+        "280103"
+      ],
+      "applicant": "IWASE SHOTEN & CO.",
+      "classOfGoodServiceBusinessName": "The mark consists of a Japanese character in stylized font as an open image in a diamond shape in the color black, and to the bottom of the Japanese character, the term \"bon\" and a period in a stylized font.",
+      "application_date": 20220131,
+      "rank": 10
+    }
+  ]
+}

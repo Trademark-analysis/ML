@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97202333.jpg",
+    "query_ocr_text": "LokiEssentials",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97244181.jpg",
+      "img_id": "97244181",
+      "ocr_text": "lorelai",
+      "type": "mixed",
+      "image_similarity": 0.7175121307373047,
+      "text_similarity": 0.8160598874092102,
+      "final_score": 0.7667860090732574,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0505",
+        "0505",
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "050525",
+        "050525",
+        "031519"
+      ],
+      "applicant": "Live Lorelai LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a bird floral icon floating above a stylized word \"lorelai\".",
+      "application_date": 20220128,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97248479.jpg",
+      "img_id": "97248479",
+      "ocr_text": "TK LLC",
+      "type": "mixed",
+      "image_similarity": 0.6373557448387146,
+      "text_similarity": 0.8533446788787842,
+      "final_score": 0.7453502118587494,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021113"
+      ],
+      "applicant": "Thakur Capital LLC",
+      "classOfGoodServiceBusinessName": "Providing online non-downloadable videos in the field of global economic events",
+      "application_date": 20220201,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97219347.jpg",
+      "img_id": "97219347",
+      "ocr_text": "FOLKWÄRE",
+      "type": "mixed",
+      "image_similarity": 0.6592546105384827,
+      "text_similarity": 0.8311241865158081,
+      "final_score": 0.7451893985271454,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261701"
+      ],
+      "applicant": "Petina, Anastasiia",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6162729859352112,
+      "text_similarity": 0.85928875207901,
+      "final_score": 0.7377808690071106,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_79337982.jpg",
+      "img_id": "79337982",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6157298684120178,
+      "text_similarity": 0.8556180000305176,
+      "final_score": 0.7356739342212677,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305"
+      ],
+      "applicant": "SEBIA",
+      "classOfGoodServiceBusinessName": "Development of new technology on behalf of third parties in the field of biotechnology; medical and scientific research in the field of cancer treatment and diagnosis; providing information in medical and scientific research in the field of clinical trials; providing medical and scientific research information in the pharmaceutical field; research and development in the field of pharmaceuticals and biotechnology; providing diagnostic tests and diagnostic or prognostic tests for residual diseases and analysis, evaluation and reporting of the results of such tests to help healthcare professionals determine the clinical diagnosis of a patient, evaluate the effectiveness of treatments prescribed to patients and change future treatments accordingly; scientific and technological services as well as research and design services relating thereto; industrial analysis and research services; design and development of software",
+      "application_date": 20220214,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6133058071136475,
+      "text_similarity": 0.8563499450683594,
+      "final_score": 0.7348278760910034,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97246343.jpg",
+      "img_id": "97246343",
+      "ocr_text": "EQUEST",
+      "type": "mixed",
+      "image_similarity": 0.630659282207489,
+      "text_similarity": 0.8374778628349304,
+      "final_score": 0.7340685725212097,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0305"
+      ],
+      "tot_vienna_code": [
+        "030501"
+      ],
+      "applicant": "Equest Riding Services LLC",
+      "classOfGoodServiceBusinessName": "Training services, namely, providing horse riding lessons and training of people aspiring to ride horses and show jump",
+      "application_date": 20220131,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97210876.jpg",
+      "img_id": "97210876",
+      "ocr_text": "GET IT ELEVATED",
+      "type": "mixed",
+      "image_similarity": 0.654834508895874,
+      "text_similarity": 0.8129717707633972,
+      "final_score": 0.7339031398296356,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260913",
+        "260921"
+      ],
+      "applicant": "New Purpose LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97245584.jpg",
+      "img_id": "97245584",
+      "ocr_text": "NORTH TRAIL",
+      "type": "mixed",
+      "image_similarity": 0.6272441148757935,
+      "text_similarity": 0.8381557464599609,
+      "final_score": 0.7326999306678772,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2607",
+        "2607",
+        "2607"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260721",
+        "260713",
+        "260713"
+      ],
+      "applicant": "North Trail Consulting LLC",
+      "classOfGoodServiceBusinessName": "Business education and training services, namely, developing customized leadership and executive development programs, providing executive coaching services, and providing business education programs to employees and executives",
+      "application_date": 20220130,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.6057709455490112,
+      "text_similarity": 0.8548417687416077,
+      "final_score": 0.7303063571453094,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 10
+    }
+  ]
+}

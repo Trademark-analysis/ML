@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97210764.jpg",
+    "query_ocr_text": "CUPVANNA",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97230831.jpg",
+      "img_id": "97230831",
+      "ocr_text": "VAHNA",
+      "type": "mixed",
+      "image_similarity": 0.7805757522583008,
+      "text_similarity": 0.9358482360839844,
+      "final_score": 0.8582119941711426,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260113",
+        "260113"
+      ],
+      "applicant": "META Syndicate, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the word VAHNA below two interlocking circles.",
+      "application_date": 20220120,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_79334868.jpg",
+      "img_id": "79334868",
+      "ocr_text": "COREVA DESIGN",
+      "type": "mixed",
+      "image_similarity": 0.6487114429473877,
+      "text_similarity": 0.9051237106323242,
+      "final_score": 0.776917576789856,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241712"
+      ],
+      "applicant": "CANDIANI S.P.A.",
+      "classOfGoodServiceBusinessName": "The trademark consists of the wording on two lines \"coreva design\" in fancy capital letters with the first two letters of the word \"coreva\" formed by a single line. Above there is a stylized figure that represents the first two letters of the word \"coreva?.",
+      "application_date": 20220114,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97245526.jpg",
+      "img_id": "97245526",
+      "ocr_text": "aryn",
+      "type": "mixed",
+      "image_similarity": 0.6403303146362305,
+      "text_similarity": 0.8860782384872437,
+      "final_score": 0.7632042765617371,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0315",
+        "0405",
+        "0405",
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "031519",
+        "040501",
+        "040501",
+        "031519"
+      ],
+      "applicant": "Varyn Inc",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing on-line computer games; Entertainment services, namely, providing online browser-based video games; Entertainment services, namely, providing online video games; Providing on-line computer games; Providing online computer games",
+      "application_date": 20220130,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.5909156799316406,
+      "text_similarity": 0.9231811761856079,
+      "final_score": 0.7570484280586243,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.5924142599105835,
+      "text_similarity": 0.9159159660339355,
+      "final_score": 0.7541651129722595,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244815.jpg",
+      "img_id": "97244815",
+      "ocr_text": "M RIGINALS",
+      "type": "mixed",
+      "image_similarity": 0.6312776207923889,
+      "text_similarity": 0.8744145035743713,
+      "final_score": 0.7528460621833801,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121",
+        "260121"
+      ],
+      "applicant": "McKinney, James A",
+      "classOfGoodServiceBusinessName": "The mark consists of Large dark gray (hex color #212020) sans serif type pushed together spelling JAM with a diagonal red (hex color #CF3339) exclamation point running through both words JAM and Originals and creating the 'J' and 'A' of 'JAM', then underneath JAM letters it runs down to create the uppercase 'O' of 'originals' with the dot of the red exclamation point starting the rest of the dark gray lettering in sans serif type \"riginals\" to create JAM Originals.",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97207467.jpg",
+      "img_id": "97207467",
+      "ocr_text": "CUEMATH",
+      "type": "mixed",
+      "image_similarity": 0.5959404706954956,
+      "text_similarity": 0.9094558954238892,
+      "final_score": 0.7526981830596924,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "1809",
+        "1809"
+      ],
+      "tot_vienna_code": [
+        "180902",
+        "180902"
+      ],
+      "applicant": "Cue Learn Private Limited",
+      "classOfGoodServiceBusinessName": "The color(s) black, yellow is/are claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97201291.jpg",
+      "img_id": "97201291",
+      "ocr_text": "WAVEDANCER",
+      "type": "mixed",
+      "image_similarity": 0.6114932894706726,
+      "text_similarity": 0.8861827850341797,
+      "final_score": 0.7488380372524261,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011513"
+      ],
+      "applicant": "WaveDancer, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6088217496871948,
+      "text_similarity": 0.8884085416793823,
+      "final_score": 0.7486151456832886,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97244506.jpg",
+      "img_id": "97244506",
+      "ocr_text": "S",
+      "type": "mixed",
+      "image_similarity": 0.5811499953269958,
+      "text_similarity": 0.9137380123138428,
+      "final_score": 0.7474440038204193,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "Ringmaster Technologies, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of an interlocking ring design.",
+      "application_date": 20220128,
+      "rank": 10
+    }
+  ]
+}

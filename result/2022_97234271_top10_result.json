@@ -1,0 +1,259 @@
+{
+  "query": {
+    "query_image": "test\\2022_97234271.jpg",
+    "query_ocr_text": "paws Delite",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97248785.jpg",
+      "img_id": "97248785",
+      "ocr_text": "LIFE PETITIONS",
+      "type": "mixed",
+      "image_similarity": 0.7085374593734741,
+      "text_similarity": 0.869836151599884,
+      "final_score": 0.7891868054866791,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LifeSiteNews.com, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of The words LIFE PETITIONS combined written in all capital letters with the word LIFE appearing in the middle of a solid circle.",
+      "application_date": 20220201,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97217210.jpg",
+      "img_id": "97217210",
+      "ocr_text": "B",
+      "type": "mixed",
+      "image_similarity": 0.6609264612197876,
+      "text_similarity": 0.8832210898399353,
+      "final_score": 0.7720737755298615,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0313",
+        "0313"
+      ],
+      "tot_vienna_code": [
+        "031301",
+        "031301"
+      ],
+      "applicant": "Powerteam Apparel LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letters PB a stylized representation of a rabbit's foot.",
+      "application_date": 20220113,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97248648.jpg",
+      "img_id": "97248648",
+      "ocr_text": "Shit",
+      "type": "mixed",
+      "image_similarity": 0.6417819261550903,
+      "text_similarity": 0.8800472021102905,
+      "final_score": 0.7609145641326904,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2103"
+      ],
+      "tot_vienna_code": [
+        "210313"
+      ],
+      "applicant": "Dane Burneson",
+      "classOfGoodServiceBusinessName": "The mark consists of the word SHIT in a script font. The I is represented by a golf pin with a flag in a hole.",
+      "application_date": 20220201,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97205148.jpg",
+      "img_id": "97205148",
+      "ocr_text": "BEAGLES SOFL",
+      "type": "mixed",
+      "image_similarity": 0.658091127872467,
+      "text_similarity": 0.8503859639167786,
+      "final_score": 0.7542385458946228,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "0105",
+        "0301",
+        "0501",
+        "0105",
+        "0301",
+        "0501"
+      ],
+      "tot_vienna_code": [
+        "260101",
+        "010501",
+        "030108",
+        "050103",
+        "010501",
+        "030108",
+        "050103"
+      ],
+      "applicant": "Soflo Beagles LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a circle with the words \"SoFlo Beagles\" in all capital letters over a dog (breed: beagle) howling. There is a minimalist beach background, with one palm tree on each side of the beagle.",
+      "application_date": 20220106,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97224897.jpg",
+      "img_id": "97224897",
+      "ocr_text": "TRAINABLE K9",
+      "type": "mixed",
+      "image_similarity": 0.6472529768943787,
+      "text_similarity": 0.8609462380409241,
+      "final_score": 0.7540996074676514,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "0301",
+        "0301"
+      ],
+      "tot_vienna_code": [
+        "260117",
+        "030108",
+        "030108"
+      ],
+      "applicant": "TRAINABLE K9, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_79336008.jpg",
+      "img_id": "79336008",
+      "ocr_text": "DeLSCAIS",
+      "type": "mixed",
+      "image_similarity": 0.6172621846199036,
+      "text_similarity": 0.8813040852546692,
+      "final_score": 0.7492831349372864,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261712",
+        "261509"
+      ],
+      "applicant": "DYNECREST KOREA Corporation",
+      "classOfGoodServiceBusinessName": "The mark is composed of an image with the motif of a cubic cube with one side recessed, and sky-blue color, blue color and dark-blue color represents shading of each side.",
+      "application_date": 20220120,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97247747.jpg",
+      "img_id": "97247747",
+      "ocr_text": "A PUP'S EST 2022 . VAI LEY",
+      "type": "mixed",
+      "image_similarity": 0.6557657718658447,
+      "text_similarity": 0.8368635177612305,
+      "final_score": 0.7463146448135376,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601",
+        "0301",
+        "0301"
+      ],
+      "tot_vienna_code": [
+        "260117",
+        "260117",
+        "030108",
+        "030108"
+      ],
+      "applicant": "A Pup's Valley Inc",
+      "classOfGoodServiceBusinessName": "Pet training services",
+      "application_date": 20220201,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6094147562980652,
+      "text_similarity": 0.8798152804374695,
+      "final_score": 0.7446150183677673,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97201441.jpg",
+      "img_id": "97201441",
+      "ocr_text": "SIMPLE",
+      "type": "mixed",
+      "image_similarity": 0.6096028685569763,
+      "text_similarity": 0.878673791885376,
+      "final_score": 0.7441383302211761,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Simple Style Apparel, Inc",
+      "classOfGoodServiceBusinessName": "The mark consists of the word \"simple\" in a stylized font in a heart-shaped form, superimposed on a heart-shaped design.",
+      "application_date": 20220104,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97207906.jpg",
+      "img_id": "97207906",
+      "ocr_text": "ARCTIC",
+      "type": "mixed",
+      "image_similarity": 0.6210795044898987,
+      "text_similarity": 0.8671255111694336,
+      "final_score": 0.7441025078296661,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261125",
+        "261125"
+      ],
+      "applicant": "Biel, Edward Andrew William",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 10
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97215328.jpg",
+    "query_ocr_text": "HERA'S HOUSE",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97201878.jpg",
+      "img_id": "97201878",
+      "ocr_text": "THE HOUSE SONGS",
+      "type": "mixed",
+      "image_similarity": 0.6598438024520874,
+      "text_similarity": 0.8926623463630676,
+      "final_score": 0.7762530744075775,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0317",
+        "0315",
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "031706",
+        "031524",
+        "031524"
+      ],
+      "applicant": "The House of Songs",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97226863.jpg",
+      "img_id": "97226863",
+      "ocr_text": "serves",
+      "type": "mixed",
+      "image_similarity": 0.6553505063056946,
+      "text_similarity": 0.8740171194076538,
+      "final_score": 0.7646838128566742,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011525",
+        "011525"
+      ],
+      "applicant": "Bam Digital Pty. Ltd.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97218566.jpg",
+      "img_id": "97218566",
+      "ocr_text": "HIGHTERTON",
+      "type": "mixed",
+      "image_similarity": 0.6570184826850891,
+      "text_similarity": 0.8629395961761475,
+      "final_score": 0.7599790394306183,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0905",
+        "0905"
+      ],
+      "tot_vienna_code": [
+        "090501",
+        "090501"
+      ],
+      "applicant": "ZHEJIANG QINGCHE TEXTILE CO., LTD.",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording \"HIGHTERTON\" with a design made up of simplified sun hat above.",
+      "application_date": 20220113,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97228082.jpg",
+      "img_id": "97228082",
+      "ocr_text": "headphone",
+      "type": "mixed",
+      "image_similarity": 0.6481050848960876,
+      "text_similarity": 0.8634976148605347,
+      "final_score": 0.7558013498783112,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "1601",
+        "1601"
+      ],
+      "tot_vienna_code": [
+        "160107",
+        "160107"
+      ],
+      "applicant": "Guangzhou kaimeng Trading Co., Ltd",
+      "classOfGoodServiceBusinessName": "The mark consists of a headphone design formed by more than 26 vertical bars; between the earphones are five vertical bars; below the headphone design is the stylized word \"headphone\".",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97230831.jpg",
+      "img_id": "97230831",
+      "ocr_text": "VAHNA",
+      "type": "mixed",
+      "image_similarity": 0.6171914339065552,
+      "text_similarity": 0.8900467753410339,
+      "final_score": 0.7536191046237946,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260113",
+        "260113"
+      ],
+      "applicant": "META Syndicate, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the word VAHNA below two interlocking circles.",
+      "application_date": 20220120,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6390527486801147,
+      "text_similarity": 0.8646112084388733,
+      "final_score": 0.751831978559494,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97228684.jpg",
+      "img_id": "97228684",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6181498765945435,
+      "text_similarity": 0.8854715824127197,
+      "final_score": 0.7518107295036316,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0711",
+        "0711"
+      ],
+      "tot_vienna_code": [
+        "071101",
+        "071101"
+      ],
+      "applicant": "Atwater Flight Club",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized bridge illustration with sunbeams rising above it.",
+      "application_date": 20220120,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97207996.jpg",
+      "img_id": "97207996",
+      "ocr_text": "HEELS",
+      "type": "mixed",
+      "image_similarity": 0.6017162203788757,
+      "text_similarity": 0.9016629457473755,
+      "final_score": 0.7516895830631256,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0907"
+      ],
+      "tot_vienna_code": [
+        "090708"
+      ],
+      "applicant": "Seeno, Jacqueline, M.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97227559.jpg",
+      "img_id": "97227559",
+      "ocr_text": "TRESANE",
+      "type": "mixed",
+      "image_similarity": 0.6334871053695679,
+      "text_similarity": 0.8660123348236084,
+      "final_score": 0.7497497200965881,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050308"
+      ],
+      "applicant": "David Baumgartner",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.608137845993042,
+      "text_similarity": 0.8887235522270203,
+      "final_score": 0.7484306991100311,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 10
+    }
+  ]
+}

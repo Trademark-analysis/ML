@@ -1,0 +1,241 @@
+{
+  "query": {
+    "query_image": "test\\2022_97216601.jpg",
+    "query_ocr_text": "fitwarm",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97199932.jpg",
+      "img_id": "97199932",
+      "ocr_text": "4:8 FIT",
+      "type": "mixed",
+      "image_similarity": 0.7657222151756287,
+      "text_similarity": 0.8912100195884705,
+      "final_score": 0.8284661173820496,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "4:8 Fit LLC",
+      "classOfGoodServiceBusinessName": "Personal fitness training services",
+      "application_date": 20220102,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97213665.jpg",
+      "img_id": "97213665",
+      "ocr_text": "Whimark",
+      "type": "mixed",
+      "image_similarity": 0.7154318690299988,
+      "text_similarity": 0.883711040019989,
+      "final_score": 0.7995714545249939,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2503"
+      ],
+      "tot_vienna_code": [
+        "250304"
+      ],
+      "applicant": "Shenzhen Qianhai Hand-Painted Technology and Culture Co., LTD",
+      "classOfGoodServiceBusinessName": "Subtitling; Entertainment and educational services in the nature of on-line competitions in the field of entertainment, education, culture, sports, and other non-business and non-commercial fields; Film production, other than advertising films; Providing information in the field of education; Providing online non-downloadable comic books and graphic novels; Publication of books; Publication of the editorial content of sites accessible via a global computer network; Rental of teaching robots; Videotape editing; Virtual reality game services provided on-line from a computer network",
+      "application_date": 20220111,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97245877.jpg",
+      "img_id": "97245877",
+      "ocr_text": "Fresh",
+      "type": "mixed",
+      "image_similarity": 0.7068637609481812,
+      "text_similarity": 0.8824120163917542,
+      "final_score": 0.7946378886699677,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709",
+        "261709"
+      ],
+      "applicant": "Forever Fresh LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording of \"Fresh\" with an underline connected to the letter h. This underline starts from the letter h and goes under all of the letters. Uppercase F, Lowercase r,e,s,h.",
+      "application_date": 20220131,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97228156.jpg",
+      "img_id": "97228156",
+      "ocr_text": "FEELM AIR",
+      "type": "mixed",
+      "image_similarity": 0.7062628865242004,
+      "text_similarity": 0.8815666437149048,
+      "final_score": 0.7939147651195526,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2417",
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241714",
+        "241714"
+      ],
+      "applicant": "SHENZHEN SMOORE TECHNOLOGY LIMITED",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97234862.jpg",
+      "img_id": "97234862",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.688684344291687,
+      "text_similarity": 0.8913923501968384,
+      "final_score": 0.7900383472442627,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2103"
+      ],
+      "tot_vienna_code": [
+        "210307"
+      ],
+      "applicant": "Crossley, Michael",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220124,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97220528.jpg",
+      "img_id": "97220528",
+      "ocr_text": "FITTEST ARE YOU THE FITTEST?",
+      "type": "mixed",
+      "image_similarity": 0.6937710642814636,
+      "text_similarity": 0.876674234867096,
+      "final_score": 0.7852226495742798,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020102"
+      ],
+      "applicant": "Wilson, Justin",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97216104.jpg",
+      "img_id": "97216104",
+      "ocr_text": "hint",
+      "type": "mixed",
+      "image_similarity": 0.6648927927017212,
+      "text_similarity": 0.887820839881897,
+      "final_score": 0.7763568162918091,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Hint Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220112,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97221170.jpg",
+      "img_id": "97221170",
+      "ocr_text": "MTTYYD",
+      "type": "mixed",
+      "image_similarity": 0.662582516670227,
+      "text_similarity": 0.8861099481582642,
+      "final_score": 0.7743462324142456,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201",
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133",
+        "020133"
+      ],
+      "applicant": "Nanchang Mount outdoor Sports Goods Co., LTD",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97219347.jpg",
+      "img_id": "97219347",
+      "ocr_text": "FOLKWÄRE",
+      "type": "mixed",
+      "image_similarity": 0.6831662058830261,
+      "text_similarity": 0.861851155757904,
+      "final_score": 0.7725086808204651,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261701"
+      ],
+      "applicant": "Petina, Anastasiia",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97244237.jpg",
+      "img_id": "97244237",
+      "ocr_text": "¥ FAN",
+      "type": "mixed",
+      "image_similarity": 0.6650097966194153,
+      "text_similarity": 0.8757829070091248,
+      "final_score": 0.77039635181427,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261705",
+        "261705",
+        "260901"
+      ],
+      "applicant": "NO FAN CLOTHING LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a square border with the words \"NO FAN\" in the center in stylized font. The word \"NO\" has a line across the letters. Stacked underneath the word \"NO\" is the word \"FAN\".",
+      "application_date": 20220128,
+      "rank": 10
+    }
+  ]
+}

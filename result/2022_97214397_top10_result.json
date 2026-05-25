@@ -1,0 +1,233 @@
+{
+  "query": {
+    "query_image": "test\\2022_97214397.jpg",
+    "query_ocr_text": "duvetta natural sleeping solutions",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_79334868.jpg",
+      "img_id": "79334868",
+      "ocr_text": "COREVA DESIGN",
+      "type": "mixed",
+      "image_similarity": 0.6719620823860168,
+      "text_similarity": 0.8356407880783081,
+      "final_score": 0.7538014352321625,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241712"
+      ],
+      "applicant": "CANDIANI S.P.A.",
+      "classOfGoodServiceBusinessName": "The trademark consists of the wording on two lines \"coreva design\" in fancy capital letters with the first two letters of the word \"coreva\" formed by a single line. Above there is a stylized figure that represents the first two letters of the word \"coreva?.",
+      "application_date": 20220114,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97220090.jpg",
+      "img_id": "97220090",
+      "ocr_text": "Satellos bioscience",
+      "type": "mixed",
+      "image_similarity": 0.6523285508155823,
+      "text_similarity": 0.8486258387565613,
+      "final_score": 0.7504771947860718,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260116"
+      ],
+      "applicant": "Satellos Bioscience Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6250441074371338,
+      "text_similarity": 0.8475309014320374,
+      "final_score": 0.7362875044345856,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97245467.jpg",
+      "img_id": "97245467",
+      "ocr_text": "Yogat magazine",
+      "type": "mixed",
+      "image_similarity": 0.6386010646820068,
+      "text_similarity": 0.8307592868804932,
+      "final_score": 0.73468017578125,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241706"
+      ],
+      "applicant": "Northstar Creative LLC",
+      "classOfGoodServiceBusinessName": "Magazine publishing",
+      "application_date": 20220130,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97248318.jpg",
+      "img_id": "97248318",
+      "ocr_text": "NOTABLE",
+      "type": "mixed",
+      "image_similarity": 0.6389198303222656,
+      "text_similarity": 0.8274916410446167,
+      "final_score": 0.7332057356834412,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261701"
+      ],
+      "applicant": "Bond & Trade, LLC",
+      "classOfGoodServiceBusinessName": "Providing a website featuring non-downloadable publications in the nature of magazines in the field of careers, lifestyle, style, health and wellness, and beauty; Publication of magazines",
+      "application_date": 20220201,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97208573.jpg",
+      "img_id": "97208573",
+      "ocr_text": "vespula",
+      "type": "mixed",
+      "image_similarity": 0.6456831693649292,
+      "text_similarity": 0.8173035383224487,
+      "final_score": 0.731493353843689,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0323",
+        "0323"
+      ],
+      "tot_vienna_code": [
+        "032306",
+        "032306"
+      ],
+      "applicant": "Lin,Weiwang",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97227801.jpg",
+      "img_id": "97227801",
+      "ocr_text": "MAtek",
+      "type": "mixed",
+      "image_similarity": 0.6252977848052979,
+      "text_similarity": 0.8344396948814392,
+      "final_score": 0.7298687398433685,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260521"
+      ],
+      "applicant": "Materials Analysis Technology Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97246343.jpg",
+      "img_id": "97246343",
+      "ocr_text": "EQUEST",
+      "type": "mixed",
+      "image_similarity": 0.6297590136528015,
+      "text_similarity": 0.8293894529342651,
+      "final_score": 0.7295742332935333,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0305"
+      ],
+      "tot_vienna_code": [
+        "030501"
+      ],
+      "applicant": "Equest Riding Services LLC",
+      "classOfGoodServiceBusinessName": "Training services, namely, providing horse riding lessons and training of people aspiring to ride horses and show jump",
+      "application_date": 20220131,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6301848888397217,
+      "text_similarity": 0.8207283616065979,
+      "final_score": 0.7254566252231598,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_79337982.jpg",
+      "img_id": "79337982",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6007504463195801,
+      "text_similarity": 0.8475309014320374,
+      "final_score": 0.7241406738758087,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305"
+      ],
+      "applicant": "SEBIA",
+      "classOfGoodServiceBusinessName": "Development of new technology on behalf of third parties in the field of biotechnology; medical and scientific research in the field of cancer treatment and diagnosis; providing information in medical and scientific research in the field of clinical trials; providing medical and scientific research information in the pharmaceutical field; research and development in the field of pharmaceuticals and biotechnology; providing diagnostic tests and diagnostic or prognostic tests for residual diseases and analysis, evaluation and reporting of the results of such tests to help healthcare professionals determine the clinical diagnosis of a patient, evaluate the effectiveness of treatments prescribed to patients and change future treatments accordingly; scientific and technological services as well as research and design services relating thereto; industrial analysis and research services; design and development of software",
+      "application_date": 20220214,
+      "rank": 10
+    }
+  ]
+}

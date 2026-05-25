@@ -1,0 +1,241 @@
+{
+  "query": {
+    "query_image": "test\\2022_97229252.jpg",
+    "query_ocr_text": "Upiframe",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97245933.jpg",
+      "img_id": "97245933",
+      "ocr_text": "UNIFYY",
+      "type": "mixed",
+      "image_similarity": 0.7158056497573853,
+      "text_similarity": 0.8952049612998962,
+      "final_score": 0.8055053055286407,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "Unifyy LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of UNIFYY appearing to the right of a curve.",
+      "application_date": 20220131,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.64731764793396,
+      "text_similarity": 0.8918378949165344,
+      "final_score": 0.7695777714252472,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.617143452167511,
+      "text_similarity": 0.9042913913726807,
+      "final_score": 0.7607174217700958,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97225926.jpg",
+      "img_id": "97225926",
+      "ocr_text": "ART",
+      "type": "mixed",
+      "image_similarity": 0.6149519085884094,
+      "text_similarity": 0.9014864563941956,
+      "final_score": 0.7582191824913025,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2619",
+        "2619"
+      ],
+      "tot_vienna_code": [
+        "261925",
+        "261925"
+      ],
+      "applicant": "Mercury Art Enterprise LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of Black color background of the entire image, white color negative space of the letters/word M, E, ART, gold color of designed abstract shape.",
+      "application_date": 20220118,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97205803.jpg",
+      "img_id": "97205803",
+      "ocr_text": "8 8",
+      "type": "mixed",
+      "image_similarity": 0.6166239380836487,
+      "text_similarity": 0.8986555337905884,
+      "final_score": 0.7576397359371185,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261126"
+      ],
+      "applicant": "Weather or Not Riding Gear, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of lines arranged vertically in intertwined double strands enclosed within an oval.",
+      "application_date": 20220106,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97224512.jpg",
+      "img_id": "97224512",
+      "ocr_text": "Pharma PORTAL",
+      "type": "mixed",
+      "image_similarity": 0.6299718022346497,
+      "text_similarity": 0.880958080291748,
+      "final_score": 0.7554649412631989,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2615",
+        "2615",
+        "2703",
+        "2615",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261513",
+        "261520",
+        "270301",
+        "261513",
+        "261520"
+      ],
+      "applicant": "SPC Resources, Inc.",
+      "classOfGoodServiceBusinessName": "The color(s) gray, blue, orange, red and green is/are claimed as a feature of the mark. is/are claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97226945.jpg",
+      "img_id": "97226945",
+      "ocr_text": "7",
+      "type": "mixed",
+      "image_similarity": 0.6013383865356445,
+      "text_similarity": 0.8994230628013611,
+      "final_score": 0.7503807246685028,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LINKOFFERS, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) teal is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97246250.jpg",
+      "img_id": "97246250",
+      "ocr_text": "40 IONNI",
+      "type": "mixed",
+      "image_similarity": 0.6344720721244812,
+      "text_similarity": 0.8653622269630432,
+      "final_score": 0.7499171495437622,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261113"
+      ],
+      "applicant": "Fernandes, Jesse James",
+      "classOfGoodServiceBusinessName": "Entertainment, namely, live performances by a musical band; Music production services; Music publishing services",
+      "application_date": 20220131,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97213665.jpg",
+      "img_id": "97213665",
+      "ocr_text": "Whimark",
+      "type": "mixed",
+      "image_similarity": 0.6127233505249023,
+      "text_similarity": 0.8867865800857544,
+      "final_score": 0.7497549653053284,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2503"
+      ],
+      "tot_vienna_code": [
+        "250304"
+      ],
+      "applicant": "Shenzhen Qianhai Hand-Painted Technology and Culture Co., LTD",
+      "classOfGoodServiceBusinessName": "Subtitling; Entertainment and educational services in the nature of on-line competitions in the field of entertainment, education, culture, sports, and other non-business and non-commercial fields; Film production, other than advertising films; Providing information in the field of education; Providing online non-downloadable comic books and graphic novels; Publication of books; Publication of the editorial content of sites accessible via a global computer network; Rental of teaching robots; Videotape editing; Virtual reality game services provided on-line from a computer network",
+      "application_date": 20220111,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97221472.jpg",
+      "img_id": "97221472",
+      "ocr_text": "REFINE VISION",
+      "type": "mixed",
+      "image_similarity": 0.6147422194480896,
+      "text_similarity": 0.8843542337417603,
+      "final_score": 0.7495482265949249,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2603"
+      ],
+      "tot_vienna_code": [
+        "260316"
+      ],
+      "applicant": "Gant, Angela R",
+      "classOfGoodServiceBusinessName": "The mark consists of layered oval shapes, capital letters r and v.",
+      "application_date": 20220115,
+      "rank": 10
+    }
+  ]
+}

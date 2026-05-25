@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97218091.jpg",
+    "query_ocr_text": "MandiCasa",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97212316.jpg",
+      "img_id": "97212316",
+      "ocr_text": "angdo-",
+      "type": "mixed",
+      "image_similarity": 0.6641492247581482,
+      "text_similarity": 0.8799517750740051,
+      "final_score": 0.7720504999160767,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Xu Donghua",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97227801.jpg",
+      "img_id": "97227801",
+      "ocr_text": "MAtek",
+      "type": "mixed",
+      "image_similarity": 0.638757050037384,
+      "text_similarity": 0.8936657905578613,
+      "final_score": 0.7662114202976227,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260521"
+      ],
+      "applicant": "Materials Analysis Technology Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_79337982.jpg",
+      "img_id": "79337982",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.633522629737854,
+      "text_similarity": 0.8962275981903076,
+      "final_score": 0.7648751139640808,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270305"
+      ],
+      "applicant": "SEBIA",
+      "classOfGoodServiceBusinessName": "Development of new technology on behalf of third parties in the field of biotechnology; medical and scientific research in the field of cancer treatment and diagnosis; providing information in medical and scientific research in the field of clinical trials; providing medical and scientific research information in the pharmaceutical field; research and development in the field of pharmaceuticals and biotechnology; providing diagnostic tests and diagnostic or prognostic tests for residual diseases and analysis, evaluation and reporting of the results of such tests to help healthcare professionals determine the clinical diagnosis of a patient, evaluate the effectiveness of treatments prescribed to patients and change future treatments accordingly; scientific and technological services as well as research and design services relating thereto; industrial analysis and research services; design and development of software",
+      "application_date": 20220214,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97208045.jpg",
+      "img_id": "97208045",
+      "ocr_text": "Mannik Smith GROUP",
+      "type": "mixed",
+      "image_similarity": 0.6597492098808289,
+      "text_similarity": 0.8620550036430359,
+      "final_score": 0.7609021067619324,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "The Mannik & Smith Group, Inc.",
+      "classOfGoodServiceBusinessName": "The color(s) blue (R-0, G-56, B-101); green (R-132, G-189, B-0); orange (R-242, G-169, B-0); and gray (R-177, G-179, B-179). is/are claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_79337582.jpg",
+      "img_id": "79337582",
+      "ocr_text": "master channel",
+      "type": "mixed",
+      "image_similarity": 0.6484581828117371,
+      "text_similarity": 0.870977520942688,
+      "final_score": 0.7597178518772125,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261114",
+        "260913",
+        "260921"
+      ],
+      "applicant": "MASTERBUS AS",
+      "classOfGoodServiceBusinessName": "Offer temporary use of non-downloadable software to master and mix music, audio and voice recordings; offer data storage and streaming services in connection with mastering and mixing of musical sound and voice recordings; provide a web-based, non-downloadable web-based application with technology that enables users to upload and enhance the quality of their music, audio and voice recordings",
+      "application_date": 20220127,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_79336008.jpg",
+      "img_id": "79336008",
+      "ocr_text": "DeLSCAIS",
+      "type": "mixed",
+      "image_similarity": 0.608666181564331,
+      "text_similarity": 0.9031690955162048,
+      "final_score": 0.7559176385402679,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261712",
+        "261509"
+      ],
+      "applicant": "DYNECREST KOREA Corporation",
+      "classOfGoodServiceBusinessName": "The mark is composed of an image with the motif of a cubic cube with one side recessed, and sky-blue color, blue color and dark-blue color represents shading of each side.",
+      "application_date": 20220120,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97213665.jpg",
+      "img_id": "97213665",
+      "ocr_text": "Whimark",
+      "type": "mixed",
+      "image_similarity": 0.6237959861755371,
+      "text_similarity": 0.8762181401252747,
+      "final_score": 0.7500070631504059,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2503"
+      ],
+      "tot_vienna_code": [
+        "250304"
+      ],
+      "applicant": "Shenzhen Qianhai Hand-Painted Technology and Culture Co., LTD",
+      "classOfGoodServiceBusinessName": "Subtitling; Entertainment and educational services in the nature of on-line competitions in the field of entertainment, education, culture, sports, and other non-business and non-commercial fields; Film production, other than advertising films; Providing information in the field of education; Providing online non-downloadable comic books and graphic novels; Publication of books; Publication of the editorial content of sites accessible via a global computer network; Rental of teaching robots; Videotape editing; Virtual reality game services provided on-line from a computer network",
+      "application_date": 20220111,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97216104.jpg",
+      "img_id": "97216104",
+      "ocr_text": "hint",
+      "type": "mixed",
+      "image_similarity": 0.6055859923362732,
+      "text_similarity": 0.8919119238853455,
+      "final_score": 0.7487489581108093,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Hint Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220112,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97220111.jpg",
+      "img_id": "97220111",
+      "ocr_text": "RS Industria",
+      "type": "mixed",
+      "image_similarity": 0.6024321913719177,
+      "text_similarity": 0.891630232334137,
+      "final_score": 0.7470312118530273,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260902"
+      ],
+      "applicant": "RS Components Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97225926.jpg",
+      "img_id": "97225926",
+      "ocr_text": "ART",
+      "type": "mixed",
+      "image_similarity": 0.5954396724700928,
+      "text_similarity": 0.8971290588378906,
+      "final_score": 0.7462843656539917,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2619",
+        "2619"
+      ],
+      "tot_vienna_code": [
+        "261925",
+        "261925"
+      ],
+      "applicant": "Mercury Art Enterprise LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of Black color background of the entire image, white color negative space of the letters/word M, E, ART, gold color of designed abstract shape.",
+      "application_date": 20220118,
+      "rank": 10
+    }
+  ]
+}

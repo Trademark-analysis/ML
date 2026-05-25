@@ -1,0 +1,243 @@
+{
+  "query": {
+    "query_image": "test\\2022_97220451.jpg",
+    "query_ocr_text": "ComfortBro",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97230737.jpg",
+      "img_id": "97230737",
+      "ocr_text": "Diamond Chiropractic",
+      "type": "mixed",
+      "image_similarity": 0.6989353895187378,
+      "text_similarity": 0.8163012862205505,
+      "final_score": 0.7576183378696442,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0211",
+        "2607"
+      ],
+      "tot_vienna_code": [
+        "021125",
+        "260703"
+      ],
+      "applicant": "Diamond Health, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the wording \"DIAMOND CHIROPRACTIC\" in black, stylized lettering directly to the right of a blue diamond shape containing an abstract drawing of three vertebrae. The color white indicates background and is not a part of the mark.",
+      "application_date": 20220120,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6304469108581543,
+      "text_similarity": 0.8731495141983032,
+      "final_score": 0.7517982125282288,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97230451.jpg",
+      "img_id": "97230451",
+      "ocr_text": "Anproity",
+      "type": "mixed",
+      "image_similarity": 0.6238804459571838,
+      "text_similarity": 0.8792233467102051,
+      "final_score": 0.7515518963336945,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260101"
+      ],
+      "applicant": "Jamino (Chengdu) Shoes Co., Ltd.",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording \"Anproity\"with a design of a bold wave inside a bold circle.",
+      "application_date": 20220120,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97227934.jpg",
+      "img_id": "97227934",
+      "ocr_text": "BREAKWATER TREATMENT & WELLNESS",
+      "type": "mixed",
+      "image_similarity": 0.6787009835243225,
+      "text_similarity": 0.8213629722595215,
+      "final_score": 0.750031977891922,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Breakwater Treatment & Wellness Corp.",
+      "classOfGoodServiceBusinessName": "The color(s) blue, white, and green is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6231173276901245,
+      "text_similarity": 0.8728184103965759,
+      "final_score": 0.7479678690433502,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97226945.jpg",
+      "img_id": "97226945",
+      "ocr_text": "7",
+      "type": "mixed",
+      "image_similarity": 0.6233617067337036,
+      "text_similarity": 0.8716381192207336,
+      "final_score": 0.7474999129772186,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LINKOFFERS, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) teal is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97245401.jpg",
+      "img_id": "97245401",
+      "ocr_text": "busy being",
+      "type": "mixed",
+      "image_similarity": 0.6606777310371399,
+      "text_similarity": 0.8301275372505188,
+      "final_score": 0.7454026341438293,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0401",
+        "0401",
+        "0323",
+        "0323"
+      ],
+      "tot_vienna_code": [
+        "040102",
+        "040102",
+        "032306",
+        "032306"
+      ],
+      "applicant": "Harper, Trudi R.",
+      "classOfGoodServiceBusinessName": "The mark consists of my mark consists of a bumble bee, with a yellow body, with black stripes on the body, wings outlined in black, with a yellow halo around the bumble bees body, with black and yellow legs, sitting in a yoga lotus position.",
+      "application_date": 20220130,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97211609.jpg",
+      "img_id": "97211609",
+      "ocr_text": "JOINT COMMISSION",
+      "type": "mixed",
+      "image_similarity": 0.634465217590332,
+      "text_similarity": 0.8505322933197021,
+      "final_score": 0.7424987554550171,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2417",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "241715",
+        "260921"
+      ],
+      "applicant": "Joint Commission on Accreditation of Healthcare Organizations",
+      "classOfGoodServiceBusinessName": "The color(s) white, black and gold is/are claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97218802.jpg",
+      "img_id": "97218802",
+      "ocr_text": ")(.)",
+      "type": "mixed",
+      "image_similarity": 0.6147900223731995,
+      "text_similarity": 0.8697797656059265,
+      "final_score": 0.742284893989563,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2417",
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241714",
+        "241714"
+      ],
+      "applicant": "CMAN GROUP, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of two adjacent sets of parentheses, each set comprising an open and closed parentheses as well as a period positioned between the open and closed parentheses.",
+      "application_date": 20220113,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97219265.jpg",
+      "img_id": "97219265",
+      "ocr_text": "ROC",
+      "type": "mixed",
+      "image_similarity": 0.6143332719802856,
+      "text_similarity": 0.8701951503753662,
+      "final_score": 0.7422642111778259,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2703"
+      ],
+      "tot_vienna_code": [
+        "270302"
+      ],
+      "applicant": "HQ Life LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 10
+    }
+  ]
+}

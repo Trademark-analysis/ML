@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97234762.jpg",
+    "query_ocr_text": "HouzCoraz",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97247494.jpg",
+      "img_id": "97247494",
+      "ocr_text": "ZIRE AI",
+      "type": "mixed",
+      "image_similarity": 0.6507105231285095,
+      "text_similarity": 0.8628042340278625,
+      "final_score": 0.756757378578186,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261501"
+      ],
+      "applicant": "ZIR AI, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the term \"ZIR\" followed by the letter Z within a hexagon followed by the term \"AI\".",
+      "application_date": 20220131,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6321178674697876,
+      "text_similarity": 0.8798321485519409,
+      "final_score": 0.7559750080108643,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97217789.jpg",
+      "img_id": "97217789",
+      "ocr_text": "ZesiMor",
+      "type": "mixed",
+      "image_similarity": 0.6210887432098389,
+      "text_similarity": 0.8900659680366516,
+      "final_score": 0.7555773556232452,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211",
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101",
+        "021101"
+      ],
+      "applicant": "CRM GROUP LIMITED",
+      "classOfGoodServiceBusinessName": "The mark consists of the wording \"ZesiMor\" in stylized font.",
+      "application_date": 20220113,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97224666.jpg",
+      "img_id": "97224666",
+      "ocr_text": "EZVIZ",
+      "type": "mixed",
+      "image_similarity": 0.6871270537376404,
+      "text_similarity": 0.8190883994102478,
+      "final_score": 0.7531077265739441,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260921"
+      ],
+      "applicant": "The Clearing, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "mixed",
+      "image_similarity": 0.6284032464027405,
+      "text_similarity": 0.8770739436149597,
+      "final_score": 0.7527385950088501,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97219581.jpg",
+      "img_id": "97219581",
+      "ocr_text": "NR",
+      "type": "mixed",
+      "image_similarity": 0.6159306764602661,
+      "text_similarity": 0.8845435380935669,
+      "final_score": 0.7502371072769165,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260901"
+      ],
+      "applicant": "New Revolution Media Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.6158890724182129,
+      "text_similarity": 0.8756430149078369,
+      "final_score": 0.7457660436630249,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6102654933929443,
+      "text_similarity": 0.8798360824584961,
+      "final_score": 0.7450507879257202,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97234570.jpg",
+      "img_id": "97234570",
+      "ocr_text": "0",
+      "type": "mixed",
+      "image_similarity": 0.614734947681427,
+      "text_similarity": 0.8748180270195007,
+      "final_score": 0.7447764873504639,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2503"
+      ],
+      "tot_vienna_code": [
+        "250325"
+      ],
+      "applicant": "Andrew Hanshaw",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized font are the letters \"B\" with two abstract figures with a set of eyes to the right of it. Those are followed by another letter \"B\" and to the right of it is another abstract figure with eyes with a letter \"Z\" to the right of the abstract figure. Surrounding each letter and abstract figure is white leopard print.",
+      "application_date": 20220124,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6084344387054443,
+      "text_similarity": 0.8798321485519409,
+      "final_score": 0.7441332936286926,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 10
+    }
+  ]
+}

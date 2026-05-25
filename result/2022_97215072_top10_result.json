@@ -1,0 +1,245 @@
+{
+  "query": {
+    "query_image": "test\\2022_97215072.jpg",
+    "query_ocr_text": "BAG IT! Net Zero Waste",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97210876.jpg",
+      "img_id": "97210876",
+      "ocr_text": "GET IT ELEVATED",
+      "type": "mixed",
+      "image_similarity": 0.6967107653617859,
+      "text_similarity": 0.8397660255432129,
+      "final_score": 0.7682383954524994,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260913",
+        "260921"
+      ],
+      "applicant": "New Purpose LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_79336502.jpg",
+      "img_id": "79336502",
+      "ocr_text": "NEVER GIVE UP DAY",
+      "type": "mixed",
+      "image_similarity": 0.6775317192077637,
+      "text_similarity": 0.8564368486404419,
+      "final_score": 0.7669842839241028,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0201",
+        "0905"
+      ],
+      "tot_vienna_code": [
+        "020102",
+        "090510"
+      ],
+      "applicant": "Alain Horoit",
+      "classOfGoodServiceBusinessName": "Organizing and conducting events for educational, entertainment and cultural purposes",
+      "application_date": 20220214,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97226945.jpg",
+      "img_id": "97226945",
+      "ocr_text": "7",
+      "type": "mixed",
+      "image_similarity": 0.6701460480690002,
+      "text_similarity": 0.8594713807106018,
+      "final_score": 0.764808714389801,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "LINKOFFERS, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) teal is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97245467.jpg",
+      "img_id": "97245467",
+      "ocr_text": "Yogat magazine",
+      "type": "mixed",
+      "image_similarity": 0.664360523223877,
+      "text_similarity": 0.8627602458000183,
+      "final_score": 0.7635603845119476,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2417"
+      ],
+      "tot_vienna_code": [
+        "241706"
+      ],
+      "applicant": "Northstar Creative LLC",
+      "classOfGoodServiceBusinessName": "Magazine publishing",
+      "application_date": 20220130,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97208124.jpg",
+      "img_id": "97208124",
+      "ocr_text": "ABSTRACT",
+      "type": "mixed",
+      "image_similarity": 0.6662507057189941,
+      "text_similarity": 0.8568259477615356,
+      "final_score": 0.7615383267402649,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261705",
+        "260902"
+      ],
+      "applicant": "Abstract Software, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97244171.jpg",
+      "img_id": "97244171",
+      "ocr_text": "FIRST ONE DOESN'T CDYNT-",
+      "type": "mixed",
+      "image_similarity": 0.7007763385772705,
+      "text_similarity": 0.8222430944442749,
+      "final_score": 0.7615097165107727,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103",
+        "260103"
+      ],
+      "applicant": "Laura Shinall",
+      "classOfGoodServiceBusinessName": "The mark consists of a thick arrow formed into a substantially complete circle with the arrow head at 4 o'clock, having the phrase \"FIRST ONE\" arcing along the top of the arrow, the phrase \"DOESN'T COUNT\" arcing along the bottom of the arrow, and a thin circle surrounding the thick arrow that is partially hidden by the two phrases.",
+      "application_date": 20220128,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97221702.jpg",
+      "img_id": "97221702",
+      "ocr_text": "people n planet",
+      "type": "mixed",
+      "image_similarity": 0.6779260039329529,
+      "text_similarity": 0.8438261151313782,
+      "final_score": 0.7608760595321655,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211",
+        "0501",
+        "0501"
+      ],
+      "tot_vienna_code": [
+        "021107",
+        "050105",
+        "050105"
+      ],
+      "applicant": "People N Planet LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220115,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97244143.jpg",
+      "img_id": "97244143",
+      "ocr_text": "BASE CAMP",
+      "type": "mixed",
+      "image_similarity": 0.66056227684021,
+      "text_similarity": 0.8584072589874268,
+      "final_score": 0.7594847679138184,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2409"
+      ],
+      "tot_vienna_code": [
+        "240905"
+      ],
+      "applicant": "Fairway Ignite LLC",
+      "classOfGoodServiceBusinessName": "Educational services, namely, conducting coaching and training programs in the field of mortgage brokerage, and distribution of training materials in connection therewith; Educational services, namely, providing online instruction in the field of mortgage brokerage",
+      "application_date": 20220128,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97228082.jpg",
+      "img_id": "97228082",
+      "ocr_text": "headphone",
+      "type": "mixed",
+      "image_similarity": 0.6765778064727783,
+      "text_similarity": 0.8406661152839661,
+      "final_score": 0.7586219608783722,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "1601",
+        "1601"
+      ],
+      "tot_vienna_code": [
+        "160107",
+        "160107"
+      ],
+      "applicant": "Guangzhou kaimeng Trading Co., Ltd",
+      "classOfGoodServiceBusinessName": "The mark consists of a headphone design formed by more than 26 vertical bars; between the earphones are five vertical bars; below the headphone design is the stylized word \"headphone\".",
+      "application_date": 20220119,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6558111310005188,
+      "text_similarity": 0.8607237935066223,
+      "final_score": 0.7582674622535706,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 10
+    }
+  ]
+}

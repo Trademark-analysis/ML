@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97211735.jpg",
+    "query_ocr_text": "WANGYOUWANG",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97212316.jpg",
+      "img_id": "97212316",
+      "ocr_text": "angdo-",
+      "type": "mixed",
+      "image_similarity": 0.649691641330719,
+      "text_similarity": 0.9025101065635681,
+      "final_score": 0.7761008739471436,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Xu Donghua",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97230831.jpg",
+      "img_id": "97230831",
+      "ocr_text": "VAHNA",
+      "type": "mixed",
+      "image_similarity": 0.6299187541007996,
+      "text_similarity": 0.9058234095573425,
+      "final_score": 0.767871081829071,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260113",
+        "260113"
+      ],
+      "applicant": "META Syndicate, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the word VAHNA below two interlocking circles.",
+      "application_date": 20220120,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6242000460624695,
+      "text_similarity": 0.9074512720108032,
+      "final_score": 0.7658256590366364,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97248758.jpg",
+      "img_id": "97248758",
+      "ocr_text": "Tang+ 7.7.1 Company",
+      "type": "mixed",
+      "image_similarity": 0.6565417051315308,
+      "text_similarity": 0.8612462878227234,
+      "final_score": 0.7588939964771271,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "The Tang Group",
+      "classOfGoodServiceBusinessName": "Occupational healthcare, employment screening and safety training, and EHandS software to seamlessly manage it all",
+      "application_date": 20220201,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "mixed",
+      "image_similarity": 0.6067990064620972,
+      "text_similarity": 0.9025024175643921,
+      "final_score": 0.7546507120132446,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6044026017189026,
+      "text_similarity": 0.9043024778366089,
+      "final_score": 0.7543525397777557,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97248747.jpg",
+      "img_id": "97248747",
+      "ocr_text": "YOGOFO",
+      "type": "mixed",
+      "image_similarity": 0.6262246370315552,
+      "text_similarity": 0.8796395063400269,
+      "final_score": 0.752932071685791,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102",
+        "260102"
+      ],
+      "applicant": "Rodmax L.L.C.",
+      "classOfGoodServiceBusinessName": "The mark consists of sphere with a circle around it and a half circle with a line going downward resembling a Y. Below this is the wording \"YOGOFO\".",
+      "application_date": 20220201,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97201291.jpg",
+      "img_id": "97201291",
+      "ocr_text": "WAVEDANCER",
+      "type": "mixed",
+      "image_similarity": 0.6166079044342041,
+      "text_similarity": 0.8875317573547363,
+      "final_score": 0.7520698308944702,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011513"
+      ],
+      "applicant": "WaveDancer, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97230451.jpg",
+      "img_id": "97230451",
+      "ocr_text": "Anproity",
+      "type": "mixed",
+      "image_similarity": 0.6321836113929749,
+      "text_similarity": 0.8686044216156006,
+      "final_score": 0.7503940165042877,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260101"
+      ],
+      "applicant": "Jamino (Chengdu) Shoes Co., Ltd.",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording \"Anproity\"with a design of a bold wave inside a bold circle.",
+      "application_date": 20220120,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97205803.jpg",
+      "img_id": "97205803",
+      "ocr_text": "8 8",
+      "type": "mixed",
+      "image_similarity": 0.596636950969696,
+      "text_similarity": 0.9007749557495117,
+      "final_score": 0.7487059533596039,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261126"
+      ],
+      "applicant": "Weather or Not Riding Gear, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of lines arranged vertically in intertwined double strands enclosed within an oval.",
+      "application_date": 20220106,
+      "rank": 10
+    }
+  ]
+}

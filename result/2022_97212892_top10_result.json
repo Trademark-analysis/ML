@@ -1,0 +1,237 @@
+{
+  "query": {
+    "query_image": "test\\2022_97212892.jpg",
+    "query_ocr_text": "p@eland",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97244825.jpg",
+      "img_id": "97244825",
+      "ocr_text": "SUGAR LAND",
+      "type": "mixed",
+      "image_similarity": 0.7363463640213013,
+      "text_similarity": 0.8747773766517639,
+      "final_score": 0.8055618703365326,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0101"
+      ],
+      "tot_vienna_code": [
+        "010102"
+      ],
+      "applicant": "SL Baseball, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the words SUGAR LAND in stylized letters with a line running through the letters and a four-sided star between the words.",
+      "application_date": 20220128,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.613593578338623,
+      "text_similarity": 0.920153021812439,
+      "final_score": 0.766873300075531,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97217210.jpg",
+      "img_id": "97217210",
+      "ocr_text": "B",
+      "type": "mixed",
+      "image_similarity": 0.6142458319664001,
+      "text_similarity": 0.9173754453659058,
+      "final_score": 0.765810638666153,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0313",
+        "0313"
+      ],
+      "tot_vienna_code": [
+        "031301",
+        "031301"
+      ],
+      "applicant": "Powerteam Apparel LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letters PB a stylized representation of a rabbit's foot.",
+      "application_date": 20220113,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_79335985.jpg",
+      "img_id": "79335985",
+      "ocr_text": "FRAND LEAGUE",
+      "type": "mixed",
+      "image_similarity": 0.6363385319709778,
+      "text_similarity": 0.8932706117630005,
+      "final_score": 0.7648045718669891,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2401",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "240103",
+        "261502"
+      ],
+      "applicant": "IPCom GmbH & Co. KG",
+      "classOfGoodServiceBusinessName": "Publication of instructional literature; publication of material which can be accessed from databases or from the internet; publication of printed matter in electronic form on the internet; services for the publication of newsletters; writing services for blogs",
+      "application_date": 20220203,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97210418.jpg",
+      "img_id": "97210418",
+      "ocr_text": "1",
+      "type": "mixed",
+      "image_similarity": 0.6187582015991211,
+      "text_similarity": 0.9101355075836182,
+      "final_score": 0.7644468545913696,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0503"
+      ],
+      "tot_vienna_code": [
+        "050325"
+      ],
+      "applicant": "Zhang, Liwen",
+      "classOfGoodServiceBusinessName": "The mark consists of a designed letter \"R\" with two leaves on both ends.",
+      "application_date": 20220110,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97248655.jpg",
+      "img_id": "97248655",
+      "ocr_text": "MILLION",
+      "type": "mixed",
+      "image_similarity": 0.6446319222450256,
+      "text_similarity": 0.8826799988746643,
+      "final_score": 0.763655960559845,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "III, Delmore, Edward, John",
+      "classOfGoodServiceBusinessName": "The mark consists of The wording MILL1ON in all capital letters with an ellipses smile line underneath. Black letters. Red number 1 as fifth character. Black line underneath.",
+      "application_date": 20220201,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97226662.jpg",
+      "img_id": "97226662",
+      "ocr_text": "D",
+      "type": "mixed",
+      "image_similarity": 0.6071151494979858,
+      "text_similarity": 0.9188013672828674,
+      "final_score": 0.7629582583904266,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260121"
+      ],
+      "applicant": "Even Mental Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97212316.jpg",
+      "img_id": "97212316",
+      "ocr_text": "angdo-",
+      "type": "mixed",
+      "image_similarity": 0.6442358493804932,
+      "text_similarity": 0.8805491924285889,
+      "final_score": 0.762392520904541,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Xu Donghua",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97246257.jpg",
+      "img_id": "97246257",
+      "ocr_text": "bon.",
+      "type": "mixed",
+      "image_similarity": 0.6214872002601624,
+      "text_similarity": 0.9014788866043091,
+      "final_score": 0.7614830434322357,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2607",
+        "2801"
+      ],
+      "tot_vienna_code": [
+        "260703",
+        "280103"
+      ],
+      "applicant": "IWASE SHOTEN & CO.",
+      "classOfGoodServiceBusinessName": "The mark consists of a Japanese character in stylized font as an open image in a diamond shape in the color black, and to the bottom of the Japanese character, the term \"bon\" and a period in a stylized font.",
+      "application_date": 20220131,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6065906882286072,
+      "text_similarity": 0.9160274863243103,
+      "final_score": 0.7613090872764587,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 10
+    }
+  ]
+}

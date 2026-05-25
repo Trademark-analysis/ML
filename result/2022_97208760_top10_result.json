@@ -1,0 +1,249 @@
+{
+  "query": {
+    "query_image": "test\\2022_97208760.jpg",
+    "query_ocr_text": "ivecookintable",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97244422.jpg",
+      "img_id": "97244422",
+      "ocr_text": "The GOOD DISH",
+      "type": "mixed",
+      "image_similarity": 0.7240134477615356,
+      "text_similarity": 0.8647728562355042,
+      "final_score": 0.7943931519985199,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260105"
+      ],
+      "applicant": "Oz Property Holdings LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the terms \"THE GOOD DISH\" in stylized lettering with the term \"THE\" centered above the term \"GOOD\", which is centered above \"DISH\", and with the terms inside of a broken circle comprised of a curved line above \"THE GOOD\" and a curved line below \"DISH\".",
+      "application_date": 20220128,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97248318.jpg",
+      "img_id": "97248318",
+      "ocr_text": "NOTABLE",
+      "type": "mixed",
+      "image_similarity": 0.7073107957839966,
+      "text_similarity": 0.8561508059501648,
+      "final_score": 0.7817308008670807,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261701"
+      ],
+      "applicant": "Bond & Trade, LLC",
+      "classOfGoodServiceBusinessName": "Providing a website featuring non-downloadable publications in the nature of magazines in the field of careers, lifestyle, style, health and wellness, and beauty; Publication of magazines",
+      "application_date": 20220201,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97244305.jpg",
+      "img_id": "97244305",
+      "ocr_text": "FOOD ON THE STOVE",
+      "type": "mixed",
+      "image_similarity": 0.6826111674308777,
+      "text_similarity": 0.8583561182022095,
+      "final_score": 0.7704836428165436,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "1103",
+        "1103",
+        "0905",
+        "0905"
+      ],
+      "tot_vienna_code": [
+        "110309",
+        "110309",
+        "090525",
+        "090525"
+      ],
+      "applicant": "Jonathan Tate",
+      "classOfGoodServiceBusinessName": "The mark consists of three lines of text, on the first line is the word FOOD where the first O is replaced with a plate with a spoon, a fork, and two ellipses positioned on it, the second line consists of a horizontal line on the left, the words ON THE in the center and a second horizontal lines on the right, and the third line consists of the word STOVE with the O replaced by a frying pan where the handle of the frying pan overlaps the V and a fireman's hat is positioned over the E.",
+      "application_date": 20220128,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.6474571824073792,
+      "text_similarity": 0.8769499659538269,
+      "final_score": 0.762203574180603,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97248767.jpg",
+      "img_id": "97248767",
+      "ocr_text": "Belleville · BAKERY & CATERING ·",
+      "type": "mixed",
+      "image_similarity": 0.6812223196029663,
+      "text_similarity": 0.8420198559761047,
+      "final_score": 0.7616210877895355,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0315",
+        "0905",
+        "1101",
+        "0315",
+        "0905"
+      ],
+      "tot_vienna_code": [
+        "031525",
+        "090506",
+        "110105",
+        "031525",
+        "090506"
+      ],
+      "applicant": "Belleville Bakery and Catering LLC",
+      "classOfGoodServiceBusinessName": "Educational services, namely, providing online courses of instruction on baking and cooking, with particular focus on French cuisine",
+      "application_date": 20220201,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97218059.jpg",
+      "img_id": "97218059",
+      "ocr_text": "GODOFLOVE",
+      "type": "mixed",
+      "image_similarity": 0.656015157699585,
+      "text_similarity": 0.8596885800361633,
+      "final_score": 0.7578518688678741,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0401",
+        "0401"
+      ],
+      "tot_vienna_code": [
+        "040103",
+        "040103"
+      ],
+      "applicant": "One Love Records LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the words God of Love including a V with a halo over the V and a backwards E.",
+      "application_date": 20220113,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97210066.jpg",
+      "img_id": "97210066",
+      "ocr_text": "BODHI LIVE",
+      "type": "mixed",
+      "image_similarity": 0.6634595394134521,
+      "text_similarity": 0.8482796549797058,
+      "final_score": 0.755869597196579,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261102",
+        "261102"
+      ],
+      "applicant": "Bodhi LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97248140.jpg",
+      "img_id": "97248140",
+      "ocr_text": "AI",
+      "type": "mixed",
+      "image_similarity": 0.6352840065956116,
+      "text_similarity": 0.8761714696884155,
+      "final_score": 0.7557277381420135,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261713"
+      ],
+      "applicant": "AlphaSense, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the letters \"Al\" with a line underneath.",
+      "application_date": 20220201,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97216104.jpg",
+      "img_id": "97216104",
+      "ocr_text": "hint",
+      "type": "mixed",
+      "image_similarity": 0.6490447521209717,
+      "text_similarity": 0.8615386486053467,
+      "final_score": 0.7552917003631592,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Hint Health, Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220112,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.63801509141922,
+      "text_similarity": 0.870280385017395,
+      "final_score": 0.7541477382183075,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 10
+    }
+  ]
+}

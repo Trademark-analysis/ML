@@ -1,0 +1,239 @@
+{
+  "query": {
+    "query_image": "test\\2022_97214824.jpg",
+    "query_ocr_text": "Ultra Cozy",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97245933.jpg",
+      "img_id": "97245933",
+      "ocr_text": "UNIFYY",
+      "type": "mixed",
+      "image_similarity": 0.6685252785682678,
+      "text_similarity": 0.88154536485672,
+      "final_score": 0.7750353217124939,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "Unifyy LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of UNIFYY appearing to the right of a curve.",
+      "application_date": 20220131,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97207906.jpg",
+      "img_id": "97207906",
+      "ocr_text": "ARCTIC",
+      "type": "mixed",
+      "image_similarity": 0.6602509021759033,
+      "text_similarity": 0.8853670954704285,
+      "final_score": 0.7728089988231659,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261125",
+        "261125"
+      ],
+      "applicant": "Biel, Edward Andrew William",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97227341.jpg",
+      "img_id": "97227341",
+      "ocr_text": "beary",
+      "type": "mixed",
+      "image_similarity": 0.6368291974067688,
+      "text_similarity": 0.8814182877540588,
+      "final_score": 0.7591237425804138,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2701"
+      ],
+      "tot_vienna_code": [
+        "270104"
+      ],
+      "applicant": "Beasy Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of The \"b\" has an incomplete \"e\" inside it. Looks like an infinity symbol. Followed by a narrow vertical line. Then the letter \"e\", \"a\", \"s\", & \"y\", spelling out the word \"easy\".",
+      "application_date": 20220119,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97228250.jpg",
+      "img_id": "97228250",
+      "ocr_text": "GLOBYZ",
+      "type": "mixed",
+      "image_similarity": 0.6291505694389343,
+      "text_similarity": 0.8710616230964661,
+      "final_score": 0.7501060962677002,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "0107"
+      ],
+      "tot_vienna_code": [
+        "260121",
+        "010708"
+      ],
+      "applicant": "Globyz Pharma LLC",
+      "classOfGoodServiceBusinessName": "The color(s) Blue lettering of word \"globyz\"; gold line underlining word \"globyz\"; blue and white globe with different shades of blue ranging from light to dark blue is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97223420.jpg",
+      "img_id": "97223420",
+      "ocr_text": "Gutertanz",
+      "type": "mixed",
+      "image_similarity": 0.6291946172714233,
+      "text_similarity": 0.8650839924812317,
+      "final_score": 0.7471393048763275,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0203",
+        "0203"
+      ],
+      "tot_vienna_code": [
+        "020324",
+        "020324"
+      ],
+      "applicant": "Shenzhen Zhipin Technology Co., Ltd.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220117,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97215019.jpg",
+      "img_id": "97215019",
+      "ocr_text": "Stay",
+      "type": "mixed",
+      "image_similarity": 0.6034279465675354,
+      "text_similarity": 0.8900514245033264,
+      "final_score": 0.7467396855354309,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021102"
+      ],
+      "applicant": "Ella Warren",
+      "classOfGoodServiceBusinessName": "Educational services, namely, conducting courses and seminars in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling and distribution of course material in connection therewith; Educational services, namely, conducting webinars, in person seminars, and courses in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; Entertainment services, namely, providing podcasts in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; On-line journals, namely, blogs featuring information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; On-line video journals, namely, vlogs featuring nondownloadable videos in the field of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling; Production of podcasts; Providing a website featuring blogs and non-downloadable publications in the nature of articles in the field(s) of information on hair extensions, hair care, wig installation; wig creation; wig maintenance; and wig styling",
+      "application_date": 20220112,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97244374.jpg",
+      "img_id": "97244374",
+      "ocr_text": "Storytime",
+      "type": "mixed",
+      "image_similarity": 0.6179170608520508,
+      "text_similarity": 0.8740312457084656,
+      "final_score": 0.7459741532802582,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1411",
+        "1411"
+      ],
+      "tot_vienna_code": [
+        "141108",
+        "141108"
+      ],
+      "applicant": "Crucible AI, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of a keyhole design to the left of the word \"STORYTIME\".",
+      "application_date": 20220128,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97212510.jpg",
+      "img_id": "97212510",
+      "ocr_text": "@Attractive essence",
+      "type": "mixed",
+      "image_similarity": 0.6327381134033203,
+      "text_similarity": 0.8550928831100464,
+      "final_score": 0.7439154982566833,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0203"
+      ],
+      "tot_vienna_code": [
+        "020302"
+      ],
+      "applicant": "Jazmine Pena",
+      "classOfGoodServiceBusinessName": "The mark consists of the shape of a woman with her right arm in her hair; to the left in a stacked stylized font reads Attractive essence.",
+      "application_date": 20220111,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.5910438299179077,
+      "text_similarity": 0.889238178730011,
+      "final_score": 0.7401410043239594,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97234570.jpg",
+      "img_id": "97234570",
+      "ocr_text": "0",
+      "type": "mixed",
+      "image_similarity": 0.5872319936752319,
+      "text_similarity": 0.8921824097633362,
+      "final_score": 0.7397072017192841,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2503"
+      ],
+      "tot_vienna_code": [
+        "250325"
+      ],
+      "applicant": "Andrew Hanshaw",
+      "classOfGoodServiceBusinessName": "The mark consists of a stylized font are the letters \"B\" with two abstract figures with a set of eyes to the right of it. Those are followed by another letter \"B\" and to the right of it is another abstract figure with eyes with a letter \"Z\" to the right of the abstract figure. Surrounding each letter and abstract figure is white leopard print.",
+      "application_date": 20220124,
+      "rank": 10
+    }
+  ]
+}

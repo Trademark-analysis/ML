@@ -1,0 +1,253 @@
+{
+  "query": {
+    "query_image": "test\\2022_97200750.jpg",
+    "query_ocr_text": "GARYQ PLATT",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6473720669746399,
+      "text_similarity": 0.9031223654747009,
+      "final_score": 0.7752472162246704,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97219645.jpg",
+      "img_id": "97219645",
+      "ocr_text": "G",
+      "type": "mixed",
+      "image_similarity": 0.6360120177268982,
+      "text_similarity": 0.9108976721763611,
+      "final_score": 0.7734548449516296,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260501"
+      ],
+      "applicant": "God Apparel, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97221170.jpg",
+      "img_id": "97221170",
+      "ocr_text": "MTTYYD",
+      "type": "mixed",
+      "image_similarity": 0.614277184009552,
+      "text_similarity": 0.9125502705574036,
+      "final_score": 0.7634137272834778,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201",
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133",
+        "020133"
+      ],
+      "applicant": "Nanchang Mount outdoor Sports Goods Co., LTD",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97228250.jpg",
+      "img_id": "97228250",
+      "ocr_text": "GLOBYZ",
+      "type": "mixed",
+      "image_similarity": 0.6316558718681335,
+      "text_similarity": 0.8890710473060608,
+      "final_score": 0.7603634595870972,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "0107"
+      ],
+      "tot_vienna_code": [
+        "260121",
+        "010708"
+      ],
+      "applicant": "Globyz Pharma LLC",
+      "classOfGoodServiceBusinessName": "The color(s) Blue lettering of word \"globyz\"; gold line underlining word \"globyz\"; blue and white globe with different shades of blue ranging from light to dark blue is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97245933.jpg",
+      "img_id": "97245933",
+      "ocr_text": "UNIFYY",
+      "type": "mixed",
+      "image_similarity": 0.6202993392944336,
+      "text_similarity": 0.8936609625816345,
+      "final_score": 0.7569801509380341,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "Unifyy LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of UNIFYY appearing to the right of a curve.",
+      "application_date": 20220131,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97205289.jpg",
+      "img_id": "97205289",
+      "ocr_text": "catalyst/",
+      "type": "mixed",
+      "image_similarity": 0.6436764001846313,
+      "text_similarity": 0.8688114285469055,
+      "final_score": 0.7562439143657684,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260902"
+      ],
+      "applicant": "Catalyst IT Canada Ltd.",
+      "classOfGoodServiceBusinessName": "The mark consists of the word CATALYST in black to the left of a square in red, with a white geometric thunder depiction in the red square.",
+      "application_date": 20220106,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97204588.jpg",
+      "img_id": "97204588",
+      "ocr_text": "PLEIOTEK",
+      "type": "mixed",
+      "image_similarity": 0.635758638381958,
+      "text_similarity": 0.869807779788971,
+      "final_score": 0.7527832090854645,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2619",
+        "0107",
+        "2609",
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261901",
+        "010702",
+        "260921",
+        "260914",
+        "260914"
+      ],
+      "applicant": "Temkin Associates LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a sphere consisting of squares that are streaming to represent a globe of data being collected followed by the word pleiotek representing the company name.",
+      "application_date": 20220105,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97227341.jpg",
+      "img_id": "97227341",
+      "ocr_text": "beary",
+      "type": "mixed",
+      "image_similarity": 0.6253659129142761,
+      "text_similarity": 0.8712723851203918,
+      "final_score": 0.748319149017334,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2701"
+      ],
+      "tot_vienna_code": [
+        "270104"
+      ],
+      "applicant": "Beasy Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of The \"b\" has an incomplete \"e\" inside it. Looks like an infinity symbol. Followed by a narrow vertical line. Then the letter \"e\", \"a\", \"s\", & \"y\", spelling out the word \"easy\".",
+      "application_date": 20220119,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97245526.jpg",
+      "img_id": "97245526",
+      "ocr_text": "aryn",
+      "type": "mixed",
+      "image_similarity": 0.6003408432006836,
+      "text_similarity": 0.8955209255218506,
+      "final_score": 0.7479308843612671,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "0315",
+        "0405",
+        "0405",
+        "0315"
+      ],
+      "tot_vienna_code": [
+        "031519",
+        "040501",
+        "040501",
+        "031519"
+      ],
+      "applicant": "Varyn Inc",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing on-line computer games; Entertainment services, namely, providing online browser-based video games; Entertainment services, namely, providing online video games; Providing on-line computer games; Providing online computer games",
+      "application_date": 20220130,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97201527.jpg",
+      "img_id": "97201527",
+      "ocr_text": "TG4PS",
+      "type": "mixed",
+      "image_similarity": 0.6252303123474121,
+      "text_similarity": 0.8696848750114441,
+      "final_score": 0.7474575936794281,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261114",
+        "261114"
+      ],
+      "applicant": "Rohrich, Rodney J.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 10
+    }
+  ]
+}

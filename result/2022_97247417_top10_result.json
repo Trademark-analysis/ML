@@ -1,0 +1,243 @@
+{
+  "query": {
+    "query_image": "test\\2022_97247417.jpg",
+    "query_ocr_text": "◆莱克-帝家 LIKE - REGAL",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97200943.jpg",
+      "img_id": "97200943",
+      "ocr_text": "KL FALE",
+      "type": "mixed",
+      "image_similarity": 0.6662977933883667,
+      "text_similarity": 0.8530902862548828,
+      "final_score": 0.7596940398216248,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2801",
+        "2801"
+      ],
+      "tot_vienna_code": [
+        "280103",
+        "280103"
+      ],
+      "applicant": "Ryan Brandt",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220103,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.6118488311767578,
+      "text_similarity": 0.8631538152694702,
+      "final_score": 0.737501323223114,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97213829.jpg",
+      "img_id": "97213829",
+      "ocr_text": "ـر",
+      "type": "mixed",
+      "image_similarity": 0.6109769344329834,
+      "text_similarity": 0.8521479368209839,
+      "final_score": 0.7315624356269836,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0115",
+        "0115"
+      ],
+      "tot_vienna_code": [
+        "011509",
+        "011509"
+      ],
+      "applicant": "Dialed Outdoors, LLC",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220111,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97219581.jpg",
+      "img_id": "97219581",
+      "ocr_text": "NR",
+      "type": "mixed",
+      "image_similarity": 0.6036425232887268,
+      "text_similarity": 0.8569488525390625,
+      "final_score": 0.7302956879138947,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260901"
+      ],
+      "applicant": "New Revolution Media Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6005915999412537,
+      "text_similarity": 0.8549370169639587,
+      "final_score": 0.7277643084526062,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97216948.jpg",
+      "img_id": "97216948",
+      "ocr_text": "KING",
+      "type": "mixed",
+      "image_similarity": 0.5700891017913818,
+      "text_similarity": 0.8839589357376099,
+      "final_score": 0.7270240187644958,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0117",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "011705",
+        "241102"
+      ],
+      "applicant": "Chinosengwa, Ronald Blessing",
+      "classOfGoodServiceBusinessName": "The mark consists of the words \"AFRIKAN KING\" written in capital letters in stylized font on the maps of Africa as a background. Above the text and design of Africa, there is a crown.",
+      "application_date": 20220113,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97225009.jpg",
+      "img_id": "97225009",
+      "ocr_text": "A",
+      "type": "mixed",
+      "image_similarity": 0.5912847518920898,
+      "text_similarity": 0.862585186958313,
+      "final_score": 0.7269349694252014,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "1909"
+      ],
+      "tot_vienna_code": [
+        "190901"
+      ],
+      "applicant": "International Contract Laboratories, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of the letter A located within a flask with air bubbles above the letter A.",
+      "application_date": 20220118,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97205803.jpg",
+      "img_id": "97205803",
+      "ocr_text": "8 8",
+      "type": "mixed",
+      "image_similarity": 0.59697026014328,
+      "text_similarity": 0.8522969484329224,
+      "final_score": 0.7246336042881012,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261126"
+      ],
+      "applicant": "Weather or Not Riding Gear, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of lines arranged vertically in intertwined double strands enclosed within an oval.",
+      "application_date": 20220106,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97226015.jpg",
+      "img_id": "97226015",
+      "ocr_text": "&3",
+      "type": "mixed",
+      "image_similarity": 0.592517614364624,
+      "text_similarity": 0.8567418456077576,
+      "final_score": 0.7246297299861908,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2607",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261725",
+        "260701",
+        "261521"
+      ],
+      "applicant": "Nufam, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) gold is/are claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97218555.jpg",
+      "img_id": "97218555",
+      "ocr_text": "مَدَائِن صَالِح",
+      "type": "mixed",
+      "image_similarity": 0.6067701578140259,
+      "text_similarity": 0.8419702053070068,
+      "final_score": 0.7243701815605164,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2801"
+      ],
+      "tot_vienna_code": [
+        "280101"
+      ],
+      "applicant": "Shritech Consulting, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of the Arabic characters in the mark transliterate to MADA'IN SALIH and this means CITIES OF PIOUS in english.",
+      "application_date": 20220113,
+      "rank": 10
+    }
+  ]
+}

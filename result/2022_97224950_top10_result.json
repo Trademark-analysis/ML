@@ -1,0 +1,243 @@
+{
+  "query": {
+    "query_image": "test\\2022_97224950.jpg",
+    "query_ocr_text": "ripex",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97227801.jpg",
+      "img_id": "97227801",
+      "ocr_text": "MAtek",
+      "type": "mixed",
+      "image_similarity": 0.6653954982757568,
+      "text_similarity": 0.9107969403266907,
+      "final_score": 0.7880962193012238,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260521"
+      ],
+      "applicant": "Materials Analysis Technology Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97207192.jpg",
+      "img_id": "97207192",
+      "ocr_text": "DEEP BLOCK",
+      "type": "mixed",
+      "image_similarity": 0.703359067440033,
+      "text_similarity": 0.8641670942306519,
+      "final_score": 0.7837630808353424,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2619"
+      ],
+      "tot_vienna_code": [
+        "261904"
+      ],
+      "applicant": "OMNIS LABS COMPANY",
+      "classOfGoodServiceBusinessName": "educational services, namely, software featuring instruction in the fields of machine learning, deep learning and artificial intelligence; non-downloadable software for instruction in the fields of machine learning, deep learning, and artificial intelligence; non-downloadable computer software development tools for developers in the fields of machine learning, deep learning and artificial intelligence; non-downloadable computer software for deploying and optimizing models in the fields of machine learning, deep learning and artificial intelligence",
+      "application_date": 20220107,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97204588.jpg",
+      "img_id": "97204588",
+      "ocr_text": "PLEIOTEK",
+      "type": "mixed",
+      "image_similarity": 0.677747368812561,
+      "text_similarity": 0.8867767453193665,
+      "final_score": 0.7822620570659637,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2619",
+        "0107",
+        "2609",
+        "2609",
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "261901",
+        "010702",
+        "260921",
+        "260914",
+        "260914"
+      ],
+      "applicant": "Temkin Associates LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a sphere consisting of squares that are streaming to represent a globe of data being collected followed by the word pleiotek representing the company name.",
+      "application_date": 20220105,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6704763174057007,
+      "text_similarity": 0.8886622190475464,
+      "final_score": 0.7795692682266235,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97207906.jpg",
+      "img_id": "97207906",
+      "ocr_text": "ARCTIC",
+      "type": "mixed",
+      "image_similarity": 0.6761184930801392,
+      "text_similarity": 0.8811761140823364,
+      "final_score": 0.7786473035812378,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2611",
+        "2611"
+      ],
+      "tot_vienna_code": [
+        "261125",
+        "261125"
+      ],
+      "applicant": "Biel, Edward Andrew William",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_97245933.jpg",
+      "img_id": "97245933",
+      "ocr_text": "UNIFYY",
+      "type": "mixed",
+      "image_similarity": 0.6398290991783142,
+      "text_similarity": 0.890646755695343,
+      "final_score": 0.7652379274368286,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "Unifyy LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of UNIFYY appearing to the right of a curve.",
+      "application_date": 20220131,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97230451.jpg",
+      "img_id": "97230451",
+      "ocr_text": "Anproity",
+      "type": "mixed",
+      "image_similarity": 0.6406601071357727,
+      "text_similarity": 0.885125994682312,
+      "final_score": 0.7628930509090424,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260101"
+      ],
+      "applicant": "Jamino (Chengdu) Shoes Co., Ltd.",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording \"Anproity\"with a design of a bold wave inside a bold circle.",
+      "application_date": 20220120,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97208692.jpg",
+      "img_id": "97208692",
+      "ocr_text": "Dock",
+      "type": "mixed",
+      "image_similarity": 0.675789475440979,
+      "text_similarity": 0.8441632390022278,
+      "final_score": 0.7599763572216034,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2609"
+      ],
+      "tot_vienna_code": [
+        "260909"
+      ],
+      "applicant": "Conductor Tecnologia S.A.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220107,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97226651.jpg",
+      "img_id": "97226651",
+      "ocr_text": "Forcexx Distance",
+      "type": "mixed",
+      "image_similarity": 0.6776114106178284,
+      "text_similarity": 0.8387483358383179,
+      "final_score": 0.7581798732280731,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "1701",
+        "1701"
+      ],
+      "tot_vienna_code": [
+        "170102",
+        "170102"
+      ],
+      "applicant": "Wells, Cornelius",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97228039.jpg",
+      "img_id": "97228039",
+      "ocr_text": "MAtek The Best R&D Partner",
+      "type": "mixed",
+      "image_similarity": 0.6530002355575562,
+      "text_similarity": 0.8595820665359497,
+      "final_score": 0.7562911510467529,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2605"
+      ],
+      "tot_vienna_code": [
+        "260521"
+      ],
+      "applicant": "Materials Analysis Technology Inc.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 10
+    }
+  ]
+}

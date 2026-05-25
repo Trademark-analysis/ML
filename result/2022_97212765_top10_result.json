@@ -1,0 +1,235 @@
+{
+  "query": {
+    "query_image": "test\\2022_97212765.jpg",
+    "query_ocr_text": "SOEZY",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97228250.jpg",
+      "img_id": "97228250",
+      "ocr_text": "GLOBYZ",
+      "type": "mixed",
+      "image_similarity": 0.71697598695755,
+      "text_similarity": 0.9234933853149414,
+      "final_score": 0.8202346861362457,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "0107"
+      ],
+      "tot_vienna_code": [
+        "260121",
+        "010708"
+      ],
+      "applicant": "Globyz Pharma LLC",
+      "classOfGoodServiceBusinessName": "The color(s) Blue lettering of word \"globyz\"; gold line underlining word \"globyz\"; blue and white globe with different shades of blue ranging from light to dark blue is/are claimed as a feature of the mark.",
+      "application_date": 20220119,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97227341.jpg",
+      "img_id": "97227341",
+      "ocr_text": "beary",
+      "type": "mixed",
+      "image_similarity": 0.7271870374679565,
+      "text_similarity": 0.8866807818412781,
+      "final_score": 0.8069339096546173,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2701"
+      ],
+      "tot_vienna_code": [
+        "270104"
+      ],
+      "applicant": "Beasy Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of The \"b\" has an incomplete \"e\" inside it. Looks like an infinity symbol. Followed by a narrow vertical line. Then the letter \"e\", \"a\", \"s\", & \"y\", spelling out the word \"easy\".",
+      "application_date": 20220119,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97223811.jpg",
+      "img_id": "97223811",
+      "ocr_text": "Kiez",
+      "type": "mixed",
+      "image_similarity": 0.6909469366073608,
+      "text_similarity": 0.9031439423561096,
+      "final_score": 0.7970454394817352,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0307",
+        "0307"
+      ],
+      "tot_vienna_code": [
+        "030710",
+        "030710"
+      ],
+      "applicant": "Gabidullin Almaz Nurmukhamedovich",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220117,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97245933.jpg",
+      "img_id": "97245933",
+      "ocr_text": "UNIFYY",
+      "type": "mixed",
+      "image_similarity": 0.6812050938606262,
+      "text_similarity": 0.908976137638092,
+      "final_score": 0.7950906157493591,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709"
+      ],
+      "applicant": "Unifyy LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of UNIFYY appearing to the right of a curve.",
+      "application_date": 20220131,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97244506.jpg",
+      "img_id": "97244506",
+      "ocr_text": "S",
+      "type": "mixed",
+      "image_similarity": 0.666334331035614,
+      "text_similarity": 0.9169533252716064,
+      "final_score": 0.7916438281536102,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260103"
+      ],
+      "applicant": "Ringmaster Technologies, Inc.",
+      "classOfGoodServiceBusinessName": "The mark consists of an interlocking ring design.",
+      "application_date": 20220128,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_79337395.jpg",
+      "img_id": "79337395",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6627259254455566,
+      "text_similarity": 0.9092393517494202,
+      "final_score": 0.7859826385974884,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260102"
+      ],
+      "applicant": "Ministry of Economy",
+      "classOfGoodServiceBusinessName": "Organization of exhibitions for cultural, educational, sporting and entertainment purposes",
+      "application_date": 20220127,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97211085.jpg",
+      "img_id": "97211085",
+      "ocr_text": "OPENVERSE",
+      "type": "mixed",
+      "image_similarity": 0.6852790713310242,
+      "text_similarity": 0.8771430253982544,
+      "final_score": 0.7812110483646393,
+      "niceCode": [
+        "042"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260126"
+      ],
+      "applicant": "Amber AI Limited",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220110,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97230093.jpg",
+      "img_id": "97230093",
+      "ocr_text": "O",
+      "type": "mixed",
+      "image_similarity": 0.6496565937995911,
+      "text_similarity": 0.9092393517494202,
+      "final_score": 0.7794479727745056,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0201"
+      ],
+      "tot_vienna_code": [
+        "020133"
+      ],
+      "applicant": "Elite Running Company",
+      "classOfGoodServiceBusinessName": "The mark consists of An upper case \"E\" stylized to appear as a person in a running position. The base of the image represents the ground which is making contact with one of the runner's legs. The other leg is in a raised position with a bent knee. The arms are in a bent position which represents the runner using their arms for running momentum. The circle above the \"E\" represents the head of the runner.",
+      "application_date": 20220120,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97248861.jpg",
+      "img_id": "97248861",
+      "ocr_text": "CHGO",
+      "type": "mixed",
+      "image_similarity": 0.6577839255332947,
+      "text_similarity": 0.9007764458656311,
+      "final_score": 0.7792801856994629,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0101"
+      ],
+      "tot_vienna_code": [
+        "010110"
+      ],
+      "applicant": "BSN Live, Inc.",
+      "classOfGoodServiceBusinessName": "Entertainment services, namely, providing podcasts in the field of sports, entertainment, popular culture and current events; Hosting social entertainment events, namely, event watch parties, birthday parties, fund-raisers, holiday parties and other social events, for others; Media production services, namely, video and film production; Production of podcasts; Providing a website featuring resources, namely, non-downloadable publications in the nature of multimedia content, videos, articles, podcasts, and images in the field of sports, entertainment, popular culture and current events; Providing an Internet website portal featuring entertainment news and information specifically in the field of sports, entertainment, popular culture and current events",
+      "application_date": 20220201,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97220734.jpg",
+      "img_id": "97220734",
+      "ocr_text": "SOLE COLLECTIVE",
+      "type": "mixed",
+      "image_similarity": 0.6565999984741211,
+      "text_similarity": 0.8989248871803284,
+      "final_score": 0.7777624428272247,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261713"
+      ],
+      "applicant": "jeffrey Davies",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 10
+    }
+  ]
+}

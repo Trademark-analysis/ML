@@ -1,0 +1,255 @@
+{
+  "query": {
+    "query_image": "test\\2022_97211465.jpg",
+    "query_ocr_text": "JERIAJUNGLE",
+    "query_type": "mixed"
+  },
+  "total_candidates": 500,
+  "top_k": 10,
+  "results": [
+    {
+      "fileName": "2022_97201534.jpg",
+      "img_id": "97201534",
+      "ocr_text": "RJR",
+      "type": "mixed",
+      "image_similarity": 0.6781195402145386,
+      "text_similarity": 0.8975105285644531,
+      "final_score": 0.7878150343894958,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260118"
+      ],
+      "applicant": "Rohrich, Rodney J.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 1
+    },
+    {
+      "fileName": "2022_97201532.jpg",
+      "img_id": "97201532",
+      "ocr_text": "RJR",
+      "type": "mixed",
+      "image_similarity": 0.6781195402145386,
+      "text_similarity": 0.8975105285644531,
+      "final_score": 0.7878150343894958,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "2601"
+      ],
+      "tot_vienna_code": [
+        "260118",
+        "260118"
+      ],
+      "applicant": "Rohrich, Rodney J.",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220104,
+      "rank": 2
+    },
+    {
+      "fileName": "2022_97219667.jpg",
+      "img_id": "97219667",
+      "ocr_text": "C",
+      "type": "mixed",
+      "image_similarity": 0.673568606376648,
+      "text_similarity": 0.9018140435218811,
+      "final_score": 0.7876913249492645,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2703",
+        "2411"
+      ],
+      "tot_vienna_code": [
+        "270305",
+        "241102"
+      ],
+      "applicant": "Dennis Abad-Jimenez",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220114,
+      "rank": 3
+    },
+    {
+      "fileName": "2022_97244687.jpg",
+      "img_id": "97244687",
+      "ocr_text": "flyjili",
+      "type": "mixed",
+      "image_similarity": 0.6749866008758545,
+      "text_similarity": 0.8907325863838196,
+      "final_score": 0.782859593629837,
+      "niceCode": [
+        "041"
+      ],
+      "tot_mid_vienna_code": [
+        "1809"
+      ],
+      "tot_vienna_code": [
+        "180901"
+      ],
+      "applicant": "McLendon, Jilian E",
+      "classOfGoodServiceBusinessName": "Photography; Photography services; Portrait photography services",
+      "application_date": 20220128,
+      "rank": 4
+    },
+    {
+      "fileName": "2022_97245877.jpg",
+      "img_id": "97245877",
+      "ocr_text": "Fresh",
+      "type": "mixed",
+      "image_similarity": 0.6862247586250305,
+      "text_similarity": 0.8781842589378357,
+      "final_score": 0.7822045087814331,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2617"
+      ],
+      "tot_vienna_code": [
+        "261709",
+        "261709"
+      ],
+      "applicant": "Forever Fresh LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of stylized wording of \"Fresh\" with an underline connected to the letter h. This underline starts from the letter h and goes under all of the letters. Uppercase F, Lowercase r,e,s,h.",
+      "application_date": 20220131,
+      "rank": 5
+    },
+    {
+      "fileName": "2022_79335985.jpg",
+      "img_id": "79335985",
+      "ocr_text": "FRAND LEAGUE",
+      "type": "mixed",
+      "image_similarity": 0.6604328155517578,
+      "text_similarity": 0.8921436071395874,
+      "final_score": 0.7762882113456726,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2401",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "240103",
+        "261502"
+      ],
+      "applicant": "IPCom GmbH & Co. KG",
+      "classOfGoodServiceBusinessName": "Publication of instructional literature; publication of material which can be accessed from databases or from the internet; publication of printed matter in electronic form on the internet; services for the publication of newsletters; writing services for blogs",
+      "application_date": 20220203,
+      "rank": 6
+    },
+    {
+      "fileName": "2022_97207515.jpg",
+      "img_id": "97207515",
+      "ocr_text": "dare",
+      "type": "mixed",
+      "image_similarity": 0.6627681255340576,
+      "text_similarity": 0.8875302076339722,
+      "final_score": 0.7751491665840149,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2601",
+        "0105",
+        "0501",
+        "0501"
+      ],
+      "tot_vienna_code": [
+        "260118",
+        "010525",
+        "050103",
+        "050103"
+      ],
+      "applicant": "Hoffworld, LLC",
+      "classOfGoodServiceBusinessName": "The mark consists of a setting sun, comprised of two shades of orange and one shade of yellow stacked on top of each other, surrounded by concentric orange and yellow sun rays; appearing as a background for the word MALIBU which appears in black script font above the word DAVE, which appears in orange script font in font over the horizontal black silhouette of a surf board. The letter L in MALIBU appears as the vertical silhouette of a surf board. The letter I in MALIBU appears as the silhouette of a surfer. The word MALIBU appears underneath the black silhouette of three palm trees.",
+      "application_date": 20220107,
+      "rank": 7
+    },
+    {
+      "fileName": "2022_97226015.jpg",
+      "img_id": "97226015",
+      "ocr_text": "&3",
+      "type": "mixed",
+      "image_similarity": 0.6509128212928772,
+      "text_similarity": 0.8977838754653931,
+      "final_score": 0.7743483483791351,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "2617",
+        "2607",
+        "2615"
+      ],
+      "tot_vienna_code": [
+        "261725",
+        "260701",
+        "261521"
+      ],
+      "applicant": "Nufam, LLC",
+      "classOfGoodServiceBusinessName": "The color(s) gold is/are claimed as a feature of the mark.",
+      "application_date": 20220118,
+      "rank": 8
+    },
+    {
+      "fileName": "2022_97222950.jpg",
+      "img_id": "97222950",
+      "ocr_text": "GRILL GEAR",
+      "type": "mixed",
+      "image_similarity": 0.696146547794342,
+      "text_similarity": 0.8472334146499634,
+      "final_score": 0.7716899812221527,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0311",
+        "0311",
+        "0905",
+        "0905"
+      ],
+      "tot_vienna_code": [
+        "031101",
+        "031101",
+        "090501",
+        "090501"
+      ],
+      "applicant": "G'Rilla Gear",
+      "classOfGoodServiceBusinessName": "Color is not claimed as a feature of the mark.",
+      "application_date": 20220117,
+      "rank": 9
+    },
+    {
+      "fileName": "2022_97201441.jpg",
+      "img_id": "97201441",
+      "ocr_text": "SIMPLE",
+      "type": "mixed",
+      "image_similarity": 0.6307035684585571,
+      "text_similarity": 0.9086398482322693,
+      "final_score": 0.7696717083454132,
+      "niceCode": [
+        "025"
+      ],
+      "tot_mid_vienna_code": [
+        "0211"
+      ],
+      "tot_vienna_code": [
+        "021101"
+      ],
+      "applicant": "Simple Style Apparel, Inc",
+      "classOfGoodServiceBusinessName": "The mark consists of the word \"simple\" in a stylized font in a heart-shaped form, superimposed on a heart-shaped design.",
+      "application_date": 20220104,
+      "rank": 10
+    }
+  ]
+}
