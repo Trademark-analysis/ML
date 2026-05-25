@@ -5,11 +5,11 @@ import shutil
 JSON_PATH = "2022_TOTAL.json"
 IMAGE_DIR = "image/2022"
 
-OUTPUT_IMAGE_DIR = "image_filtered"
-OUTPUT_JSON_PATH = "filtered_niceCode.json"
+OUTPUT_IMAGE_DIR = "test"
+OUTPUT_JSON_PATH = "test/test.json"
 
 # 원하는 niceCode들
-TARGET_CODES = ["025", "041", "042"]
+TARGET_CODES = ["020"]
 
 os.makedirs(OUTPUT_IMAGE_DIR, exist_ok=True)
 

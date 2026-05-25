@@ -1,10 +1,10 @@
 import os
 import json
+import glob
 import shutil
 import numpy as np
 from dotenv import load_dotenv
 
-# 기존 코드에서 가져오기
 from ocr import azure_ocr, azure_image_vector, azure_text_vector, check_env
 
 load_dotenv()
@@ -12,16 +12,15 @@ load_dotenv()
 VECTOR_JSON_PATH = "trademark_vector.json"
 DB_IMAGE_DIR = "image_filtered"
 
-QUERY_IMAGE_PATH = "query.jpg"
+QUERY_IMAGE_DIR = "test"
 
 RESULT_DIR = "result"
-RESULT_IMAGE_DIR = os.path.join(RESULT_DIR, "top10_images")
-RESULT_JSON_PATH = os.path.join(RESULT_DIR, "top10_result.json")
+RESULT_IMAGE_BASE_DIR = os.path.join(RESULT_DIR, "top10_images")
 
 TOP_K = 10
 
 os.makedirs(RESULT_DIR, exist_ok=True)
-os.makedirs(RESULT_IMAGE_DIR, exist_ok=True)
+os.makedirs(RESULT_IMAGE_BASE_DIR, exist_ok=True)
 
 
 def cosine_similarity(v1, v2):
@@ -47,15 +46,21 @@ def get_type(has_image, has_text):
     return "unknown"
 
 
-def main():
-    check_env()
+def get_query_images(query_dir):
+    image_paths = []
+    image_paths.extend(glob.glob(os.path.join(query_dir, "*.jpg")))
+    image_paths.extend(glob.glob(os.path.join(query_dir, "*.jpeg")))
+    image_paths.extend(glob.glob(os.path.join(query_dir, "*.png")))
+    return image_paths
 
-    with open(VECTOR_JSON_PATH, "r", encoding="utf-8") as f:
-        db_items = json.load(f)
 
-    # 1. 신규 이미지 OCR + 벡터 생성
-    query_ocr_text = azure_ocr(QUERY_IMAGE_PATH)
-    query_image_vector = azure_image_vector(QUERY_IMAGE_PATH)
+def search_one_image(query_image_path, db_items):
+    query_name = os.path.splitext(os.path.basename(query_image_path))[0]
+
+    print(f"\n===== 검색 시작: {query_image_path} =====")
+
+    query_ocr_text = azure_ocr(query_image_path)
+    query_image_vector = azure_image_vector(query_image_path)
     query_text_vector = azure_text_vector(query_ocr_text) if query_ocr_text else None
 
     query_has_image = query_image_vector is not None
@@ -63,7 +68,6 @@ def main():
 
     similarity_results = []
 
-    # 2. 기존 상표들과 유사도 계산
     for item in db_items:
         db_image_vector = item.get("image_vector")
         db_text_vector = item.get("text_vector")
@@ -100,8 +104,6 @@ def main():
             "image_similarity": image_similarity,
             "text_similarity": text_similarity,
             "final_score": final_score,
-
-            # 기존 메타데이터도 같이 저장
             "niceCode": item.get("niceCode", []),
             "tot_mid_vienna_code": item.get("tot_mid_vienna_code", []),
             "tot_vienna_code": item.get("tot_vienna_code", []),
@@ -110,22 +112,27 @@ def main():
             "application_date": item.get("application_date")
         })
 
-    # 3. top10 정렬
     similarity_results.sort(key=lambda x: x["final_score"], reverse=True)
     top10 = similarity_results[:TOP_K]
 
     for idx, item in enumerate(top10, start=1):
         item["rank"] = idx
 
-    # 4. top10 이미지 저장
+    result_image_dir = os.path.join(RESULT_IMAGE_BASE_DIR, query_name)
+    os.makedirs(result_image_dir, exist_ok=True)
+
     copied_count = 0
     missing_count = 0
 
     for item in top10:
-        file_name = item["fileName"]
+        file_name = item.get("fileName")
+
+        if not file_name:
+            missing_count += 1
+            continue
 
         src_path = os.path.join(DB_IMAGE_DIR, file_name)
-        dst_path = os.path.join(RESULT_IMAGE_DIR, file_name)
+        dst_path = os.path.join(result_image_dir, file_name)
 
         if os.path.exists(src_path):
             shutil.copy2(src_path, dst_path)
@@ -134,10 +141,11 @@ def main():
             print(f"이미지 없음: {file_name}")
             missing_count += 1
 
-    # 5. top10 JSON 저장
+    result_json_path = os.path.join(RESULT_DIR, f"{query_name}_top10_result.json")
+
     output = {
         "query": {
-            "query_image": QUERY_IMAGE_PATH,
+            "query_image": query_image_path,
             "query_ocr_text": query_ocr_text,
             "query_type": get_type(query_has_image, query_has_text)
         },
@@ -146,14 +154,33 @@ def main():
         "results": top10
     }
 
-    with open(RESULT_JSON_PATH, "w", encoding="utf-8") as f:
+    with open(result_json_path, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print("\n===== 완료 =====")
-    print(f"Top10 JSON 저장: {RESULT_JSON_PATH}")
-    print(f"Top10 이미지 저장: {RESULT_IMAGE_DIR}")
+    print(f"JSON 저장: {result_json_path}")
+    print(f"Top10 이미지 저장: {result_image_dir}")
     print(f"이미지 복사 성공: {copied_count}")
     print(f"이미지 없음: {missing_count}")
+
+
+def main():
+    check_env()
+
+    with open(VECTOR_JSON_PATH, "r", encoding="utf-8") as f:
+        db_items = json.load(f)
+
+    query_images = get_query_images(QUERY_IMAGE_DIR)
+
+    if not query_images:
+        print(f"검색할 이미지가 없습니다: {QUERY_IMAGE_DIR}")
+        return
+
+    print(f"검색 이미지 개수: {len(query_images)}")
+
+    for query_image_path in query_images:
+        search_one_image(query_image_path, db_items)
+
+    print("\n===== 전체 완료 =====")
 
 
 if __name__ == "__main__":
