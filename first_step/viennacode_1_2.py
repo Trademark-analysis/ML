@@ -380,50 +380,11 @@ def get_candidates(
     return {"primary": primary, "secondary": secondary}
 
 
-def build_pipeline_input_from_step1(step2_result: Dict[str, Any]) -> Dict[str, Any]:
-    """
-    1.1_nicecode.py의 classify_second_step() 결과를
-    1.2_viennacode.py의 run_pipeline() 입력 형식으로 변환합니다.
-
-    Example:
-        step2 = classify_second_step(image, description, [41, 42])
-        input_data = build_pipeline_input_from_step1(step2)
-        result = run_pipeline(input_data)
-    """
-    return {
-        "image": step2_result.get("image"),
-        "nice_codes": normalize_list(step2_result.get("nice_codes", [])),
-        "similar_group_codes": normalize_list(step2_result.get("similar_group_codes", [])),
-    }
-
-
-def build_pipeline_input_from_upload(
-    file: BinaryIO,
-    original_filename: str,
-    nice_codes: List[str],
-    similar_group_codes: List[str],
-    content_type: str = "image/png",
-) -> Dict[str, Any]:
-    """
-    사용자가 업로드한 이미지 파일을 Blob Storage에 저장한 뒤,
-    1.2 run_pipeline()에 바로 넣을 입력값을 만들어 반환합니다.
-    """
-    image_url = upload_image_to_blob(file, original_filename, content_type)
-
-    return {
-        "image": image_url,
-        "nice_codes": normalize_list(nice_codes),
-        "similar_group_codes": normalize_list(similar_group_codes),
-    }
-
-
 # ──────────────────────────────────────────────
 # 5. 메인 파이프라인 - API에서 이 함수만 호출
 # ──────────────────────────────────────────────
-def run_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
+def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
     """
-    전체 1차 파이프라인 실행
-
     Args:
         input_data 예시:
         {
@@ -494,3 +455,291 @@ def run_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
             "data": None,
         }
 
+def run_nice_classification(
+    file: BinaryIO,
+    original_filename: str,
+    service_description: str,
+    content_type: str = "image/png",
+) -> Dict[str, Any]:
+    """
+    1단계: 니스분류 후보 추천
+
+    입력:
+    - 사용자 업로드 이미지 파일
+    - 원본 파일명
+    - 상품/서비스 설명
+
+    처리:
+    1. 이미지를 Blob Storage에 업로드
+    2. Blob URL을 image 값으로 사용
+    3. classify_first_step()으로 니스분류 후보 추천
+
+    반환:
+    {
+        "success": true,
+        "step": "nice_classification",
+        "data": {
+            "image": "Blob URL",
+            "service_description": "...",
+            "matched": true,
+            "nice_class_candidates": [...]
+        }
+    }
+    """
+
+    if not file:
+        return {
+            "success": False,
+            "step": "nice_classification",
+            "message": "file 값이 필요합니다.",
+            "data": None,
+        }
+
+    if not original_filename:
+        return {
+            "success": False,
+            "step": "nice_classification",
+            "message": "original_filename 값이 필요합니다.",
+            "data": None,
+        }
+
+    if not service_description.strip():
+        return {
+            "success": False,
+            "step": "nice_classification",
+            "message": "service_description 값이 필요합니다.",
+            "data": None,
+        }
+
+    try:
+        image_url = upload_image_to_blob(
+            file=file,
+            original_filename=original_filename,
+            content_type=content_type,
+        )
+
+        result = classify_first_step(
+            image=image_url,
+            service_description=service_description,
+        )
+
+        return {
+            "success": True,
+            "step": "nice_classification",
+            "message": "니스분류 후보 추천 완료",
+            "data": result,
+        }
+
+    except Exception as e:
+        return {
+            "success": False,
+            "step": "nice_classification",
+            "message": "니스분류 후보 추천 실패",
+            "error": str(e),
+            "data": None,
+        }
+    
+def run_similar_group_classification(
+    image: str,
+    service_description: str,
+    selected_nice_classes: List[int],
+) -> Dict[str, Any]:
+    """
+    2단계: 유사군 코드 추천
+
+    입력:
+    - 1단계에서 반환된 image Blob URL
+    - 1단계에서 사용한 service_description
+    - 사용자가 선택한 니스분류 selected_nice_classes
+
+    처리:
+    classify_second_step()으로 nice_codes + similar_group_codes 생성
+
+    반환:
+    {
+        "success": true,
+        "step": "similar_group_classification",
+        "data": {
+            "image": "...",
+            "nice_codes": ["041"],
+            "similar_group_codes": ["S120903"]
+        }
+    }
+    """
+
+    if not image:
+        return {
+            "success": False,
+            "step": "similar_group_classification",
+            "message": "image 값이 필요합니다.",
+            "data": None,
+        }
+
+    if not service_description.strip():
+        return {
+            "success": False,
+            "step": "similar_group_classification",
+            "message": "service_description 값이 필요합니다.",
+            "data": None,
+        }
+
+    if not selected_nice_classes:
+        return {
+            "success": False,
+            "step": "similar_group_classification",
+            "message": "selected_nice_classes 값이 필요합니다.",
+            "data": None,
+        }
+
+    try:
+        result = classify_second_step(
+            image=image,
+            service_description=service_description,
+            selected_nice_classes=selected_nice_classes,
+        )
+
+        return {
+            "success": True,
+            "step": "similar_group_classification",
+            "message": "유사군 코드 추천 완료",
+            "data": result,
+        }
+
+    except Exception as e:
+        return {
+            "success": False,
+            "step": "similar_group_classification",
+            "message": "유사군 코드 추천 실패",
+            "error": str(e),
+            "data": None,
+        }
+    
+def parse_nice_class_input(user_input: str) -> List[int]:
+    """
+    터미널에서 입력받은 니스분류 문자열을 int 리스트로 변환합니다.
+
+    입력 예시:
+    - "41"
+    - "41,42"
+    - "25 41"
+    - "25, 41, 42"
+    """
+
+    if not user_input.strip():
+        return []
+
+    raw_parts = user_input.replace(",", " ").split()
+
+    selected = []
+
+    for part in raw_parts:
+        try:
+            nice_class = int(part)
+        except ValueError:
+            continue
+
+        if nice_class in {25, 41, 42} and nice_class not in selected:
+            selected.append(nice_class)
+
+    return selected
+
+
+def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
+
+    step1 = run_nice_classification(
+        file=input_data.get("file"),
+        original_filename=input_data.get("original_filename"),
+        service_description=input_data.get("service_description", ""),
+        content_type=input_data.get("content_type", "image/png"),
+    )
+
+    if not step1.get("success"):
+        return {
+            "success": False,
+            "mode": "all_test",
+            "message": "STEP 1 실패",
+            "step1": step1,
+            "step2": None,
+            "step3": None,
+        }
+
+    step1_data = step1.get("data") or {}
+    candidates = step1_data.get("nice_class_candidates", [])
+
+    print("\n[STEP 1] 니스분류 후보")
+    if not candidates:
+        print("추천된 니스분류 후보가 없습니다.")
+        return {
+            "success": False,
+            "mode": "all_test",
+            "message": "니스분류 후보가 없어 STEP 2를 진행할 수 없습니다.",
+            "step1": step1,
+            "step2": None,
+            "step3": None,
+        }
+
+    for idx, candidate in enumerate(candidates, start=1):
+        nice_class = candidate.get("nice_class")
+        class_name = candidate.get("class_name", "")
+        confidence = candidate.get("confidence", "")
+
+        print(f"{idx}. {nice_class}류 - {class_name} ({confidence})")
+
+    print("\n선택할 니스분류를 입력하세요.")
+    print("예: 41")
+    print("예: 41,42")
+    print("예: 25 41")
+
+    selected_input = input("선택한 니스분류: ")
+    selected_nice_classes = parse_nice_class_input(selected_input)
+
+    if not selected_nice_classes:
+        return {
+            "success": False,
+            "mode": "all_test",
+            "message": "유효한 니스분류가 선택되지 않았습니다. 25, 41, 42 중에서 입력해야 합니다.",
+            "step1": step1,
+            "step2": None,
+            "step3": None,
+        }
+
+    print(f"\n선택된 니스분류: {selected_nice_classes}")
+
+    step2 = run_similar_group_classification(
+        image=step1_data.get("image"),
+        service_description=step1_data.get("service_description", ""),
+        selected_nice_classes=selected_nice_classes,
+    )
+
+    if not step2.get("success"):
+        return {
+            "success": False,
+            "mode": "all_test",
+            "message": "STEP 2 실패",
+            "selected_nice_classes": selected_nice_classes,
+            "step1": step1,
+            "step2": step2,
+            "step3": None,
+        }
+
+    step2_data = step2.get("data") or {}
+
+    print("\n[STEP 2] 유사군 코드 추천 결과")
+    print(json.dumps(step2, ensure_ascii=False, indent=2))
+
+    step3 = run_vienna_check(step2_data)
+
+    step3_data = step3.get("data") or {}
+    candidates = step3_data.get("candidates", {})
+    primary_candidates = candidates.get("primary", [])
+    secondary_candidates = candidates.get("secondary", [])
+
+    return {
+        "image": step1_data.get("image"),
+        "service_description": step1_data.get("service_description"),
+        "nice_codes": step2_data.get("nice_codes", []),
+        "similar_group_codes": step2_data.get("similar_group_codes", []),
+        "vienna_codes": step3_data.get("detected_vienna_codes"),
+        "matched_primary_images": primary_candidates,
+        "matched_secondary_images": secondary_candidates,
+    }
