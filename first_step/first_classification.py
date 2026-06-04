@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 from typing import Any, Dict, List, Optional
 
 import pyodbc
@@ -80,7 +81,7 @@ def get_sql_connection():
 
 
 # ============================================================
-# 4. JSON 처리 유틸리티
+# 4. 유틸리티
 # ============================================================
 
 def clean_json_response(text: str) -> str:
@@ -107,6 +108,205 @@ def safe_json_loads(text: str) -> Dict[str, Any]:
             "candidates": [],
         }
 
+STOPWORDS = {
+    "서비스",
+    "상품",
+    "제품",
+    "제공",
+    "운영",
+    "관련",
+    "기반",
+    "위한",
+    "하는",
+    "하고",
+    "합니다",
+    "및",
+    "또는",
+    "회사",
+    "사업",
+    "업체",
+    "브랜드",
+}
+
+IMPORTANT_PHRASES = [
+    # 25류
+    "의류 판매",
+    "의류온라인판매",
+    "의류 온라인 판매",
+    "스포츠 의류",
+    "스포츠의류",
+    "운동복",
+    "패션 의류",
+    "패션의류",
+    "신발 판매",
+    "신발판매",
+    "모자 판매",
+    "모자판매",
+
+    # 41류
+    "온라인 교육",
+    "온라인교육",
+    "온라인 강의",
+    "온라인강의",
+    "영어 교육",
+    "영어교육",
+    "교육 플랫폼",
+    "교육플랫폼",
+    "교육 서비스",
+    "교육서비스",
+    "스포츠 시설",
+    "스포츠시설",
+    "헬스장 운영",
+    "헬스장운영",
+    "체육관 운영",
+    "체육관운영",
+    "구독형 콘텐츠",
+    "구독형콘텐츠",
+    "콘텐츠 제공",
+    "콘텐츠제공",
+
+    # 42류
+    "소프트웨어 개발",
+    "소프트웨어개발",
+    "앱 개발",
+    "앱개발",
+    "어플 개발",
+    "어플개발",
+    "웹 개발",
+    "웹개발",
+    "플랫폼 개발",
+    "플랫폼개발",
+    "IT 서비스",
+    "IT서비스",
+    "인공지능 개발",
+    "인공지능개발",
+    "AI 개발",
+    "AI개발",
+    "시스템 개발",
+    "시스템개발",
+    "데이터베이스",
+    "SaaS",
+]
+
+SYNONYM_MAP = {
+    "어플": ["앱", "모바일앱", "소프트웨어"],
+    "앱": ["어플", "모바일앱", "소프트웨어"],
+    "모바일앱": ["앱", "어플", "소프트웨어"],
+    "웹사이트": ["웹", "웹개발", "웹 개발"],
+    "플랫폼": ["플랫폼개발", "플랫폼 개발", "소프트웨어"],
+    "ai": ["AI", "인공지능"],
+    "인공지능": ["AI"],
+
+    "강의": ["교육", "온라인교육", "온라인 교육"],
+    "수업": ["교육", "강의"],
+    "학원": ["교육"],
+    "튜터링": ["교육", "수업"],
+    "영어": ["영어교육", "영어 교육", "어학원"],
+
+    "옷": ["의류", "패션"],
+    "패션": ["의류"],
+    "운동복": ["스포츠의류", "스포츠 의류", "의류"],
+    "스포츠웨어": ["스포츠의류", "스포츠 의류", "운동복"],
+    "운동화": ["신발"],
+    "스니커즈": ["신발", "운동화"],
+
+    "헬스장": ["스포츠시설", "스포츠 시설", "체육관"],
+    "체육관": ["스포츠시설", "스포츠 시설"],
+}
+
+
+def normalize_text(text: str) -> str:
+    """
+    SQL 검색어 생성을 위해 텍스트를 정리합니다.
+    - 영문 소문자화
+    - 특수문자 제거
+    - 여러 공백을 하나로 정리
+    """
+    text = text.lower()
+    text = re.sub(r"[^가-힣a-zA-Z0-9\s]", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def remove_spaces(text: str) -> str:
+    """
+    '온라인 교육'과 '온라인교육'을 같이 잡기 위한 함수입니다.
+    """
+    return normalize_text(text).replace(" ", "")
+
+
+def add_spacing_variants(term: str) -> List[str]:
+    """
+    검색어의 띄어쓰기 변형을 함께 만듭니다.
+    예:
+    - '온라인 교육' → ['온라인 교육', '온라인교육']
+    - '앱개발' → ['앱개발']
+    """
+    normalized = normalize_text(term)
+    no_space = remove_spaces(term)
+
+    variants = [normalized]
+
+    if no_space and no_space != normalized:
+        variants.append(no_space)
+
+    return variants
+
+
+def extract_search_terms(text: str) -> List[str]:
+    """
+    사용자 입력에서 SQL LIKE 검색에 사용할 검색어를 추출합니다.
+
+    구성:
+    1. 기본 토큰
+    2. 중요 복합 표현
+    3. 띄어쓰기 제거 버전
+    4. 동의어 확장
+    """
+    normalized = normalize_text(text)
+    tokens = normalized.split()
+
+    terms = []
+
+    # 1. 기본 토큰
+    for token in tokens:
+        if len(token) < 2:
+            continue
+        if token in STOPWORDS:
+            continue
+        terms.extend(add_spacing_variants(token))
+
+    # 2. 중요 복합 표현
+    no_space_text = remove_spaces(text)
+
+    for phrase in IMPORTANT_PHRASES:
+        normalized_phrase = normalize_text(phrase)
+        no_space_phrase = remove_spaces(phrase)
+
+        if normalized_phrase in normalized or no_space_phrase in no_space_text:
+            terms.extend(add_spacing_variants(phrase))
+
+    # 3. 동의어 확장
+    expanded_terms = list(terms)
+
+    for term in terms:
+        key = normalize_text(term)
+        no_space_key = remove_spaces(term)
+
+        if key in SYNONYM_MAP:
+            expanded_terms.extend(SYNONYM_MAP[key])
+
+        if no_space_key in SYNONYM_MAP:
+            expanded_terms.extend(SYNONYM_MAP[no_space_key])
+
+    # 4. 동의어도 띄어쓰기 변형 추가
+    final_terms = []
+
+    for term in expanded_terms:
+        final_terms.extend(add_spacing_variants(term))
+
+    # 중복 제거
+    return list(dict.fromkeys([term for term in final_terms if term]))
 
 # ============================================================
 # 5. 니스분류 추천
@@ -215,11 +415,16 @@ def validate_selected_nice_classes(selected_nice_classes: List[int]) -> List[int
     return valid_classes
 
 
-def fetch_similar_group_candidates_from_sql(selected_nice_classes: List[int]) -> List[Dict[str, Any]]:
+def fetch_similar_group_candidates_from_sql(
+        selected_nice_classes: List[int],
+        service_description: str,
+        max_rows: int = 80
+    ) -> List[Dict[str, Any]]:
     """
     선택된 니스분류에 해당하는 유사군 코드 후보를 SQL에서 가져옴
     """
     valid_classes = validate_selected_nice_classes(selected_nice_classes)
+    search_terms = extract_search_terms(service_description)
 
     conn = None
     cursor = None
@@ -228,36 +433,24 @@ def fetch_similar_group_candidates_from_sql(selected_nice_classes: List[int]) ->
         conn = get_sql_connection()
         cursor = conn.cursor()
 
-        placeholders = ",".join(["?"] * len(valid_classes))
+        # 1차: nice_class + 검색어 조건
+        candidates = _fetch_similar_group_candidates_core(
+            cursor=cursor,
+            valid_classes=valid_classes,
+            search_terms=search_terms,
+            max_rows=max_rows,
+        )
 
-        query = f"""
-            SELECT
-                id,
-                nice_class,
-                item_name,
-                similar_group_code,
-                description,
-                keywords
-            FROM similar_group_codes
-            WHERE nice_class IN ({placeholders})
-        """
-
-        cursor.execute(query, selected_nice_classes)
-        rows = cursor.fetchall()
-
-        candidates = []
-
-        for row in rows:
-            candidates.append({
-                "id": row.id,
-                "nice_class": row.nice_class,
-                "item_name": row.item_name,
-                "similar_group_code": row.similar_group_code,
-                "description": row.description,
-                "keywords": row.keywords,
-            })
-
-        return candidates
+        if candidates:
+            return candidates
+        
+        # 2차 fallback: 검색어로 아무것도 안 잡히면 nice_class만으로 조회
+        return _fetch_similar_group_candidates_core(
+            cursor=cursor,
+            valid_classes=valid_classes,
+            search_terms=[],
+            max_rows=max_rows,
+        )
 
     finally:
         if cursor:
@@ -265,6 +458,73 @@ def fetch_similar_group_candidates_from_sql(selected_nice_classes: List[int]) ->
         if conn:
             conn.close()
 
+def _fetch_similar_group_candidates_core(
+    cursor,
+    valid_classes: List[int],
+    search_terms: List[str],
+    max_rows: int,
+) -> List[Dict[str, Any]]:
+    """
+    SQL 쿼리 실행
+    search_terms가 있으면 LIKE 조건을 추가하고,
+    없으면 nice_class 조건만 사용
+    """
+
+    class_placeholders = ",".join(["?"] * len(valid_classes))
+    params: List[Any] = []
+    params.extend(valid_classes)
+
+    keyword_clause = ""
+
+    if search_terms:
+        keyword_conditions = []
+
+        for term in search_terms:
+            keyword_conditions.append(
+                """
+                (
+                    item_name LIKE ?
+                    OR description LIKE ?
+                    OR keywords LIKE ?
+                )
+                """
+            )
+
+            like_term = f"%{term}%"
+            params.extend([like_term, like_term, like_term])
+
+        keyword_clause = " AND (" + " OR ".join(keyword_conditions) + ")"
+
+    query = f"""
+        SELECT TOP ({max_rows})
+            id,
+            nice_class,
+            item_name,
+            similar_group_code,
+            description,
+            keywords
+        FROM similar_group_codes
+        WHERE nice_class IN ({class_placeholders})
+        {keyword_clause}
+        ORDER BY nice_class, id
+    """
+
+    cursor.execute(query, params)
+    rows = cursor.fetchall()
+
+    candidates = []
+
+    for row in rows:
+        candidates.append({
+            "id": row.id,
+            "nice_class": row.nice_class,
+            "item_name": row.item_name,
+            "similar_group_code": row.similar_group_code,
+            "description": row.description or "",
+            "keywords": row.keywords or "",
+        })
+
+    return candidates
 
 # ============================================================
 # 7. LLM이 SQL 후보 안에서 유사군 코드 최종 선택
@@ -433,7 +693,10 @@ def recommend_similar_group_codes_after_user_selection(
             "selected_codes": [],
         }
 
-    sql_candidates = fetch_similar_group_candidates_from_sql(valid_classes)
+    sql_candidates = fetch_similar_group_candidates_from_sql(
+        selected_nice_classes=valid_classes,
+        service_description=service_description,
+    )
 
     if not sql_candidates:
         return {
