@@ -680,7 +680,6 @@ def recommend_similar_group_codes_after_user_selection(
     if not service_description.strip():
         return {
             "matched": False,
-            "message": "상품/서비스 설명이 비어 있습니다.",
             "selected_codes": [],
         }
 
@@ -701,7 +700,6 @@ def recommend_similar_group_codes_after_user_selection(
     if not sql_candidates:
         return {
             "matched": False,
-            "message": "선택된 니스분류에 해당하는 SQL 후보 데이터가 없습니다.",
             "selected_codes": [],
         }
 
@@ -712,33 +710,105 @@ def recommend_similar_group_codes_after_user_selection(
 
 
 # ============================================================
-# 9. 로컬 테스트용
+# 9. 호출 함수
 # ============================================================
 
-def test_step_1_only():
-    service_description = "온라인 영어 교육 플랫폼 운영 서비스"
+def classify_first_step(
+    image: str,
+    service_description: str,
+) -> Dict[str, Any]:
+    """
+    STEP 1.
+    사용자가 로고 이미지와 상품/서비스 설명을 입력했을 때 호출하는 함수.
+
+    Input:
+        image: 사용자 업로드 로고 이미지 경로/URL/blob URL
+        service_description: 상품/서비스 설명
+
+    Output:
+        {
+            "image": "...",
+            "service_description": "...",
+            "matched": true,
+            "nice_class_candidates": [...]
+        }
+    """
+
+    if not image:
+        raise ValueError("image 값이 비어 있습니다.")
+
+    if not service_description.strip():
+        raise ValueError("service_description 값이 비어 있습니다.")
 
     nice_result = recommend_nice_classes_by_llm(service_description)
 
-    print("\n[STEP 1] 니스분류 후보 추천 결과")
-    print(json.dumps(nice_result, ensure_ascii=False, indent=2))
+    return {
+        "image": image,
+        "service_description": service_description,
+        "matched": nice_result.get("matched", False),
+        "nice_class_candidates": nice_result.get("candidates", []),
+    }
 
+def format_nice_code(nice_class: int) -> str:
+    """
+    니스분류 숫자를 3자리 문자열로 변환
+    """
+    return f"{nice_class:03d}"
 
-def test_step_2_with_manual_selection():
-    service_description = "온라인 영어 교육 플랫폼 운영 서비스"
+def format_nice_code(nice_class: int) -> str:
+    """
+    니스분류 숫자를 3자리 문자열로 변환.
+    예: 25 -> "025", 41 -> "041", 42 -> "042"
+    """
+    return f"{nice_class:03d}"
 
-    # 실제 서비스에서는 프론트에서 사용자가 선택한 값이 들어옴
-    selected_nice_classes = [41]
+def classify_second_step(
+    image: str,
+    service_description: str,
+    selected_nice_classes: List[int],
+) -> Dict[str, Any]:
+    """
+    STEP 2.
+    사용자가 니스분류 후보 중 하나 이상을 선택한 뒤 호출하는 함수.
+
+    Input:
+        image: STEP 1에서 받은 이미지 값 그대로 전달
+        service_description: STEP 1에서 받은 설명 그대로 전달
+        selected_nice_classes: 사용자가 선택한 니스분류
+            예: [41], [41, 42], [25]
+
+    Output:
+        {
+          "image": "사용자 업로드 로고 이미지",
+          "nice_codes": ["041"],
+          "similar_group_codes": ["S120903"]
+        }
+    """
+
+    if not image:
+        raise ValueError("image 값이 비어 있습니다.")
+
+    if not service_description.strip():
+        raise ValueError("service_description 값이 비어 있습니다.")
+
+    valid_classes = validate_selected_nice_classes(selected_nice_classes)
 
     similar_result = recommend_similar_group_codes_after_user_selection(
         service_description=service_description,
-        selected_nice_classes=selected_nice_classes,
+        selected_nice_classes=valid_classes,
     )
 
-    print("\n[STEP 2] 유사군 코드 추천 결과")
-    print(json.dumps(similar_result, ensure_ascii=False, indent=2))
+    selected_codes = similar_result.get("selected_codes", [])
 
+    similar_group_codes = []
 
-if __name__ == "__main__":
-    test_step_1_only()
-    test_step_2_with_manual_selection()
+    for item in selected_codes:
+        code = item.get("similar_group_code")
+        if code and code not in similar_group_codes:
+            similar_group_codes.append(code)
+
+    return {
+        "image": image,
+        "nice_codes": [format_nice_code(nice_class) for nice_class in valid_classes],
+        "similar_group_codes": similar_group_codes,
+    }
