@@ -1,3 +1,4 @@
+#OCR추출+임베딩벡터 추출 -> trademark_vector.json 저장
 # pip install requests python-dotenv tqdm
 
 import os

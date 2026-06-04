@@ -1,3 +1,5 @@
+# 검색 이미지와 DB 이미지 간의 유사도를 계산하여 상위 10개 결과를 JSON 파일로 저장
+
 import os
 import json
 import glob
