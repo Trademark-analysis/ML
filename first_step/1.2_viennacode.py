@@ -9,10 +9,12 @@
 import base64
 import json
 import os
-from typing import Any, Dict, List
+from typing import Any, BinaryIO, Dict, List
 
 import requests
 from urllib.parse import urlparse
+
+from blob_storage import upload_image_to_blob
 
 from openai import AzureOpenAI
 from msrest.authentication import ApiKeyCredentials
@@ -376,6 +378,43 @@ def get_candidates(
     secondary.sort(key=lambda x: len(x["matched_vienna_codes"]), reverse=True)
 
     return {"primary": primary, "secondary": secondary}
+
+
+def build_pipeline_input_from_step1(step2_result: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    1.1_nicecode.py의 classify_second_step() 결과를
+    1.2_viennacode.py의 run_pipeline() 입력 형식으로 변환합니다.
+
+    Example:
+        step2 = classify_second_step(image, description, [41, 42])
+        input_data = build_pipeline_input_from_step1(step2)
+        result = run_pipeline(input_data)
+    """
+    return {
+        "image": step2_result.get("image"),
+        "nice_codes": normalize_list(step2_result.get("nice_codes", [])),
+        "similar_group_codes": normalize_list(step2_result.get("similar_group_codes", [])),
+    }
+
+
+def build_pipeline_input_from_upload(
+    file: BinaryIO,
+    original_filename: str,
+    nice_codes: List[str],
+    similar_group_codes: List[str],
+    content_type: str = "image/png",
+) -> Dict[str, Any]:
+    """
+    사용자가 업로드한 이미지 파일을 Blob Storage에 저장한 뒤,
+    1.2 run_pipeline()에 바로 넣을 입력값을 만들어 반환합니다.
+    """
+    image_url = upload_image_to_blob(file, original_filename, content_type)
+
+    return {
+        "image": image_url,
+        "nice_codes": normalize_list(nice_codes),
+        "similar_group_codes": normalize_list(similar_group_codes),
+    }
 
 
 # ──────────────────────────────────────────────
