@@ -652,7 +652,7 @@ def save_top_vienna_candidates(
         copy_success = False
 
         if source_path and source_path.exists():
-            saved_name = f"{rank:03d}_{file_name}"
+            saved_name = file_name
             target_path = VIENNA_RESULT_IMAGE_DIR / saved_name
             shutil.copy2(source_path, target_path)
 
