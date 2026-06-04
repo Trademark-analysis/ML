@@ -5,22 +5,32 @@
 - 후보: 비엔나 코드 + 입력받은 니스코드/유사군코드 기준 primary/secondary 분리
 - 출력: dict(JSON 직렬화 가능한 형태) return
 """
-
+from pathlib import Path
 import base64
 import json
 import os
 from typing import Any, BinaryIO, Dict, List
+from nicecode_1_1 import classify_first_step, classify_second_step
 
 import requests
 from urllib.parse import urlparse
-
-from blob_storage import upload_image_to_blob
-
+import shutil
 from openai import AzureOpenAI
 from msrest.authentication import ApiKeyCredentials
 from azure.cognitiveservices.vision.customvision.prediction import CustomVisionPredictionClient
 from azure.cognitiveservices.vision.customvision.prediction.models import ImageUrl
 
+BASE_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = BASE_DIR.parent
+
+IMAGE_DIR = PROJECT_DIR / "image_filtered"
+DB_JSON_PATH = PROJECT_DIR / "filtered_niceCode.json"
+
+RESULT_DIR = BASE_DIR / "result"
+VIENNA_RESULT_IMAGE_DIR = RESULT_DIR / "top100_images"
+VIENNA_RESULT_JSON_PATH = RESULT_DIR / "top100.json"
+
+TOP_K_VIENNA = 100
 
 # Custom Vision
 CV_PREDICTION_KEY = os.getenv("CV_PREDICTION_KEY", "")
@@ -155,12 +165,13 @@ def get_first_existing(item: Dict[str, Any], keys: List[str]) -> Any:
             return item.get(key)
     return []
 
+def load_db_from_local(json_path: str = DB_JSON_PATH) -> Dict[str, Any]:
+    """로컬 filtered_niceCode.json 로드"""
+    if not os.path.exists(json_path):
+        raise FileNotFoundError(f"DB JSON 파일을 찾을 수 없습니다: {json_path}")
 
-def load_db_from_blob(db_url: str) -> Dict[str, Any]:
-    """Azure Blob Storage에 있는 filtered_niceCode.json 로드"""
-    response = requests.get(db_url, timeout=30)
-    response.raise_for_status()
-    return response.json()
+    with open(json_path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 # ──────────────────────────────────────────────
@@ -296,7 +307,6 @@ def combine_results(cv_codes: List[str], gpt_result: Dict[str, Any]) -> List[str
 def get_candidates(
     vienna_codes: List[str],
     query_nice_codes: List[str],
-    query_similar_group_codes: List[str],
     db: Dict[str, Any],
 ) -> Dict[str, List[Dict[str, Any]]]:
     """
@@ -316,18 +326,6 @@ def get_candidates(
 
     code_set = set(normalize_list(vienna_codes))
     nice_set = set(normalize_list(query_nice_codes))
-    similar_group_set = set(normalize_list(query_similar_group_codes))
-
-    similar_group_keys = [
-        "similarGroupCode",
-        "similarGroupCodes",
-        "similar_group_code",
-        "similar_group_codes",
-        "similar_group",
-        "similarGroup",
-        "similarCode",
-        "similar_codes",
-    ]
 
     for item in db.get("images", []):
         item_id = item.get("img_id") or item.get("id") or item.get("fileName")
@@ -336,8 +334,6 @@ def get_candidates(
 
         item_codes = set(normalize_list(item.get("tot_mid_vienna_code", [])))
         item_nice = set(normalize_list(item.get("niceCode", [])))
-        item_similar_groups_raw = get_first_existing(item, similar_group_keys)
-        item_similar_groups = set(normalize_list(item_similar_groups_raw))
 
         # 비엔나 코드가 하나도 겹치지 않으면 1차 후보에서 제외
         if not (item_codes & code_set):
@@ -347,7 +343,6 @@ def get_candidates(
 
         matched_vienna_codes = sorted(list(item_codes & code_set))
         matched_nice_codes = sorted(list(item_nice & nice_set))
-        matched_similar_group_codes = sorted(list(item_similar_groups & similar_group_set))
 
         candidate = {
             "img_id": item.get("img_id"),
@@ -355,20 +350,17 @@ def get_candidates(
             "applicant": item.get("applicant", ""),
             "vienna_codes": normalize_list(item.get("tot_mid_vienna_code", [])),
             "nice_codes": normalize_list(item.get("niceCode", [])),
-            "similar_group_codes": normalize_list(item_similar_groups_raw),
             "matched_vienna_codes": matched_vienna_codes,
             "matched_nice_codes": matched_nice_codes,
-            "matched_similar_group_codes": matched_similar_group_codes,
         }
 
-        if matched_nice_codes or matched_similar_group_codes:
+        if matched_nice_codes:
             primary.append(candidate)
         else:
             secondary.append(candidate)
 
     primary.sort(
         key=lambda x: (
-            len(x["matched_similar_group_codes"]),
             len(x["matched_nice_codes"]),
             len(x["matched_vienna_codes"]),
         ),
@@ -388,7 +380,7 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
     Args:
         input_data 예시:
         {
-            "image": "사용자 업로드 로고 이미지 Blob URL 또는 로컬 경로",
+            "image": "사용자 업로드 로고 이미지 로컬 경로",
             "nice_codes": ["025"],
             "similar_group_codes": ["G4501"]
         }
@@ -398,7 +390,6 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
     """
     image = input_data.get("image")
     query_nice_codes = normalize_list(input_data.get("nice_codes", []))
-    query_similar_group_codes = normalize_list(input_data.get("similar_group_codes", []))
 
     if not image:
         return {
@@ -412,12 +403,11 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
         gpt_result = classify_with_gpt4o(image)
         final_codes = combine_results(cv_codes, gpt_result)
 
-        db = load_db_from_blob(DB_URL)
+        db = load_db_from_local(DB_JSON_PATH)
 
         candidates = get_candidates(
             vienna_codes=final_codes,
             query_nice_codes=query_nice_codes,
-            query_similar_group_codes=query_similar_group_codes,
             db=db,
         )
 
@@ -425,7 +415,6 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
             "input": {
                 "image": image,
                 "nice_codes": query_nice_codes,
-                "similar_group_codes": query_similar_group_codes,
             },
             "detected_vienna_codes": final_codes,
             "detail": {
@@ -456,50 +445,30 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
         }
 
 def run_nice_classification(
-    file: BinaryIO,
-    original_filename: str,
+    image_path: str,
     service_description: str,
-    content_type: str = "image/png",
 ) -> Dict[str, Any]:
     """
     1단계: 니스분류 후보 추천
 
     입력:
-    - 사용자 업로드 이미지 파일
-    - 원본 파일명
+    - 로컬 이미지 경로
     - 상품/서비스 설명
-
-    처리:
-    1. 이미지를 Blob Storage에 업로드
-    2. Blob URL을 image 값으로 사용
-    3. classify_first_step()으로 니스분류 후보 추천
-
-    반환:
-    {
-        "success": true,
-        "step": "nice_classification",
-        "data": {
-            "image": "Blob URL",
-            "service_description": "...",
-            "matched": true,
-            "nice_class_candidates": [...]
-        }
-    }
     """
 
-    if not file:
+    if not image_path:
         return {
             "success": False,
             "step": "nice_classification",
-            "message": "file 값이 필요합니다.",
+            "message": "image_path 값이 필요합니다.",
             "data": None,
         }
 
-    if not original_filename:
+    if not os.path.exists(image_path):
         return {
             "success": False,
             "step": "nice_classification",
-            "message": "original_filename 값이 필요합니다.",
+            "message": f"이미지 파일을 찾을 수 없습니다: {image_path}",
             "data": None,
         }
 
@@ -512,14 +481,8 @@ def run_nice_classification(
         }
 
     try:
-        image_url = upload_image_to_blob(
-            file=file,
-            original_filename=original_filename,
-            content_type=content_type,
-        )
-
         result = classify_first_step(
-            image=image_url,
+            image=image_path,
             service_description=service_description,
         )
 
@@ -643,14 +606,88 @@ def parse_nice_class_input(user_input: str) -> List[int]:
 
     return selected
 
+def save_top_vienna_candidates(
+    primary_candidates: List[Dict[str, Any]],
+    secondary_candidates: List[Dict[str, Any]],
+    test_image_info: Dict[str, Any],
+    top_k: int = TOP_K_VIENNA,
+) -> Dict[str, Any]:
+    """
+    비엔나 코드 기준 후보를 최대 top_k개 저장한다.
+    primary를 먼저 사용하고, 부족하면 secondary로 채운다.
+    """
+
+    RESULT_DIR.mkdir(parents=True, exist_ok=True)
+    VIENNA_RESULT_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+
+    selected_candidates = []
+
+    for candidate in primary_candidates:
+        selected_candidates.append({
+            **candidate,
+            "match_group": "primary",
+        })
+
+        if len(selected_candidates) >= top_k:
+            break
+
+    if len(selected_candidates) < top_k:
+        for candidate in secondary_candidates:
+            selected_candidates.append({
+                **candidate,
+                "match_group": "secondary",
+            })
+
+            if len(selected_candidates) >= top_k:
+                break
+
+    saved_results = []
+
+    for rank, candidate in enumerate(selected_candidates, start=1):
+        file_name = candidate.get("fileName")
+
+        source_path = IMAGE_DIR / file_name if file_name else None
+
+        saved_image_path = None
+        copy_success = False
+
+        if source_path and source_path.exists():
+            saved_name = f"{rank:03d}_{file_name}"
+            target_path = VIENNA_RESULT_IMAGE_DIR / saved_name
+            shutil.copy2(source_path, target_path)
+
+            saved_image_path = str(target_path)
+            copy_success = True
+
+        saved_results.append({
+            "rank": rank,
+            "match_group": candidate.get("match_group"),
+            "img_id": candidate.get("img_id"),
+            "fileName": file_name,
+            "vienna_codes": candidate.get("vienna_codes", []),
+            "nice_codes": candidate.get("nice_codes", []),
+            "matched_vienna_codes": candidate.get("matched_vienna_codes", []),
+            "matched_nice_codes": candidate.get("matched_nice_codes", []),
+        })
+
+    output = {
+        "test_image": test_image_info,
+        "primary_count": len(primary_candidates),
+        "secondary_count": len(secondary_candidates),
+        "total_candidate_count": len(primary_candidates) + len(secondary_candidates),
+        "results": saved_results,
+    }
+
+    with open(VIENNA_RESULT_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    return output
 
 def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
 
     step1 = run_nice_classification(
-        file=input_data.get("file"),
-        original_filename=input_data.get("original_filename"),
+        image_path=input_data.get("image_path"),
         service_description=input_data.get("service_description", ""),
-        content_type=input_data.get("content_type", "image/png"),
     )
 
     if not step1.get("success"):
@@ -734,6 +771,21 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
     primary_candidates = candidates.get("primary", [])
     secondary_candidates = candidates.get("secondary", [])
 
+    test_image_info = {
+        "image": step1_data.get("image"),
+        "service_description": step1_data.get("service_description"),
+        "nice_codes": step2_data.get("nice_codes", []),
+        "similar_group_codes": step2_data.get("similar_group_codes", []),
+        "vienna_codes": step3_data.get("detected_vienna_codes", []),
+    }
+
+    top100_save_result = save_top_vienna_candidates(
+        primary_candidates=primary_candidates,
+        secondary_candidates=secondary_candidates,
+        test_image_info=test_image_info,
+        top_k=TOP_K_VIENNA,
+    )
+
     return {
         "image": step1_data.get("image"),
         "service_description": step1_data.get("service_description"),
@@ -742,4 +794,20 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
         "vienna_codes": step3_data.get("detected_vienna_codes"),
         "matched_primary_images": primary_candidates,
         "matched_secondary_images": secondary_candidates,
+        "matched_primary_count": len(primary_candidates),
+        "matched_secondary_count": len(secondary_candidates),
+        "matched_total_count": len(primary_candidates) + len(secondary_candidates),
+        "saved_top100": top100_save_result,
     }
+
+if __name__ == "__main__":
+    test_image_path = "../test/2022_79241717.jpg" 
+
+    service_description = input("상품/서비스 설명을 입력하세요: ")
+
+    with open(test_image_path, "rb") as f:
+        result = run_first_pipeline({
+            "image_path": test_image_path,
+            "service_description": service_description,
+        })
+

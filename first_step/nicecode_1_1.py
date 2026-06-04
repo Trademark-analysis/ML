@@ -1,10 +1,5 @@
 """
 상표 니스분류 + 유사군 코드 추천
-
-1. Azure OpenAI가 25/41/42류 중 니스분류 후보 추천
-2. 사용자가 니스분류 선택
-3. Azure SQL에서 선택된 니스분류의 유사군 코드 후보 조회
-4. Azure OpenAI가 SQL 후보 안에서만 최종 유사군 코드 선택
 """
 
 from __future__ import annotations
@@ -26,8 +21,8 @@ from openai import AzureOpenAI
 load_dotenv()
 
 AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
-AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_API_KEY")
-DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
+AZURE_OPENAI_KEY = os.getenv("AZURE_OPENAI_KEY")
+DEPLOYMENT_NAME = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 API_VERSION = os.getenv("AZURE_OPENAI_API_VERSION", "2024-02-01")
 
 AZURE_SQL_SERVER = os.getenv("AZURE_SQL_SERVER")
@@ -717,22 +712,6 @@ def classify_first_step(
     image: str,
     service_description: str,
 ) -> Dict[str, Any]:
-    """
-    STEP 1.
-    사용자가 로고 이미지와 상품/서비스 설명을 입력했을 때 호출하는 함수.
-
-    Input:
-        image: 사용자 업로드 로고 이미지 경로/URL/blob URL
-        service_description: 상품/서비스 설명
-
-    Output:
-        {
-            "image": "...",
-            "service_description": "...",
-            "matched": true,
-            "nice_class_candidates": [...]
-        }
-    """
 
     if not image:
         raise ValueError("image 값이 비어 있습니다.")
