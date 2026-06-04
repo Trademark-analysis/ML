@@ -44,7 +44,7 @@ RESULT_DIR = "result"
 RESULT_IMAGE_BASE_DIR = os.path.join(RESULT_DIR, "top10_images")
 
 # 최종 결과 JSON
-FINAL_RESULT_JSON = os.path.join(RESULT_DIR, "final_result.json")
+FINAL_RESULT_JSON = os.path.join(RESULT_DIR, "top10.json")
 
 TOP_K = 10
 
