@@ -1,0 +1,242 @@
+{
+  "image": "../test/2022_79241717.jpg",
+  "service_description": "교육 서비스",
+  "nice_codes": [
+    "041",
+    "042"
+  ],
+  "similar_group_codes": [
+    "S120903"
+  ],
+  "vienna_codes": [
+    "0101",
+    "2601"
+  ],
+  "similar_trademark": [
+    {
+      "rank": 1,
+      "match_group": "primary",
+      "fileName": "2022_97214852.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.8506550788879395,
+      "text_similarity": null,
+      "final_score": 0.8506550788879395,
+      "vienna_codes": [
+        "2601",
+        "2601"
+      ],
+      "nice_codes": [
+        "042"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "042"
+      ]
+    },
+    {
+      "rank": 2,
+      "match_group": "primary",
+      "fileName": "2022_79337395.jpg",
+      "ocr_text": "O",
+      "type": "image_only",
+      "image_similarity": 0.7840316891670227,
+      "text_similarity": null,
+      "final_score": 0.7840316891670227,
+      "vienna_codes": [
+        "2601"
+      ],
+      "nice_codes": [
+        "041"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "041"
+      ]
+    },
+    {
+      "rank": 3,
+      "match_group": "primary",
+      "fileName": "2022_97226662.jpg",
+      "ocr_text": "D",
+      "type": "image_only",
+      "image_similarity": 0.7738598585128784,
+      "text_similarity": null,
+      "final_score": 0.7738598585128784,
+      "vienna_codes": [
+        "2601"
+      ],
+      "nice_codes": [
+        "042"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "042"
+      ]
+    },
+    {
+      "rank": 4,
+      "match_group": "primary",
+      "fileName": "2022_97210419.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7717342376708984,
+      "text_similarity": null,
+      "final_score": 0.7717342376708984,
+      "vienna_codes": [
+        "2601"
+      ],
+      "nice_codes": [
+        "041"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "041"
+      ]
+    },
+    {
+      "rank": 5,
+      "match_group": "primary",
+      "fileName": "2022_97201535.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7692756652832031,
+      "text_similarity": null,
+      "final_score": 0.7692756652832031,
+      "vienna_codes": [
+        "2601"
+      ],
+      "nice_codes": [
+        "041"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "041"
+      ]
+    },
+    {
+      "rank": 6,
+      "match_group": "primary",
+      "fileName": "2022_97212783.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7599231600761414,
+      "text_similarity": null,
+      "final_score": 0.7599231600761414,
+      "vienna_codes": [
+        "2601"
+      ],
+      "nice_codes": [
+        "042"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "042"
+      ]
+    },
+    {
+      "rank": 7,
+      "match_group": "primary",
+      "fileName": "2022_97218223.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7589414715766907,
+      "text_similarity": null,
+      "final_score": 0.7589414715766907,
+      "vienna_codes": [
+        "2601",
+        "2601"
+      ],
+      "nice_codes": [
+        "042"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "042"
+      ]
+    },
+    {
+      "rank": 8,
+      "match_group": "primary",
+      "fileName": "2022_97221283.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7563717365264893,
+      "text_similarity": null,
+      "final_score": 0.7563717365264893,
+      "vienna_codes": [
+        "2601",
+        "2601"
+      ],
+      "nice_codes": [
+        "041"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "041"
+      ]
+    },
+    {
+      "rank": 9,
+      "match_group": "primary",
+      "fileName": "2022_97218497.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.7517423629760742,
+      "text_similarity": null,
+      "final_score": 0.7517423629760742,
+      "vienna_codes": [
+        "2601",
+        "0905",
+        "0905"
+      ],
+      "nice_codes": [
+        "041"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "041"
+      ]
+    },
+    {
+      "rank": 10,
+      "match_group": "primary",
+      "fileName": "2022_97218237.jpg",
+      "ocr_text": "",
+      "type": "image_only",
+      "image_similarity": 0.742623507976532,
+      "text_similarity": null,
+      "final_score": 0.742623507976532,
+      "vienna_codes": [
+        "2601"
+      ],
+      "nice_codes": [
+        "041"
+      ],
+      "matched_vienna_codes": [
+        "2601"
+      ],
+      "matched_nice_codes": [
+        "041"
+      ]
+    }
+  ]
+}
