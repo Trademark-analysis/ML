@@ -86,9 +86,9 @@
       "fileName": "2022_97210419.jpg",
       "ocr_text": "",
       "type": "image_only",
-      "image_similarity": 0.7717342376708984,
+      "image_similarity": 0.7717316746711731,
       "text_similarity": null,
-      "final_score": 0.7717342376708984,
+      "final_score": 0.7717316746711731,
       "vienna_codes": [
         "2601"
       ],
@@ -108,9 +108,9 @@
       "fileName": "2022_97201535.jpg",
       "ocr_text": "",
       "type": "image_only",
-      "image_similarity": 0.7692756652832031,
+      "image_similarity": 0.7692545652389526,
       "text_similarity": null,
-      "final_score": 0.7692756652832031,
+      "final_score": 0.7692545652389526,
       "vienna_codes": [
         "2601"
       ],
@@ -198,9 +198,9 @@
       "fileName": "2022_97218497.jpg",
       "ocr_text": "",
       "type": "image_only",
-      "image_similarity": 0.7517423629760742,
+      "image_similarity": 0.7517964243888855,
       "text_similarity": null,
-      "final_score": 0.7517423629760742,
+      "final_score": 0.7517964243888855,
       "vienna_codes": [
         "2601",
         "0905",
