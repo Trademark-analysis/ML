@@ -210,7 +210,32 @@ async def analyze_trademark(
         final_result = checker.check(input_data=input_data, run_full_pipeline=True)
         
         print("=== 1, 2, 3차 통합 분석 완료 및 결과 반환 ===")
-        return JSONResponse(status_code=200, content=final_result)
+        if final_result.get("status") != "success":
+            return JSONResponse(status_code=500, content=final_result)
+
+        user_image_url = f"http://localhost:8000/static/{image.filename}"
+
+        if final_result.get("status") != "success":
+            return JSONResponse(status_code=500, content=final_result)
+
+        input_data_for_front = final_result.get("input", {})
+        input_data_for_front["imageUrl"] = user_image_url
+
+        response = {
+            "status": "success",
+            "input": input_data_for_front,
+
+            "final_report": final_result.get("final_report", {}),
+            "similarity_assessment": final_result.get("similarity_assessment", {}),
+            "distinctiveness": final_result.get("distinctiveness", {}),
+            "similar_trademark": final_result.get("similar_trademark", []),
+
+            "report": final_result.get("final_report", {}),
+            "candidates": final_result.get("similar_trademark", []),
+            "imageUrl": user_image_url,
+        }
+
+        return JSONResponse(status_code=200, content=response)
 
     except Exception as e:
         print(f"파이프라인 구동 중 예외 터짐: {str(e)}")

@@ -12,7 +12,7 @@ import numpy as np
 from tqdm import tqdm
 from dotenv import load_dotenv
 from typing import Dict, Any
-
+from pathlib import Path
 
 load_dotenv()
 
@@ -31,26 +31,29 @@ MODEL_VERSION = "2023-04-15"
 # 경로 설정
 # =========================
 
-# 1차 결과 JSON
-INPUT_JSON = "../first_step/result/top100.json"
+BASE_DIR = Path(__file__).resolve().parent          # ML/second_step
+ML_DIR = BASE_DIR.parent         
 
-# top100 후보 이미지 폴더
-DB_IMAGE_DIR = "../first_step/result/top100_images"
+STATIC_DIR = ML_DIR / "static"
+STATIC_DIR.mkdir(parents=True, exist_ok=True)                   # ML
 
-# 검색 이미지 폴더
-QUERY_IMAGE_DIR = "test"
+# 1차 결과 JSON: ML/first_step/result/top100.json
+INPUT_JSON = ML_DIR / "first_step" / "result" / "top100.json"
 
-# 결과 저장 폴더
-RESULT_DIR = "result"
-RESULT_IMAGE_BASE_DIR = os.path.join(RESULT_DIR, "top10_images")
+# top100 후보 이미지 폴더: ML/first_step/result/top100_images
+DB_IMAGE_DIR = ML_DIR / "first_step" / "result" / "top100_images"
 
-# 최종 결과 JSON
-FINAL_RESULT_JSON = os.path.join(RESULT_DIR, "top10.json")
+# 결과 저장 폴더: ML/second_step/result
+RESULT_DIR = BASE_DIR / "result"
+RESULT_IMAGE_BASE_DIR = RESULT_DIR / "top10_images"
+
+# 최종 결과 JSON: ML/second_step/result/top10.json
+FINAL_RESULT_JSON = RESULT_DIR / "top10.json"
 
 TOP_K = 10
 
-os.makedirs(RESULT_DIR, exist_ok=True)
-os.makedirs(RESULT_IMAGE_BASE_DIR, exist_ok=True)
+RESULT_DIR.mkdir(parents=True, exist_ok=True)
+RESULT_IMAGE_BASE_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # =========================
@@ -259,16 +262,16 @@ def vectorize_candidate_items(candidate_items):
             print("fileName 없음")
             continue
 
-        image_path = os.path.join(DB_IMAGE_DIR, file_name)
-        has_image_file = os.path.exists(image_path)
+        image_path = DB_IMAGE_DIR / file_name
+        has_image_file = image_path.exists()
 
         ocr_text = ""
         image_vector = None
         text_vector = None
 
         if has_image_file:
-            ocr_text = azure_ocr(image_path)
-            image_vector = azure_image_vector(image_path)
+            ocr_text = azure_ocr(str(image_path))
+            image_vector = azure_image_vector(str(image_path))
         else:
             print(f"이미지 없음: {image_path}")
 
@@ -282,7 +285,7 @@ def vectorize_candidate_items(candidate_items):
 
         new_item = {
             **item,
-            "image_path": image_path if has_image_file else None,
+            "image_path": str(image_path) if has_image_file else None,
             "ocr_text": ocr_text,
             "has_image": has_image,
             "has_text": has_text,
@@ -299,6 +302,29 @@ def vectorize_candidate_items(candidate_items):
 
     return vectorized_items
 
+def to_percent_score(value):
+    if value is None:
+        return None
+
+    try:
+        value = float(value)
+    except Exception:
+        return None
+
+    if 0 <= value <= 1:
+        return round(value * 100, 1)
+
+    return round(value, 1)
+
+
+def get_risk_label(score):
+    if score is None:
+        return "보통"
+    if score >= 75:
+        return "높음"
+    if score >= 50:
+        return "주의"
+    return "보통"
 
 # =========================
 # 유사 상표 Top10 검색
@@ -387,8 +413,8 @@ def search_similar_trademarks(query_image_path, vectorized_items):
 # =========================
 
 def copy_top10_images(query_name, top10):
-    result_image_dir = os.path.join(RESULT_IMAGE_BASE_DIR, query_name)
-    os.makedirs(result_image_dir, exist_ok=True)
+    result_image_dir = RESULT_IMAGE_BASE_DIR / query_name
+    result_image_dir.mkdir(parents=True, exist_ok=True)
 
     copied_count = 0
     missing_count = 0
@@ -400,11 +426,16 @@ def copy_top10_images(query_name, top10):
             missing_count += 1
             continue
 
-        src_path = os.path.join(DB_IMAGE_DIR, file_name)
-        dst_path = os.path.join(result_image_dir, file_name)
+        src_path = DB_IMAGE_DIR / file_name
+        dst_path = result_image_dir / file_name
 
-        if os.path.exists(src_path):
+        if src_path.exists():
             shutil.copy2(src_path, dst_path)
+
+            # 프론트에서 http://localhost:8000/static/파일명 으로 접근할 수 있게 static에도 복사
+            static_path = STATIC_DIR / file_name
+            shutil.copy2(src_path, static_path)
+
             copied_count += 1
         else:
             print(f"이미지 없음: {src_path}")
@@ -425,7 +456,7 @@ def run_second_checker(
 ) -> Dict[str, Any]:
     check_env()
 
-    raw_data = load_json(INPUT_JSON)
+    raw_data = load_json(input_json)
 
     test_image_data = raw_data.get("test_image", {})
     candidate_items = raw_data.get("results", [])
