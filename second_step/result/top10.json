@@ -1,242 +1,296 @@
 {
-  "image": "../test/2022_79241717.jpg",
-  "service_description": "교육 서비스",
+  "image": "./test\\2022_97206832.jpg",
+  "trademark_name": "MUYUE",
+  "service_description": "의류 온라인 판매",
   "nice_codes": [
-    "041",
-    "042"
+    "025"
   ],
   "similar_group_codes": [
-    "S120903"
+    "G430301",
+    "G4503"
   ],
   "vienna_codes": [
-    "0101",
+    "0103",
     "2601"
   ],
   "similar_trademark": [
     {
       "rank": 1,
       "match_group": "primary",
-      "fileName": "2022_97214852.jpg",
-      "ocr_text": "",
-      "type": "image_only",
-      "image_similarity": 0.8506550788879395,
-      "text_similarity": null,
-      "final_score": 0.8506550788879395,
+      "fileName": "2022_97199986.jpg",
+      "ocr_text": "MM",
+      "type": "mixed",
+      "image_similarity": 0.6755397915840149,
+      "text_similarity": 0.925291895866394,
+      "final_score": 0.8004158437252045,
       "vienna_codes": [
-        "2601",
         "2601"
       ],
       "nice_codes": [
-        "042"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "042"
+        "025"
       ]
     },
     {
       "rank": 2,
       "match_group": "primary",
-      "fileName": "2022_79337395.jpg",
-      "ocr_text": "O",
-      "type": "image_only",
-      "image_similarity": 0.7840316891670227,
-      "text_similarity": null,
-      "final_score": 0.7840316891670227,
+      "fileName": "2022_97199633.jpg",
+      "ocr_text": "MONAL ARQUE INVAL",
+      "type": "mixed",
+      "image_similarity": 0.6226075291633606,
+      "text_similarity": 0.8698862791061401,
+      "final_score": 0.7462469041347504,
       "vienna_codes": [
+        "2601",
         "2601"
       ],
       "nice_codes": [
-        "041"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "041"
+        "025"
       ]
     },
     {
       "rank": 3,
       "match_group": "primary",
-      "fileName": "2022_97226662.jpg",
-      "ocr_text": "D",
-      "type": "image_only",
-      "image_similarity": 0.7738598585128784,
-      "text_similarity": null,
-      "final_score": 0.7738598585128784,
+      "fileName": "2022_79336211.jpg",
+      "ocr_text": "SUSTAINABLE",
+      "type": "mixed",
+      "image_similarity": 0.5804429650306702,
+      "text_similarity": 0.8843889832496643,
+      "final_score": 0.7324159741401672,
       "vienna_codes": [
         "2601"
       ],
       "nice_codes": [
-        "042"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "042"
+        "025"
       ]
     },
     {
       "rank": 4,
       "match_group": "primary",
-      "fileName": "2022_97210419.jpg",
-      "ocr_text": "",
-      "type": "image_only",
-      "image_similarity": 0.7717316746711731,
-      "text_similarity": null,
-      "final_score": 0.7717316746711731,
+      "fileName": "2022_79334642.jpg",
+      "ocr_text": "21 Revol",
+      "type": "mixed",
+      "image_similarity": 0.5667661428451538,
+      "text_similarity": 0.8671911954879761,
+      "final_score": 0.7169786691665649,
       "vienna_codes": [
-        "2601"
+        "2601",
+        "2601",
+        "2615",
+        "2615"
       ],
       "nice_codes": [
-        "041"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "041"
+        "025"
       ]
     },
     {
       "rank": 5,
       "match_group": "primary",
-      "fileName": "2022_97201535.jpg",
-      "ocr_text": "",
-      "type": "image_only",
-      "image_similarity": 0.7692545652389526,
-      "text_similarity": null,
-      "final_score": 0.7692545652389526,
+      "fileName": "2022_79338084.jpg",
+      "ocr_text": "LİVONİMELANGE",
+      "type": "mixed",
+      "image_similarity": 0.5398639440536499,
+      "text_similarity": 0.8612081408500671,
+      "final_score": 0.7005360424518585,
       "vienna_codes": [
         "2601"
       ],
       "nice_codes": [
-        "041"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "041"
+        "025"
       ]
     },
     {
       "rank": 6,
       "match_group": "primary",
-      "fileName": "2022_97212783.jpg",
-      "ocr_text": "",
-      "type": "image_only",
-      "image_similarity": 0.7599231600761414,
-      "text_similarity": null,
-      "final_score": 0.7599231600761414,
+      "fileName": "2022_79334746.jpg",
+      "ocr_text": "FRANKIE 4",
+      "type": "mixed",
+      "image_similarity": 0.44923779368400574,
+      "text_similarity": 0.8808483481407166,
+      "final_score": 0.6650430709123611,
       "vienna_codes": [
+        "2601",
         "2601"
       ],
       "nice_codes": [
-        "042"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "042"
+        "025"
       ]
     },
     {
       "rank": 7,
       "match_group": "primary",
-      "fileName": "2022_97218223.jpg",
-      "ocr_text": "",
-      "type": "image_only",
-      "image_similarity": 0.7589414715766907,
-      "text_similarity": null,
-      "final_score": 0.7589414715766907,
+      "fileName": "2022_79334745.jpg",
+      "ocr_text": "FRANKIE 4-O",
+      "type": "mixed",
+      "image_similarity": 0.4486622214317322,
+      "text_similarity": 0.8547370433807373,
+      "final_score": 0.6516996324062347,
       "vienna_codes": [
-        "2601",
         "2601"
       ],
       "nice_codes": [
-        "042"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "042"
+        "025"
       ]
     },
     {
       "rank": 8,
       "match_group": "primary",
-      "fileName": "2022_97221283.jpg",
-      "ocr_text": "",
-      "type": "image_only",
-      "image_similarity": 0.7563717365264893,
-      "text_similarity": null,
-      "final_score": 0.7563717365264893,
+      "fileName": "2022_89002811.jpg",
+      "ocr_text": "SE A L OF THE GREAT THE BE HOOP R A LLE",
+      "type": "mixed",
+      "image_similarity": 0.5033374428749084,
+      "text_similarity": 0.798473596572876,
+      "final_score": 0.6509055197238922,
       "vienna_codes": [
         "2601",
-        "2601"
+        "0501",
+        "0501"
       ],
       "nice_codes": [
-        "041"
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008",
+        "009",
+        "010",
+        "011",
+        "012",
+        "013",
+        "014",
+        "015",
+        "016",
+        "017",
+        "018",
+        "019",
+        "020",
+        "021",
+        "022",
+        "023",
+        "024",
+        "025",
+        "026",
+        "027",
+        "028",
+        "029",
+        "030",
+        "031",
+        "032",
+        "033",
+        "034",
+        "035",
+        "036",
+        "037",
+        "038",
+        "039",
+        "040",
+        "041",
+        "042",
+        "043",
+        "044",
+        "045",
+        "200",
+        "A",
+        "B"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "041"
+        "025"
       ]
     },
     {
       "rank": 9,
       "match_group": "primary",
-      "fileName": "2022_97218497.jpg",
-      "ocr_text": "",
-      "type": "image_only",
-      "image_similarity": 0.7517964243888855,
-      "text_similarity": null,
-      "final_score": 0.7517964243888855,
+      "fileName": "2022_97200458.jpg",
+      "ocr_text": "A A B 0 A J. ROYAL 2014 EST ROYAL IE ALWAYS S ROOTED S ALWAY",
+      "type": "mixed",
+      "image_similarity": 0.5330300331115723,
+      "text_similarity": 0.7641924619674683,
+      "final_score": 0.6486112475395203,
       "vienna_codes": [
         "2601",
-        "0905",
-        "0905"
+        "2601"
       ],
       "nice_codes": [
-        "041"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "041"
+        "025"
       ]
     },
     {
       "rank": 10,
       "match_group": "primary",
-      "fileName": "2022_97218237.jpg",
+      "fileName": "2022_90816367.jpg",
       "ocr_text": "",
       "type": "image_only",
-      "image_similarity": 0.742623507976532,
+      "image_similarity": 0.5805167555809021,
       "text_similarity": null,
-      "final_score": 0.742623507976532,
+      "final_score": 0.5805167555809021,
       "vienna_codes": [
+        "2601",
         "2601"
       ],
       "nice_codes": [
-        "041"
+        "025"
       ],
       "matched_vienna_codes": [
         "2601"
       ],
       "matched_nice_codes": [
-        "041"
+        "025"
       ]
     }
-  ]
+  ],
+  "query_ocr_text": "MUYUG",
+  "query_type": "mixed"
 }
