@@ -3,7 +3,14 @@ from fastapi.responses import JSONResponse
 from fastapi.staticfiles import StaticFiles 
 import os
 import shutil
-from typing import List
+from typing import List, Any
+import re
+import json
+from pydantic import BaseModel
+from ML.first_step.nicecode_1_1 import (
+    classify_first_step,
+    classify_second_step,
+)
 
 # 3차 검사 통합 클래스 임포트
 from ML.third_step.third_check import ThirdChecker
@@ -19,6 +26,141 @@ app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 # ocr_embedding.py가 참조하는 파이프라인 연산용 임시 폴더 유지
 UPLOAD_DIR = "./test" 
+
+class ClassificationRequest(BaseModel):
+    trademarkName: str = ""
+    serviceDescription: str
+
+
+class SimilarGroupRequest(BaseModel):
+    trademarkName: str = ""
+    serviceDescription: str
+    selectedNiceClasses: List[int]
+
+def parse_selected_nice_classes(value: Any) -> List[int]:
+    """
+    BE에서 넘어온 selectedNiceClasses를 int 리스트로 변환한다.
+
+    처리 가능:
+    - ["제25류", "제42류"]
+    - ['["제25류","제42류"]']
+    - ["25", "42"]
+    - [25, 42]
+    """
+
+    if value is None:
+        return []
+
+    raw_items = []
+
+    if isinstance(value, list):
+        for item in value:
+            if item is None:
+                continue
+
+            if isinstance(item, str):
+                text = item.strip()
+
+                try:
+                    parsed = json.loads(text)
+                    if isinstance(parsed, list):
+                        raw_items.extend(parsed)
+                    else:
+                        raw_items.append(parsed)
+                except json.JSONDecodeError:
+                    raw_items.append(text)
+            else:
+                raw_items.append(item)
+
+    elif isinstance(value, str):
+        text = value.strip()
+
+        try:
+            parsed = json.loads(text)
+            if isinstance(parsed, list):
+                raw_items.extend(parsed)
+            else:
+                raw_items.append(parsed)
+        except json.JSONDecodeError:
+            raw_items.append(text)
+
+    else:
+        raw_items.append(value)
+
+    selected = []
+
+    for item in raw_items:
+        nums = re.findall(r"\d+", str(item))
+
+        for num in nums:
+            nice_class = int(num)
+
+            # 현재 ML 코드가 허용하는 니스분류만 통과
+            if nice_class in {25, 41, 42} and nice_class not in selected:
+                selected.append(nice_class)
+
+    return selected
+
+
+@app.post("/api/ml/classification")
+async def recommend_classification(request: ClassificationRequest):
+    try:
+        result = classify_first_step(
+            image="classification-only",
+            service_description=request.serviceDescription,
+        )
+
+        candidates = result.get("nice_class_candidates", [])
+
+        response = []
+
+        for item in candidates:
+            nice_class = item.get("nice_class")
+            class_name = item.get("class_name", "")
+
+            response.append({
+                "code": f"제{nice_class}류",
+                "value": nice_class,
+                "description": class_name,
+                "confidence": item.get("confidence", "")
+            })
+
+        return JSONResponse(status_code=200, content=response)
+
+    except Exception as e:
+        return JSONResponse(
+            status_code=500,
+            content={
+                "status": "failed",
+                "message": f"니스분류 추천 실패: {str(e)}"
+            }
+        )
+@app.post("/api/ml/similar-groups")
+async def recommend_similar_groups(request: SimilarGroupRequest):
+    try:
+        result = classify_second_step(
+            image="classification-only",
+            service_description=request.serviceDescription,
+            selected_nice_classes=request.selectedNiceClasses,
+        )
+
+        return JSONResponse(
+            status_code=200,
+            content={
+                "trademarkName": request.trademarkName,
+                "nice_codes": result.get("nice_codes", []),
+                "similar_group_codes": result.get("similar_group_codes", [])
+            }
+        )
+
+    except Exception as e:
+        return JSONResponse(
+            status_code=500,
+            content={
+                "status": "failed",
+                "message": f"유사군 코드 추천 실패: {str(e)}"
+            }
+        )
 
 @app.post("/api/ml/analyze")
 async def analyze_trademark(
@@ -49,13 +191,7 @@ async def analyze_trademark(
         
     try:
         # 4. [유사 후보 0건 해결]: "제30류" 형태로 들어온 배열에서 숫자만 쏙 추출 ("제30류" -> "30")
-        cleaned_nice_classes = []
-        for cls in selectedNiceClasses:
-            cleaned_cls = "".join(filter(str.isdigit, cls))
-            if cleaned_cls:
-                cleaned_nice_classes.append(cleaned_cls)
-            else:
-                cleaned_nice_classes.append(cls) # 숫자 파싱 실패 시 폴백
+        cleaned_nice_classes = parse_selected_nice_classes(selectedNiceClasses)
                 
         print(f"🔍 원본 니스 코드: {selectedNiceClasses} 정제된 니스 코드: {cleaned_nice_classes}")
 

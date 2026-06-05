@@ -9,6 +9,7 @@ from pathlib import Path
 import base64
 import json
 import os
+import re
 from typing import Any, BinaryIO, Dict, List
 from first_step.nicecode_1_1 import classify_first_step, classify_second_step
 
@@ -585,6 +586,74 @@ def run_similar_group_classification(
             "data": None,
         }
     
+def parse_selected_nice_classes(value: Any) -> List[int]:
+    """
+    BE에서 넘어온 selected_nice_classes를 int 리스트로 변환한다.
+
+    처리 가능 예시:
+    - [25, 41, 42]
+    - ["25", "41", "42"]
+    - ["제25류", "제41류"]
+    - ['["제9류","제30류","제25류"]']
+    """
+
+    if value is None:
+        return []
+
+    raw_items = []
+
+    # 1. 리스트로 온 경우
+    if isinstance(value, list):
+        for item in value:
+            if item is None:
+                continue
+
+            # item이 JSON 문자열인 경우: '["제9류","제30류","제25류"]'
+            if isinstance(item, str):
+                text = item.strip()
+
+                try:
+                    parsed = json.loads(text)
+                    if isinstance(parsed, list):
+                        raw_items.extend(parsed)
+                    else:
+                        raw_items.append(parsed)
+                except json.JSONDecodeError:
+                    raw_items.append(text)
+            else:
+                raw_items.append(item)
+
+    # 2. 문자열 하나로 온 경우
+    elif isinstance(value, str):
+        text = value.strip()
+
+        try:
+            parsed = json.loads(text)
+            if isinstance(parsed, list):
+                raw_items.extend(parsed)
+            else:
+                raw_items.append(parsed)
+        except json.JSONDecodeError:
+            raw_items.append(text)
+
+    # 3. 숫자로 온 경우
+    else:
+        raw_items.append(value)
+
+    selected = []
+
+    for item in raw_items:
+        nums = re.findall(r"\d+", str(item))
+
+        for num in nums:
+            nice_class = int(num)
+
+            # 지금 프로젝트에서 허용하는 니스분류만 사용
+            if nice_class in {25, 41, 42} and nice_class not in selected:
+                selected.append(nice_class)
+
+    return selected
+    
 def parse_nice_class_input(user_input: str) -> List[int]:
     """
     터미널에서 입력받은 니스분류 문자열을 int 리스트로 변환합니다.
@@ -735,9 +804,7 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
     selected_nice_classes = input_data.get("selected_nice_classes")
 
     if selected_nice_classes:
-        selected_nice_classes = [
-            int(code) for code in selected_nice_classes
-        ]
+        selected_nice_classes = parse_selected_nice_classes(selected_nice_classes)
     else:
         print("\n선택할 니스분류를 입력하세요.")
         print("예: 41")
