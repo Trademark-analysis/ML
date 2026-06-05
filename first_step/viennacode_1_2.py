@@ -10,7 +10,7 @@ import base64
 import json
 import os
 from typing import Any, BinaryIO, Dict, List
-from nicecode_1_1 import classify_first_step, classify_second_step
+from first_step.nicecode_1_1 import classify_first_step, classify_second_step
 
 import requests
 from urllib.parse import urlparse
@@ -390,6 +390,7 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
     """
     image = input_data.get("image")
     query_nice_codes = normalize_list(input_data.get("nice_codes", []))
+    trademark_name = input_data.get("trademark_name", "")
 
     if not image:
         return {
@@ -415,6 +416,7 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
             "input": {
                 "image": image,
                 "nice_codes": query_nice_codes,
+                "trademark_name": trademark_name
             },
             "detected_vienna_codes": final_codes,
             "detail": {
@@ -447,6 +449,7 @@ def run_vienna_check(input_data: Dict[str, Any]) -> Dict[str, Any]:
 def run_nice_classification(
     image_path: str,
     service_description: str,
+    trademark_name: str,
 ) -> Dict[str, Any]:
     """
     1단계: 니스분류 후보 추천
@@ -486,6 +489,8 @@ def run_nice_classification(
             service_description=service_description,
         )
 
+        result["trademark_name"] = trademark_name
+
         return {
             "success": True,
             "step": "nice_classification",
@@ -506,6 +511,7 @@ def run_similar_group_classification(
     image: str,
     service_description: str,
     selected_nice_classes: List[int],
+    trademark_name: str,
 ) -> Dict[str, Any]:
     """
     2단계: 유사군 코드 추천
@@ -560,6 +566,8 @@ def run_similar_group_classification(
             service_description=service_description,
             selected_nice_classes=selected_nice_classes,
         )
+
+        result["trademark_name"] = trademark_name
 
         return {
             "success": True,
@@ -684,10 +692,12 @@ def save_top_vienna_candidates(
     return output
 
 def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
+    trademark_name = input_data.get("trademark_name", "").strip()
 
     step1 = run_nice_classification(
         image_path=input_data.get("image_path"),
         service_description=input_data.get("service_description", ""),
+        trademark_name=trademark_name
     )
 
     if not step1.get("success"):
@@ -722,13 +732,20 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
 
         print(f"{idx}. {nice_class}류 - {class_name} ({confidence})")
 
-    print("\n선택할 니스분류를 입력하세요.")
-    print("예: 41")
-    print("예: 41,42")
-    print("예: 25 41")
+    selected_nice_classes = input_data.get("selected_nice_classes")
 
-    selected_input = input("선택한 니스분류: ")
-    selected_nice_classes = parse_nice_class_input(selected_input)
+    if selected_nice_classes:
+        selected_nice_classes = [
+            int(code) for code in selected_nice_classes
+        ]
+    else:
+        print("\n선택할 니스분류를 입력하세요.")
+        print("예: 41")
+        print("예: 41,42")
+        print("예: 25 41")
+
+        selected_input = input("선택한 니스분류: ")
+        selected_nice_classes = parse_nice_class_input(selected_input)
 
     if not selected_nice_classes:
         return {
@@ -746,6 +763,7 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
         image=step1_data.get("image"),
         service_description=step1_data.get("service_description", ""),
         selected_nice_classes=selected_nice_classes,
+        trademark_name=trademark_name
     )
 
     if not step2.get("success"):
@@ -760,6 +778,7 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
         }
 
     step2_data = step2.get("data") or {}
+    step2_data["trademark_name"] = trademark_name
 
     print("\n[STEP 2] 유사군 코드 추천 결과")
     print(json.dumps(step2, ensure_ascii=False, indent=2))
@@ -777,6 +796,7 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
         "nice_codes": step2_data.get("nice_codes", []),
         "similar_group_codes": step2_data.get("similar_group_codes", []),
         "vienna_codes": step3_data.get("detected_vienna_codes", []),
+        "trademark_name": trademark_name
     }
 
     top100_save_result = save_top_vienna_candidates(
@@ -788,6 +808,7 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
 
     return {
         "image": step1_data.get("image"),
+        "trademark_name": trademark_name,
         "service_description": step1_data.get("service_description"),
         "nice_codes": step2_data.get("nice_codes", []),
         "similar_group_codes": step2_data.get("similar_group_codes", []),
@@ -803,11 +824,13 @@ def run_first_pipeline(input_data: Dict[str, Any]) -> Dict[str, Any]:
 if __name__ == "__main__":
     test_image_path = "../test/2022_79241717.jpg" 
 
+    trademark_name = input("상표명을 입력하세요: ")
     service_description = input("상품/서비스 설명을 입력하세요: ")
 
     with open(test_image_path, "rb") as f:
         result = run_first_pipeline({
             "image_path": test_image_path,
+            "trademark_name": trademark_name,
             "service_description": service_description,
         })
 

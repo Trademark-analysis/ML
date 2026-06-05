@@ -11,6 +11,7 @@ import requests
 import numpy as np
 from tqdm import tqdm
 from dotenv import load_dotenv
+from typing import Dict, Any
 
 
 load_dotenv()
@@ -418,7 +419,10 @@ def copy_top10_images(query_name, top10):
 # Main
 # =========================
 
-def main():
+def run_second_checker(
+    input_json: str = INPUT_JSON,
+    save_result: bool = True,
+) -> Dict[str, Any]:
     check_env()
 
     raw_data = load_json(INPUT_JSON)
@@ -445,11 +449,14 @@ def main():
     # 3. 최종 JSON 구성
     final_output = {
         "image": test_image_data.get("image"),
+        "trademark_name": test_image_data.get("trademark_name"),
         "service_description": test_image_data.get("service_description"),
         "nice_codes": test_image_data.get("nice_codes", []),
         "similar_group_codes": test_image_data.get("similar_group_codes", []),
         "vienna_codes": test_image_data.get("vienna_codes", []),
-        "similar_trademark": search_result.get("similar_trademark", [])
+        "similar_trademark": search_result.get("similar_trademark", []),
+        "query_ocr_text": search_result.get("query_ocr_text", ""),
+        "query_type": search_result.get("query_type", ""),
     }
 
     save_json(final_output, FINAL_RESULT_JSON)
@@ -457,6 +464,7 @@ def main():
     print(f"\n최종 JSON 저장 완료: {FINAL_RESULT_JSON}")
     print("===== 전체 완료 =====")
 
+    return final_output
 
 if __name__ == "__main__":
     main()
