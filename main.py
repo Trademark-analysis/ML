@@ -7,13 +7,13 @@ from typing import List, Any
 import re
 import json
 from pydantic import BaseModel
-from ML.first_step.nicecode_1_1 import (
+from first_step.nicecode_1_1 import (
     classify_first_step,
     classify_second_step,
 )
 
 # 3차 검사 통합 클래스 임포트
-from ML.third_step.third_check import ThirdChecker
+from third_step.third_check import ThirdChecker
 
 app = FastAPI(title="Trademark Analysis Integrated ML Server")
 
@@ -229,7 +229,9 @@ async def analyze_trademark(
             "similarity_assessment": final_result.get("similarity_assessment", {}),
             "distinctiveness": final_result.get("distinctiveness", {}),
             "similar_trademark": final_result.get("similar_trademark", []),
-
+            "distinctiveness_score": final_result.get("final_report", {})
+                .get("식별력 검사", {})
+                .get("score"),
             "report": final_result.get("final_report", {}),
             "candidates": final_result.get("similar_trademark", []),
             "imageUrl": user_image_url,
