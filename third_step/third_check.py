@@ -408,19 +408,18 @@ class ThirdChecker:
 
         conclusion = self._build_conclusion(similarity_level)
 
-        summary_report = (
-            "본 분석 결과, 입력 상표는 일부 기존 상표와 문자 및 도형 요소에서 "
-            "유사성이 확인되었다. 특히 동일하거나 유사한 니스류에 속한 등록 상표가 "
-            "존재하므로 변리사의 추가 검토가 필요하다."
+        summary_report = self._generate_summary_report(
+            trademark_name=trademark_name,
+            service_description=service_description,
+            similarity_score=similarity_score,
+            similarity_level=similarity_level,
+            priority=priority,
+            risk_factors=risk_factors,
+            key_evidence=similarity_assessment.get("key_evidence", []),
+            distinctiveness_score=distinctiveness_score,
+            distinctiveness_level=distinctiveness_level,
+            distinctiveness_reasons=distinctiveness.get("reasons", []),
         )
-
-        # 유사도가 낮고 위험 요소가 적은 경우 문장을 조금 완화
-        if similarity_level == "LOW":
-            summary_report = (
-                "본 분석 결과, 입력 상표는 2차 검사 기준에서 기존 상표와의 고위험 유사성은 "
-                "제한적으로 확인되었다. 다만 본 분석은 자동화된 사전 검토 결과이므로, "
-                "최종 출원 전에는 변리사의 추가 검토가 필요하다."
-            )
 
         return {
             "입력 상표명": trademark_name,
@@ -452,6 +451,87 @@ class ThirdChecker:
                 "법적 등록 가능성, 거절 가능성, 침해 여부를 확정적으로 판단하지 않습니다."
             ),
         }
+    
+    def _generate_summary_report(
+        self,
+        trademark_name: str,
+        service_description: Optional[str],
+        similarity_score: int,
+        similarity_level: str,
+        priority: str,
+        risk_factors: List[str],
+        key_evidence: List[str],
+        distinctiveness_score: int,
+        distinctiveness_level: str,
+        distinctiveness_reasons: List[str],
+    ) -> str:
+        prompt = f"""
+    다음 상표 분석 결과를 바탕으로 사용자에게 보여줄 분석 요약 리포트를 작성해줘.
+
+    작성 조건:
+    - 반드시 한국어로 작성해.
+    - 반드시 '입니다/합니다' 체로 작성해.
+    - 너무 길지 않게 3~5문장으로 작성해.
+    - 첫 부분에는 기존 상표와의 유사도에 대한 요약을 포함해.
+    - 뒤 부분에는 상표명 자체의 식별력에 대한 간단한 요약을 포함해.
+    - 법적 등록 가능성, 거절 가능성, 침해 여부를 확정적으로 단정하지 마.
+    - 변리사 검토가 필요할 수 있다는 표현은 가능하지만 과장하지 마.
+    - JSON이 아니라 순수 문자열만 작성해.
+
+    [입력 상표명]
+    {trademark_name}
+
+    [상품/서비스 설명]
+    {service_description or "제공되지 않음"}
+
+    [유사도 분석]
+    - 종합 유사도 점수: {similarity_score}
+    - 유사도 위험 수준: {similarity_level}
+    - 우선순위: {priority}
+    - 주요 위험 요소: {risk_factors}
+    - 주요 근거: {key_evidence}
+
+    [식별력 분석]
+    - 식별력 위험 점수: {distinctiveness_score}
+    - 식별력 위험 수준: {distinctiveness_level}
+    - 식별력 판단 이유: {distinctiveness_reasons}
+    """
+
+        try:
+            response = self.client.chat.completions.create(
+                model=self.deployment_name,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": (
+                            "너는 상표 출원 전 사전 검토 결과를 사용자에게 쉽게 설명하는 AI다. "
+                            "반드시 한국어의 '입니다/합니다' 체로 작성하고, "
+                            "법적 판단을 확정적으로 단정하지 않는다."
+                        ),
+                    },
+                    {
+                        "role": "user",
+                        "content": prompt,
+                    },
+                ],
+                temperature=0.3,
+            )
+
+            summary = response.choices[0].message.content.strip()
+
+            # 혹시 모델이 따옴표나 JSON 형태로 감싸는 경우 최소 정리
+            if summary.startswith('"') and summary.endswith('"'):
+                summary = summary[1:-1]
+
+            return summary
+
+        except Exception:
+            return self._build_fallback_summary_report(
+                similarity_score=similarity_score,
+                similarity_level=similarity_level,
+                distinctiveness_score=distinctiveness_score,
+                distinctiveness_level=distinctiveness_level,
+            )
 
     def _build_conclusion(self, similarity_level: str) -> str:
         if similarity_level == "HIGH":
