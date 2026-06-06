@@ -7,13 +7,13 @@ from typing import List, Any
 import re
 import json
 from pydantic import BaseModel
-from first_step.nicecode_1_1 import (
+from ML.first_step.nicecode_1_1 import (
     classify_first_step,
     classify_second_step,
 )
 
 # 3차 검사 통합 클래스 임포트
-from third_step.third_check import ThirdChecker
+from ML.third_step.third_check import ThirdChecker
 
 app = FastAPI(title="Trademark Analysis Integrated ML Server")
 
