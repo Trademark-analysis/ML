@@ -229,7 +229,9 @@ async def analyze_trademark(
             "similarity_assessment": final_result.get("similarity_assessment", {}),
             "distinctiveness": final_result.get("distinctiveness", {}),
             "similar_trademark": final_result.get("similar_trademark", []),
-
+            "distinctiveness_score": final_result.get("final_report", {})
+                .get("식별력 검사", {})
+                .get("score"),
             "report": final_result.get("final_report", {}),
             "candidates": final_result.get("similar_trademark", []),
             "imageUrl": user_image_url,

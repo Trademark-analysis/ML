@@ -41,7 +41,7 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 4,
       "match_group": "primary",
       "img_id": "79334745",
       "fileName": "2022_79334745.jpg",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 5,
       "match_group": "primary",
       "img_id": "79334746",
       "fileName": "2022_79334746.jpg",
@@ -101,7 +101,9 @@
       "img_id": "79338084",
       "fileName": "2022_79338084.jpg",
       "vienna_codes": [
-        "2601"
+        "2601",
+        "0107",
+        "0107"
       ],
       "nice_codes": [
         "025"
@@ -186,7 +188,6 @@
       "img_id": "90816367",
       "fileName": "2022_90816367.jpg",
       "vienna_codes": [
-        "2601",
         "2601"
       ],
       "nice_codes": [
@@ -224,6 +225,7 @@
       "img_id": "97199986",
       "fileName": "2022_97199986.jpg",
       "vienna_codes": [
+        "2601",
         "2601"
       ],
       "nice_codes": [
